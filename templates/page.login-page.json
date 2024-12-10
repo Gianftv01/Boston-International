@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "centered_text_Rac3xy": {
+      "type": "centered-text",
+      "disabled": true,
+      "settings": {
+        "centered_text_content": "Sign-in \/ Create an Account"
+      }
+    },
+    "grid_banner_annEJx": {
+      "type": "grid-banner",
+      "blocks": {
+        "column_98kEkD": {
+          "type": "column",
+          "settings": {
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset",
+            "color_scheme": "background-1",
+            "image_ratio": "portrait",
+            "image": "shopify:\/\/shop_images\/background-pattner.png",
+            "overlay_opacity": 20,
+            "animation": false,
+            "aniamtion_effect": "slide",
+            "text_horizontal": "center",
+            "text_vertical": "center",
+            "heading": "Already have an account?",
+            "heading_size": "h2",
+            "text": "<p>If you already have an account with us please select one of the two options<\/p>",
+            "button_label": "Login to Retail",
+            "button_link": "https:\/\/account.bostoninternational.com\/",
+            "second_button_label": "Login to Wholesale",
+            "second_button_link": "https:\/\/account.bostoninternational.com\/"
+          }
+        },
+        "column_PFicUB": {
+          "type": "column",
+          "settings": {
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset",
+            "color_scheme": "",
+            "image_ratio": "portrait",
+            "image": "shopify:\/\/shop_images\/background-pattner.png",
+            "overlay_opacity": 20,
+            "animation": false,
+            "aniamtion_effect": "slide",
+            "text_horizontal": "center",
+            "text_vertical": "center",
+            "heading": "Register a new account",
+            "heading_size": "h2",
+            "text": "<p>Shop thousands of high-quality products to make your table tops beautiful and unique.<\/p>",
+            "button_label": "Register for Retail",
+            "button_link": "shopify:\/\/pages\/retail-registration",
+            "second_button_label": "Register for Wholesale",
+            "second_button_link": "shopify:\/\/pages\/wholesale-registration"
+          }
+        },
+        "column_zML9dp": {
+          "type": "column",
+          "settings": {
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset",
+            "color_scheme": "background-1",
+            "image_ratio": "portrait",
+            "overlay_opacity": 20,
+            "animation": true,
+            "aniamtion_effect": "slide",
+            "text_horizontal": "center",
+            "text_vertical": "flex-end",
+            "heading": "Heading",
+            "heading_size": "h2",
+            "text": "<p>Some text<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "Button label",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_98kEkD",
+        "column_PFicUB",
+        "column_zML9dp"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "a {background-color: #a2ab94; color: white; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold; display: inline-block; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "columns": 2,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "index_section_catalog_CDCCrm": {
+      "type": "index-section-catalog",
+      "custom_css": [
+        "section {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0874\/7388\/1387\/files\/f4eee9.jpg?v=1728333790); background-size: cover; background-position: center center; margin-bottom: -50px;}"
+      ],
+      "settings": {
+        "subtitle": "welcome to Boston international",
+        "title": "Login \/ Create an Account",
+        "desc": "<p>We're excited to have you!<\/p>",
+        "btn_text": "",
+        "btn_link": "https:\/\/account.bostoninternational.com\/",
+        "button_white": true,
+        "btn_text_2": "",
+        "btn_link_2": "shopify:\/\/pages\/retail-registration",
+        "padding_top": 70,
+        "padding_bottom": 0,
+        "bg_color": "#f4eee9",
+        "text_color": "#ffffff"
+      }
+    },
+    "multicolumn_bGz9Lf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bPctTH": {
+          "type": "column",
+          "settings": {
+            "text": "new here?",
+            "heading": "create an account",
+            "desc": "<p>Create an account to join our community and be the first to know about exclusive offers, new arrivals, and more. <\/p>",
+            "button_label": "create an account",
+            "button_link": "shopify:\/\/pages\/retail-registration",
+            "button_style": "primary"
+          }
+        },
+        "column_MwcHBB": {
+          "type": "column",
+          "settings": {
+            "text": "returning customers",
+            "heading": "login here",
+            "desc": "<p>Log in to access your account, track orders, and enjoy a personalized shopping experience. <\/p>",
+            "button_label": "login now",
+            "button_link": "https:\/\/account.bostoninternational.com\/",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "column_bPctTH",
+        "column_MwcHBB"
+      ],
+      "custom_css": [
+        ".button {font-size:1em;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "multicolumn_to_show": 2,
+        "horizontal_alignment": "center",
+        "object_fit": "cover",
+        "img_size": "small",
+        "swipe_on_mobile": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "m",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "centered_text_Rac3xy",
+    "grid_banner_annEJx",
+    "index_section_catalog_CDCCrm",
+    "multicolumn_bGz9Lf"
+  ]
+}

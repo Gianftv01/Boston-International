@@ -1,0 +1,1017 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "hero_banner_rXe6K4": {
+      "type": "hero-banner",
+      "settings": {
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "image_logo": "shopify:\/\/shop_images\/FillerImage.png",
+        "logo_margin": 0,
+        "enabel_animation": true,
+        "object_fit": "cover",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "rich_text_EzpnBa": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Gq7RgL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "animation": true
+          }
+        },
+        "heading_nAPhNA": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Boston International",
+            "heading_size": "h2"
+          }
+        },
+        "text_pGCi3F": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Celebrating Over 30 Years of Integrity, Innovation, and Artisanal Excellence<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "button_QDkGM7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn About Our Products",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Gq7RgL",
+        "heading_nAPhNA",
+        "text_pGCi3F",
+        "button_QDkGM7"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_UPXLkW": {
+      "type": "image-banner",
+      "blocks": {
+        "image_xGFd3D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FillerImage.png",
+            "image_ratio": "square",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        }
+      },
+      "block_order": [
+        "image_xGFd3D"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "small",
+        "overlay_opacity": 20,
+        "subheading": "",
+        "heading": "About Boston International",
+        "description": "<p>Celebrating Over 30 Years of Integrity, Innovation, and Artisanal Excellence<\/p>",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "Learn About Our Products",
+        "button_link": "",
+        "button_style": "primary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "multicolumn_4MPekp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6JaLEE": {
+          "type": "column",
+          "settings": {
+            "text": "",
+            "heading": "",
+            "desc": "",
+            "button_label": "Learn About Our Team",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        },
+        "column_NCz6id": {
+          "type": "column",
+          "settings": {
+            "text": "",
+            "heading": "",
+            "desc": "",
+            "button_label": "Join Our Wholesale Program",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "column_6JaLEE",
+        "column_NCz6id"
+      ],
+      "settings": {
+        "multicolumn_to_show": 3,
+        "horizontal_alignment": "center",
+        "object_fit": "cover",
+        "img_size": "small",
+        "swipe_on_mobile": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_rN44HV": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_CpXAnd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "animation": true
+          }
+        },
+        "heading_cxJQ9L": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h2"
+          }
+        },
+        "text_rnnGJr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boston International, a woman-owned, design-driven company, has led the gift industry since 1986. Starting as an import company, we became the exclusive distributor of Ideal Home Range® (IHR) in 2001, offering high-quality paper linen and tabletop accessories from Germany. We proudly partner with prestigious brands and artists to provide superior-quality products that celebrate the home and reflect our passion for entertaining.<\/p>",
+            "text_color": "body",
+            "text_size": "large",
+            "container_size": "medium",
+            "text_horizontal": "center"
+          }
+        },
+        "button_bCTjYt": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Subscribe",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_CpXAnd",
+        "heading_cxJQ9L",
+        "text_rnnGJr",
+        "button_bCTjYt"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "m",
+        "padding_bottom": "m",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "video_kXerqL": {
+      "type": "video",
+      "settings": {
+        "section_layout": "full",
+        "color_scheme": "",
+        "heading": "Heading",
+        "subheading": "<p>Description<\/p>",
+        "image_size": "medium",
+        "overlay_opacity": 20,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": false,
+        "video_loop": false,
+        "video_muted": false,
+        "video_controls": true,
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "rich_text_RVhqw8": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Nmaiak": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "animation": true
+          }
+        },
+        "heading_tFd9CJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Boston International's History",
+            "heading_size": "h2"
+          }
+        },
+        "text_f6PYW8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I started as an import company and, in 2001, became the exclusive distributor of Ideal Home Range® (IHR), the highest-quality paper linen and tabletop accessory line imported from Germany. <\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "left"
+          }
+        },
+        "text_LiHjG7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We continue to enjoy this long-standing relationship today, and that of our other prestigious partners such as Santoro Graphics from Great Britain, and The Metropolitan Museum of Art in New York City. In 2013, BI launched its own brand of giftware and increased dynamic partnerships with artists including - The Rosanne Beck Collection, Marimekko, and Anne Taintor - to name a few.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "left"
+          }
+        },
+        "button_K8C79P": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Nmaiak",
+        "heading_tFd9CJ",
+        "text_f6PYW8",
+        "text_LiHjG7",
+        "button_K8C79P"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "left",
+        "margin_top": "s",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "banner_UX7E8W": {
+      "type": "banner",
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/FillerImage.png",
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "margin_top": "no-indent",
+        "margin_bottom": "s"
+      }
+    },
+    "rich_text_LRmMCa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qeCTU4": {
+          "type": "heading",
+          "settings": {
+            "heading": "our mission and values",
+            "heading_size": "h2"
+          }
+        },
+        "text_LgJVei": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are deeply committed to growing the company’s partnerships with vendors and retailers to develop innovative products of superior quality that celebrate the home. We are driven by our excitement for home and entertaining, and love sharing our collections with the world!<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "button_Wwy8JD": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Subscribe",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qeCTU4",
+        "text_LgJVei",
+        "button_Wwy8JD"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "l",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "slideshow_w6qAxz": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_item_98Kf9R": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "overlay_opacity": 20,
+            "heading": "Slide heading",
+            "text": "<p>Text from here describes your slide<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "Button label",
+            "second_button_link": "",
+            "article": ""
+          }
+        },
+        "slideshow_item_exJBHL": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "overlay_opacity": 20,
+            "heading": "Slide heading",
+            "text": "<p>Text from here describes your slide<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "Button label",
+            "second_button_link": "",
+            "article": ""
+          }
+        },
+        "slideshow_item_iJVBHh": {
+          "type": "slideshow_item",
+          "settings": {
+            "color_scheme": "",
+            "overlay_opacity": 20,
+            "heading": "Slide heading",
+            "text": "<p>Text from here describes your slide<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "Button label",
+            "second_button_link": "",
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_item_98Kf9R",
+        "slideshow_item_exJBHL",
+        "slideshow_item_iJVBHh"
+      ],
+      "settings": {
+        "section_layout": "full",
+        "section_alignment": "center",
+        "vertical_alignment": "center",
+        "text_animation": true,
+        "image_size": "large",
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "show_bullets": true,
+        "parallax": false,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "image_banner_nRLVf9": {
+      "type": "image-banner",
+      "blocks": {
+        "image_VwpL89": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FillerImage.png",
+            "image_ratio": "portrait",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        }
+      },
+      "block_order": [
+        "image_VwpL89"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "adapt",
+        "overlay_opacity": 0,
+        "subheading": "Partner & Chairman of the Board",
+        "heading": "Angelica Berrie",
+        "description": "<p>Ms. Berrie has been Partner at Boston International since 2008 when she joined the board after 25+ years in the wholesale gift industry. After the death of her husband, giftware icon Russ Berrie, Angelica became Vice-Chair and CEO of Russ Berrie Co., a global gift company known for its teddy bears and RUSS Trolls. In addition to her role as Chairman of the Board at Boston International, Ms. Berrie wears many hats in the industry: she is currently Chairman of Global Nomad, an experiential travel design company based in Hong Kong; and President of The Russell Berrie Foundation, which has made transformational gifts to establish many non-profit organizations.<\/p>",
+        "text_horizontal": "left",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_t7hmLE": {
+      "type": "image-banner",
+      "blocks": {
+        "image_A4rdpr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FillerImageSecondary_b8275aed-2168-4969-bccd-0ea8717cd3b2.png",
+            "image_ratio": "portrait",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        }
+      },
+      "block_order": [
+        "image_A4rdpr"
+      ],
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "adapt",
+        "overlay_opacity": 20,
+        "subheading": "President & owner",
+        "heading": "Pam Metz",
+        "description": "<p>Pam Metz joined Boston International in December 2007 as an independent consultant. In 2008, she took on the fulltime role as VP of Sales. In 2013, Ms. Metz took the reins as President, and in 2014 she also became an owner. During her time at BI, Ms. Metz has reimagined the product offering, incorporating giftware and home décor items to complement the core line of paper tableware. In 2020, Ms. Metz took the daunting task of moving the company's headquarters cross country from Massachusetts to Indiana, where there was room to expand and grow the business. Since relocating, BI has nearly doubled in volume and has opened its first retail outlet,<em>Celebrate The Home<\/em>. Before coming to BI. Ms. Metz served as the first and only female field Vice President of Sales for Russ Berrie company. With 30 years of experience in the giftware and decorative accessories market, Pam has been recognized by the National Association of Female Executives. She participates in the Gift and Home Trade Association, serves on multiple boards and is active in several state and local business organizations. Ms. Metz lives in Indiana with her husband Paul and their five fur babies. In her free time, Pam enjoys reading, nature, and traveling the world. Her favorite party to host is a summer barbeque. She says, \"There's nothing better than a warm summer day spent by the pool, enjoying good food with great friends!\"<\/p>",
+        "text_horizontal": "left",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_36G7Qt": {
+      "type": "image-banner",
+      "blocks": {
+        "image_ATFCkg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FillerImage_3b23c5c4-ad5b-413a-8f14-6edc34ff2f87.png",
+            "image_ratio": "portrait",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        }
+      },
+      "block_order": [
+        "image_ATFCkg"
+      ],
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "adapt",
+        "overlay_opacity": 20,
+        "subheading": "vice president of sales",
+        "heading": "Lori Kelly",
+        "description": "<p>Ms. Kelly joined Boston International in 2009 as the National Key Accounts Manager, servicing mid-sized to large national accounts throughout the United States. In 2013 her position was expanded to National Sales Manager, and in 2017 she took on the position of Vice President of Sales. She is responsible for motivating a national salesforce of over 125 dynamic representatives. Prior to joining Boston International, Lori founded Party Works, a chain of retail party supply stores. Ms. Kelly spent 25 years developing Party Works into one of the top 5 consumer party goods stores in the USA. In addition to operating Party Works, Ms. Kelly was a speaker for many industry events and consulted in her field as well.<\/p>",
+        "text_horizontal": "left",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_LbkB8w": {
+      "type": "image-banner",
+      "blocks": {
+        "image_xqVWLA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FillerImage_3b23c5c4-ad5b-413a-8f14-6edc34ff2f87.png",
+            "image_ratio": "portrait",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        }
+      },
+      "block_order": [
+        "image_xqVWLA"
+      ],
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "adapt",
+        "overlay_opacity": 20,
+        "subheading": "Vice president of new business and resources",
+        "heading": "Denise harley",
+        "description": "<p>Denise Harley has been with Boston International since 2007 and has risen quickly to the role of Vice President New Business and Resources. She has been instrumental in streamlining practices that have led to operational improvements and profitability. Denise has over 20 year’s extensive background in Buying, Planning and Product Development with large store chains; Hallmark, Filene’s Basement and Chadwick’s of Boston. Her unique knowledge of retail, catalog, and wholesale industries helps drive sales and manage inventory within the company.<\/p>",
+        "text_horizontal": "left",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_czxkQH": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_d6H6PM": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Subheading",
+            "animation": true
+          }
+        },
+        "heading_MrATgp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Heading for your section",
+            "heading_size": "h2"
+          }
+        },
+        "text_mbXXqU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ms. Berrie has been Partner at Boston International since 2008 when she joined the board after 25+ years in the wholesale gift industry. After the death of her husband, giftware icon Russ Berrie, Angelica became Vice-Chair and CEO of Russ Berrie Co., a global gift company known for its teddy bears and RUSS Trolls. In addition to her role as Chairman of the Board at Boston International, Ms. Berrie wears many hats in the industry: she is currently Chairman of Global Nomad, an experiential travel design company based in Hong Kong; and President of The Russell Berrie Foundation, which has made transformational gifts to establish many non-profit organizations.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "left"
+          }
+        },
+        "button_DBBrh9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_d6H6PM",
+        "heading_MrATgp",
+        "text_mbXXqU",
+        "button_DBBrh9"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "left",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_RFMTDe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7kY7Bi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the boston international team",
+            "heading_size": "h2"
+          }
+        },
+        "text_zxiLGG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boston International is always looking for passionate and talented individuals to join our team. We offer a dynamic work environment, opportunities for growth, and a culture of promoting from within.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "button_hWTdMK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Now",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7kY7Bi",
+        "text_zxiLGG",
+        "button_hWTdMK"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "l",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_tdrygC": {
+      "type": "image-banner",
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": false,
+        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/FillerImage_3b23c5c4-ad5b-413a-8f14-6edc34ff2f87.png",
+        "image_size": "medium",
+        "overlay_opacity": 20,
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "multicolumn_kkrdKk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_MkP9pE": {
+          "type": "column",
+          "settings": {
+            "text": "",
+            "heading": "in the media",
+            "desc": "<p>Check out a publication from Entrepreneurship Indiana 2022 featuring our President and Owner, Pam Metz, on why she chose Indiana for the home of BI.<\/p>",
+            "button_label": "read more",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "column_QRgbxL": {
+          "type": "column",
+          "settings": {
+            "text": "",
+            "heading": "for all pr and media inquiries, please contact us at email to get started.",
+            "desc": "",
+            "button_label": "download our media kit",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "column_MkP9pE",
+        "column_QRgbxL"
+      ],
+      "settings": {
+        "multicolumn_to_show": 3,
+        "horizontal_alignment": "center",
+        "object_fit": "cover",
+        "img_size": "small",
+        "swipe_on_mobile": true,
+        "margin_top": "l",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_bJ6P9J": {
+      "type": "image-banner",
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": false,
+        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/FillerImage_3b23c5c4-ad5b-413a-8f14-6edc34ff2f87.png",
+        "image_size": "small",
+        "overlay_opacity": 20,
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_Bt3yNy": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Crh9Nf": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "animation": true
+          }
+        },
+        "heading_zAz9Ee": {
+          "type": "heading",
+          "settings": {
+            "heading": "join our wholesale partner program",
+            "heading_size": "h2"
+          }
+        },
+        "text_cFd7V8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Become a part of our growing network of retailers and enjoy exclusive benefits, dedicated support, and a partnership built on integrity and mutual success.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "left"
+          }
+        },
+        "button_iDjd9Y": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Crh9Nf",
+        "heading_zAz9Ee",
+        "text_cFd7V8",
+        "button_iDjd9Y"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "left",
+        "margin_top": "s",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_QMnmCa": {
+      "type": "image-banner",
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": false,
+        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/FillerImage_3b23c5c4-ad5b-413a-8f14-6edc34ff2f87.png",
+        "image_size": "small",
+        "overlay_opacity": 20,
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_Gwak3C": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4qTfyj": {
+          "type": "heading",
+          "settings": {
+            "heading": "See our products for yourself",
+            "heading_size": "h2"
+          }
+        },
+        "text_QRnEwk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover our wide range of artisanal home decor, giftware, and tableware. <\/p><p>Each piece is crafted with care and designed to bring joy to your home.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "left"
+          }
+        },
+        "button_gBLtmC": {
+          "type": "button",
+          "settings": {
+            "button_label": "shop now",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4qTfyj",
+        "text_QRnEwk",
+        "button_gBLtmC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "left",
+        "margin_top": "l",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "collection_grid_jE4TPi": {
+      "type": "collection-grid",
+      "blocks": {
+        "categories_VVPyjP": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_Ajhz9h": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_LmFb4b": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_6gErjG": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_Ky4eMj": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "categories_VVPyjP",
+        "categories_Ajhz9h",
+        "categories_LmFb4b",
+        "categories_6gErjG",
+        "categories_Ky4eMj"
+      ],
+      "settings": {
+        "columns": 4,
+        "blocks_spacing": "m",
+        "image_ratio": "portrait",
+        "card_type": "standart",
+        "text_horizontal": "left",
+        "overlay_opacity": 20,
+        "show_collection_desc": true,
+        "show_collection_button": true,
+        "margin_top": "s",
+        "margin_bottom": "l"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_banner_rXe6K4",
+    "rich_text_EzpnBa",
+    "image_banner_UPXLkW",
+    "multicolumn_4MPekp",
+    "rich_text_rN44HV",
+    "video_kXerqL",
+    "rich_text_RVhqw8",
+    "banner_UX7E8W",
+    "rich_text_LRmMCa",
+    "slideshow_w6qAxz",
+    "image_banner_nRLVf9",
+    "image_banner_t7hmLE",
+    "image_banner_36G7Qt",
+    "image_banner_LbkB8w",
+    "rich_text_czxkQH",
+    "rich_text_RFMTDe",
+    "image_banner_tdrygC",
+    "multicolumn_kkrdKk",
+    "image_banner_bJ6P9J",
+    "rich_text_Bt3yNy",
+    "image_banner_QMnmCa",
+    "rich_text_Gwak3C",
+    "collection_grid_jE4TPi"
+  ]
+}

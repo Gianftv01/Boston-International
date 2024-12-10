@@ -1,0 +1,511 @@
+/* |---------------------------------------------------------------------- | Responsive |---------------------------------------------------------------------- */
+@media only screen and (min-width:1199px){
+    .heading {
+        font-size: 85px;
+    }
+    .title-area .heading {
+        font-size: 42px;
+    }
+    .title-area p {
+        font-size: 18px;
+    }
+    p {
+    	font-size:18px;
+    }
+    #celebrate .content .heading {
+        font-size: 52px;
+    }
+    #seasion-products .product-blk .blk-img {
+        height: 220px;
+    }
+    #custom-collection .custom-collection-card .card-img {
+        height: 300px;
+    }
+    #custom-collection .custom-collection-card .card-content {
+        background-color: #fff;
+        padding: 25px;
+    }
+    #custom-collection .custom-collection-card .card-content h4 {
+        margin: 0 0 15px;
+     }
+     #custom-collection .custom-collection-card .card-content .card-link img {
+        display: none;
+    }
+    #custom-collection .custom-collection-card .card-content .card-link {
+        text-decoration: underline;
+    }
+    #product-range .content .heading {
+        font-size: 36px;
+    }
+    #product-range .content h4 {
+        font-size: 20px;
+    }
+    #product-range .content p {
+        font-size: 16px;
+    }
+    #product-range .pro-img-blk {
+        height: 200px;
+    }
+    #product-range .cta-bar {
+        padding: 8px 0;
+        margin: -30px 0 0;
+    }
+    #Perfection .media-holder {
+        height: 400px;
+    }
+    #Perfection .content .heading {
+        font-size: 36px;
+    }
+    #Perfection .content h4 {
+        font-size: 18px;
+    }
+    #catalog .title-area .subheading {
+        margin: 0 0 10px;
+        font-size: 18px;
+    }
+    #catalog .title-area p {
+        font-size: 20px;
+    }
+    #catalog .catalog-blk .blk-img {
+        height: 580px;
+    }
+    #winter-collection .title-area p {
+        font-size: 22px;
+    }
+    #winter-collection .collection-blk .blk-img {
+        height: 310px;
+    }
+    #winter-collection .collection-blk .blk-content h4 {
+        font-size: 20px;
+    }
+    #artistry .option-content .optipn-title {
+        font-size: 22px;
+    }
+    #artistry .option-content .option-text p {
+        font-size: 16px;
+    }
+    #newsletter .form-content-holder {
+        flex: 0 0 380px;
+        max-width: 380px;
+        height: 560px;
+    }
+    #custom-newsletter .wrapper .newsletter-form-holder {
+        margin-right: 0;
+    }
+    #custom-newsletter .wrapper .newsletter-form-holder .heading {
+        font-size: 32px;
+    }
+    #custom-newsletter .wrapper .newsletter-form-holder .subheading {
+        font-size: 18px;
+    }
+    #custom-newsletter .wrapper .newsletter-form-holder {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    #custom-newsletter .wrapper .map-holder {
+        height: 100%;
+        margin-left: 0;
+    }
+}
+@media (max-width: 991px) {
+    .btn {
+        font-size: 15px;
+        padding: 12px 25px;
+        border: 1px solid #a2ab94;
+    }
+    .cta-style {
+        font-size: 16px;
+    }
+    .cta-style span {
+        padding: 10px 10px;
+    }
+    .custom-col-3 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .custom-col-6 {
+        max-width: 100%;
+        flex: 0 0 1000%;
+    }
+    .custom-col-70 {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .custom-col-30 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    #caption-bar {
+        font-size: 16px;
+    }
+    #caption-bar .content .subheading {
+        font-size: 16px;
+    }
+    #fuction {
+        font-size: 16px;
+        padding: 50px 0;
+    }
+    #celebrate .content .heading {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    #celebrate .content img {
+        margin-bottom: 25px;
+        max-width: 220px;
+    }
+    #celebrate .meida-holder {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    #seasion-products .upper-row .upper-row-col{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    #seasion-products .scrollable-row .custom-col-3 {
+        max-width: 33.3333%;
+        flex: 0 0 33.3333%;
+    }
+    #seasion-products .upper-row .upper-row-col:first-child{
+        order: 2;
+    }
+    #seasion-products .upper-row .upper-row-col:last-child{
+        order: 1;
+    }
+    #seasion-products .inner-text p {
+        font-size: 20px;
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #custom-collection {
+        font-size: 16px;
+        padding: 50px 0;
+    }
+    #custom-collection .custom-col-3 {
+        padding: 15px;
+    }
+    #product-range .content {
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #product-range .items{
+        padding: 0 10px;
+    }
+    #product-range .pro-img-blk {
+        margin-bottom: 0;
+    }
+    #product-range .slick-carousel-right {
+        margin-top: 20px;
+    }
+    #product-range .cta-bar {
+        margin: 20px 0 0;
+    }
+    #Perfection .custom-col-6 {
+        padding: 15px;
+    } 
+    #Perfection .custom-col-3{
+        padding: 15px;
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    #catalog {
+        font-size: 16px;
+        padding: 50px 0;
+    }
+    #catalog .catalog-blk{
+        margin-bottom: 20px;
+    }
+    #catalog .catalog-blk .blk-link {
+        font-size: 18px;
+    }
+    #catalog .catalog-blk .blk-img {
+        height: 420px;
+    }
+    #catalog .custom-row{
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    #catalog .custom-col-3 {
+        max-width: 300px;
+        flex: 0 0 300px;
+    }
+    #custom-grid .cusotm-grid-card .card-face-back {
+        padding: 25px;
+    }
+    #custom-grid .cusotm-grid-card .card-face-back .content .heading {
+        font-size: 36px;
+    }
+    #custom-grid .cusotm-grid-card .card-face-back .content .subheading {
+        font-size: 22px;
+    }
+    #custom-grid .cusotm-grid-card .card-face-back .content p {
+        font-size: 16px;
+    }
+    #custom-grid .cusotm-grid-card .card-face-back .content .heading, #custom-grid .cusotm-grid-card .card-face-back .content .subheading, #custom-grid .cusotm-grid-card .card-face-back .content p {
+        margin: 0 0 15px;
+    }
+    #custom-grid .cusotm-grid-card .card-face-back.small {
+        padding: 25px 15px;
+    }
+    #custom-grid .cusotm-grid-card .card-face-back.small .content .heading {
+        font-size: 32px;
+    }
+    #custom-grid .cusotm-grid-card .card-face-back.small .content .subheading {
+        font-size: 18px;
+    }
+    #custom-grid .cusotm-grid-card .card-face-back.small .content p {
+        font-size: 16px;
+    }
+    #custom-grid {
+        font-size: 16px;
+        padding: 50px 0;
+    }
+    #artistry {
+        font-size: 16px;
+        padding: 50px 0;
+    }
+    #artistry .option-content .optipn-title {
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+    #artistry .option-content .option-text p {
+        font-size: 16px;
+        margin: 0 0 15px;
+    }
+    #artistry .option-content {
+        margin-bottom: 20px;
+    }
+    #artistry .tab-content .img_blk {
+        height: 480px;
+        width: 100%;
+    }
+    #newsletter .form-content-holder h4 {
+        font-size: 24px;
+        margin: 0 0 15px;
+    }
+    #newsletter .form-content-holder p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #newsletter .form-content-holder {
+        flex: 0 0 320px;
+        max-width: 320px;
+        height: 480px;
+    }
+    #newsletter .form-holder form p {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    #custom-newsletter .wrapper .newsletter-form-holder {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    #custom-newsletter .wrapper .map-holder {
+        height: 550px;
+    }
+}
+@media (max-width: 767px) {
+    .subheading {
+        font-size: 20px;
+    }
+    .heading {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .title-area {
+        margin: 0 auto 30px;
+    }
+    .title-area .heading {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .title-area p {
+        margin-bottom: 15px;
+    }
+    .title-area p {
+        font-size: 16px;
+    }
+    p {
+    	font-size:16px;
+    }
+    .custom-col-3 {
+        max-width: 100%;
+        flex: 0 0 1000%;
+    }
+    .custom-col-70 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .custom-col-30 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .custom-col-40 {
+        padding: 0 15px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .custom-col-60{
+        padding: 0 15px;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .for-mob{
+        display: block;
+    }
+    .for-desktop{
+        display: none;
+    }
+    #slick-fuction .fucntion-blk {
+        height: 240px;
+    }
+    #caption-bar .content {
+        gap: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    #caption-bar .content .subheading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #celebrate .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #celebrate .meida-holder {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #celebrate .content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 30px 15px 50px;
+    }
+    #celebrate .content img {
+        margin-bottom: 15px;
+        max-width: 190px;
+    }
+    #celebrate .content .heading {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    #seasion-products .inner-text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    #seasion-products .custom-row.scrollable-row {
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    #seasion-products .scrollable-row .custom-col-3 {
+        max-width: 220px;
+        flex: 0 0 220px;
+    }
+    #seasion-products .product-blk {
+        margin-bottom: 20px;
+    }
+    #seasion-products .product-blk .blk-img {
+        height: 190px;
+    }
+    #product-range .content h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #product-range .cta-bar {
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    #product-range .cta-bar li {
+        flex: 0 0 90px;
+        max-width: 90px;
+        min-height: 45px;
+    }
+    #product-range .cta-bar li a {
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+    #Perfection .media-holder {
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    #Perfection .custom-col-3 {
+        padding: 0 15px;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    #Perfection .content {
+        text-align: center;
+    }
+    #Perfection .content .heading {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    #Perfection .content h4 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    #catalog .title-area p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #catalog .title-area {
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+    #catalog .catalog-blk .blk-img {
+        height: 360px;
+    }
+    #custom-grid .cusotm-grid-card {
+        height: 360px !important;
+    }
+    #artistry .button-controls {
+        margin-top: 0;
+    }
+    #newsletter .wrapper {
+        flex-wrap: wrap;
+    }
+    #newsletter .form-content-holder {
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 30px 15px;
+    }
+    #newsletter .form-content-holder .inner-text {
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+    }
+    #newsletter .form-holder {
+        flex: 0 0 100%;
+        display: flex;
+        align-items: center;
+        padding: 30px 15px;
+    }
+    #newsletter .form-holder form {
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #custom-newsletter .wrapper .newsletter-form-holder {
+        text-align: center;
+    }
+    #custom-newsletter .wrapper .newsletter-form-holder .heading {
+        font-size: 24px;
+        margin: 0 0 15px;
+    }
+    #custom-newsletter .wrapper .newsletter-form-holder .subheading {
+        margin: 0 0 15px;
+        font-size: 16px;
+    }
+    #custom-newsletter .wrapper .newsletter-form-holder .socialLnk {
+        justify-content: center;
+    }
+    #custom-newsletter .wrapper .map-holder {
+        height: 360px;
+    }
+}
+@media (max-width: 576px) {
+
+}

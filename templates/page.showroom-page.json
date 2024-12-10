@@ -1,0 +1,248 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "rich_text_EzpnBa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nAPhNA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Showroom Locations",
+            "heading_size": "h2"
+          }
+        },
+        "text_pGCi3F": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stop by our in-person showrooms to shop our products in a new way.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nAPhNA",
+        "text_pGCi3F"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "multicolumn_4MPekp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6JaLEE": {
+          "type": "column",
+          "settings": {
+            "text": "Atlanta",
+            "heading": "Atlanta International Gift & Home Furnishings Market",
+            "desc": "",
+            "button_label": "Directions",
+            "button_link": "https:\/\/maps.app.goo.gl\/E1aFKfHVYgT2gzK47",
+            "button_style": "primary"
+          }
+        },
+        "column_NCz6id": {
+          "type": "column",
+          "settings": {
+            "text": "Dallas",
+            "heading": "Dallas Market Center Road Runners Suite #1743",
+            "desc": "",
+            "button_label": "directions",
+            "button_link": "https:\/\/maps.app.goo.gl\/ZDCz2Ak8zT63pmLq5",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_6JaLEE",
+        "column_NCz6id"
+      ],
+      "custom_css": [
+        ".button {font-size: 1em;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "multicolumn_to_show": 2,
+        "horizontal_alignment": "center",
+        "object_fit": "contain",
+        "img_size": "small",
+        "swipe_on_mobile": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "l",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "multicolumn_DT4qnz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FYM86b": {
+          "type": "column",
+          "settings": {
+            "text": "Las Vegas",
+            "heading": "Las Vegas Market Center - Fine Lines",
+            "desc": "",
+            "button_label": "directions",
+            "button_link": "https:\/\/maps.app.goo.gl\/mc65eEL6aMJvvedp9",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_FYM86b"
+      ],
+      "custom_css": [
+        ".button {font-size: 1em;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "multicolumn_to_show": 1,
+        "horizontal_alignment": "center",
+        "object_fit": "contain",
+        "img_size": "small",
+        "swipe_on_mobile": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "l",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "multicolumn_Eiy7M9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GzKb4c": {
+          "type": "column",
+          "settings": {
+            "text": "Seattle",
+            "heading": "Fine Lines",
+            "desc": "",
+            "button_label": "directions",
+            "button_link": "https:\/\/maps.app.goo.gl\/zGRaveYf3Ge5Q9V26",
+            "button_style": "primary"
+          }
+        },
+        "column_EKYVP9": {
+          "type": "column",
+          "settings": {
+            "text": "Toronto",
+            "heading": "International Center",
+            "desc": "",
+            "button_label": "directions",
+            "button_link": "https:\/\/maps.app.goo.gl\/WSCxb1MowQ6yJZXT8",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_GzKb4c",
+        "column_EKYVP9"
+      ],
+      "custom_css": [
+        ".button {font-size: 1em;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "multicolumn_to_show": 2,
+        "horizontal_alignment": "center",
+        "object_fit": "contain",
+        "img_size": "small",
+        "swipe_on_mobile": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "l",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_3abdMP": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_DDPPbE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "can't make it in person? don't worry.",
+            "animation": false
+          }
+        },
+        "heading_3bW4Af": {
+          "type": "heading",
+          "settings": {
+            "heading": "Digital Showroom",
+            "heading_size": "h2"
+          }
+        },
+        "text_Y6bg6n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With all of the changes happening over the recent years, we wanted to bring our customers a new shopping experience from the comfort of their own home or stores. Our Digital Showroom is here, giving you the experience as if you were in one of our showrooms! The Digital Showroom gives you insight into what our newest Catalogs hold, and know that as the future unfolds, Boston International is here to be your trusted partner.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "button_DtYp9Y": {
+          "type": "button",
+          "settings": {
+            "button_label": "view digital showroom",
+            "button_link": "https:\/\/www.youtube.com\/channel\/UC7Ctdmsd_WdalFk-hHAAHsA",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DDPPbE",
+        "heading_3bW4Af",
+        "text_Y6bg6n",
+        "button_DtYp9Y"
+      ],
+      "custom_css": [
+        ".button {font-size: 1em;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "l",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_EzpnBa",
+    "multicolumn_4MPekp",
+    "multicolumn_DT4qnz",
+    "multicolumn_Eiy7M9",
+    "rich_text_3abdMP"
+  ]
+}

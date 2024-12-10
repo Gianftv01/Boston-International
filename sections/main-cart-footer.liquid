@@ -1,0 +1,341 @@
+{{ 'component-cart.css' | asset_url | stylesheet_tag }}
+{{ 'component-totals.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-discounts.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+	{% render 'section-padding' %}
+{%- endstyle -%}
+
+<div
+	class="container{% if cart == empty %} is-empty cart__footer-empty{% endif %} section-{{ section.id }}-padding"
+	id="main-cart-footer"
+	data-id="{{ section.id }}"
+>
+	<div class="cart__footer">
+		{%- if section.settings.show_cart_note -%}
+			<cart-note class="cart__note field">
+				<label for="Cart-note" class="small-text">{{ 'sections.cart.note' | t }}</label>
+				<textarea
+					class="text-area text-area--resize-vertical field__input"
+					name="note"
+					id="Cart-note"
+					placeholder="{{ 'sections.cart.note' | t }}"
+				>{{ cart.note }}</textarea>
+			</cart-note>
+		{%- endif -%}
+		<div class="cart__blocks">
+			{% for block in section.blocks %}
+				{%- case block.type -%}
+					{%- when '@app' -%}
+						{% render block %}
+					{%- when 'subtotal' -%}
+						<h3 class="totals__subtotal small-text">
+							{{ 'sections.cart.subtotal' | t }}
+						</h3>
+						<div
+							class="cart__blocks-content js-contents"
+							{{ block.shopify_attributes }}
+						>
+							<div class="totals__wrapper">
+								<div class="totals">
+									<p class="totals__subtotal-value">
+										{{ cart.total_price | money_with_currency }}
+									</p>
+								</div>
+
+								{%- if cart.cart_level_discount_applications.size > 0 -%}
+									<div class="discounts__wrapper">
+										<ul
+											class="discounts list-unstyled"
+											role="list"
+											aria-label="{{ 'customer.order.discount' | t }}"
+										>
+											{%- for discount in cart.cart_level_discount_applications -%}
+												<li class="discounts__discount">
+													{%- render 'icon-discount' -%}
+													{{ discount.title }}
+													(-{{ discount.total_allocated_amount | money }})
+												</li>
+											{%- endfor -%}
+										</ul>
+									</div>
+								{%- endif -%}
+							</div>
+
+							<span class="tax-note">
+								{%- if cart.taxes_included
+									and shop.shipping_policy.body != blank
+								-%}
+									{{
+										'sections.cart.taxes_included_and_shipping_policy_html'
+										| t: link: shop.shipping_policy.url
+									}}
+								{%- elsif cart.taxes_included -%}
+									{{
+										'sections.cart.taxes_included_but_shipping_at_checkout'
+										| t
+									}}
+								{%- elsif shop.shipping_policy.body != blank -%}
+									{{
+										'sections.cart.taxes_and_shipping_policy_at_checkout_html'
+										| t: link: shop.shipping_policy.url
+									}}
+								{%- else -%}
+									{{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+								{%- endif -%}
+							</span>
+						</div>
+				{%- endcase -%}
+			{% endfor %}
+		</div>
+		{%- for block in section.blocks -%}
+			{%- if block.type == 'buttons' -%}
+				<div class="cart__ctas" {{ block.shopify_attributes }}>
+					<noscript>
+						<button
+							type="submit"
+							class="cart__update-button button button--primary"
+							form="cart"
+						>
+							<span class="button-label">
+								{{- 'sections.cart.update' | t -}}
+							</span>
+						</button>
+                    </noscript>
+                     
+  <style>
+    .cart__date-picker {
+      margin-top: 20px;
+      width:300px;
+    }
+
+    .cart__date-picker label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .cart__date-picker input[type="date"],textarea {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+    }
+  </style>
+
+
+    <div class="cart__date-picker">
+     
+
+    
+{% if customer.tags contains "wholesale" %}
+     <label for="delivery-date">requested ship date</label>
+      <input type="date" id="delivery-date" name="attributes[Delivery_Date]" value="{{ cart.attributes['Delivery_Date'] | default: 'now' | date: '%m-%d-%Y' }}" min="{{ 'now' | date: '%Y-%m-%d' }}">
+      <span id="delivery-date-error" class="error-message" style="color: red; font-size: 0.9em;"></span>
+      <label for="cancel-date">cancel date:</label>
+      <input type="date" id="cancel-date" name="attributes[Cancel_Date]" value="{{ cart.attributes['Cancel_Date'] }}" required>
+  {% endif %}
+    </div>
+ <br><br>
+
+
+              <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var dateInput = document.getElementById('delivery-date');
+    console.log(dateInput.value);
+    var cancelInput = document.getElementById('cancel-date');
+    var minDate;
+
+    if (!dateInput.value) {
+      //if the date of shipment is blank, new value for this field
+      const today = new Date().toISOString().split('T')[0];
+      dateInput.value = today;
+    }
+
+    // Set the minimum date for the date input
+    if (dateInput) {
+        var today = new Date();
+        today.setDate(today.getDate() + 15); // Add 15 days
+        var year = today.getFullYear();
+        var month = (today.getMonth() + 1).toString().padStart(2, '0');
+        var day = today.getDate().toString().padStart(2, '0');
+        minDate = year + '-' + month + '-' + day;
+        dateInput.setAttribute('min', minDate);
+    }
+
+    function formatDateToMMDDYYYY(dateString) {
+  var date = new Date(dateString);
+  var month = (date.getMonth() + 1).toString().padStart(2, '0'); // Month in 2 digits
+  var day = date.getDate().toString().padStart(2, '0'); // Day in 2 digits
+  var year = date.getFullYear(); // Year
+  return month + '/' + day + '/' + year; // Format mm/dd/yyyy
+}
+
+    // Function to update cart attributes
+    function updateCartAttributes() {
+        var attributes = {};
+
+        if (dateInput) {
+          console.log(formatDateToMMDDYYYY(dateInput.value));
+            attributes['attributes[Delivery_Date]'] = formatDateToMMDDYYYY(dateInput.value);
+        }
+        if (cancelInput) {
+            attributes['attributes[Cancel_Date]'] = formatDateToMMDDYYYY(cancelInput.value);
+        }
+
+        var body = new URLSearchParams(attributes).toString();
+
+        fetch('/cart/update.js', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                Accept: 'application/json',
+            },
+            body: body,
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                console.log('Cart attributes updated:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    }
+
+    // Function to validate and display error messages
+    function validateDate(input, errorMessageId, minDate) {
+        var selectedDate = new Date(input.value);
+        var minAllowedDate = new Date(minDate);
+        var errorSpan = document.getElementById(errorMessageId);
+
+        if (selectedDate < minAllowedDate) {
+            errorSpan.textContent = "Please select a date on or after " + minDate + ".";
+            input.value = ""; // Clear invalid value
+        } else {
+            errorSpan.textContent = ""; // Clear error message if valid
+        }
+    }
+
+    // Add event listeners if the inputs exist
+    if (dateInput) {
+        dateInput.addEventListener('change', function () {
+            validateDate(dateInput, 'delivery-date-error', minDate);
+            updateCartAttributes();
+        });
+    }
+    if (cancelInput) {
+        cancelInput.addEventListener('change', updateCartAttributes);
+    }
+});
+
+</script>
+
+					<button
+						type="submit"
+						class="cart__checkout-button button button--primary"
+						name="checkout"
+						{% if cart == empty %}
+							disabled
+						{% endif %}
+						form="cart"
+					>
+						<span class="button-label">
+							{{ 'sections.cart.checkout' | t }}
+						</span>
+					</button>
+				</div>
+			{% endif %}
+		{%- endfor -%}
+	</div>
+	{%- if additional_checkout_buttons -%}
+		<div class="cart__footer-dynamic-checkout">
+			<div class="cart__dynamic-checkout-buttons additional-checkout-buttons">
+				{{ content_for_additional_checkout_buttons }}
+			</div>
+		</div>
+	{%- endif -%}
+	<div class="cart-errors" id="cart-errors"></div>
+</div>
+
+{% javascript %}
+	class CartNote extends HTMLElement {
+		constructor() {
+			super();
+
+			this.addEventListener(
+				'change',
+				debounce((event) => {
+					const body = JSON.stringify({ note: event.target.value });
+					fetch(`${routes.cart_update_url}`, { ...fetchConfig(), ...{ body } });
+				}, 300)
+			);
+		}
+	}
+
+	customElements.define('cart-note', CartNote);
+{% endjavascript %}
+
+
+{% schema %}
+{
+	"name": "t:sections.main-cart-footer.name",
+	"class": "cart__footer-wrapper",
+	"settings": [
+		{
+			"type": "checkbox",
+			"id": "show_cart_note",
+			"default": false,
+			"label": "t:sections.main-cart-footer.settings.show_cart_note.label"
+		},
+		{
+			"type": "header",
+			"content": "t:sections.all.section-padding.header.content"
+		},
+		{
+			"type": "select",
+			"id": "padding_bottom",
+			"options": [
+				{
+					"value": "no-indent",
+					"label": "t:sections.all.section-padding.options__1.label"
+				},
+				{
+					"value": "xs",
+					"label": "t:sections.all.section-padding.options__2.label"
+				},
+				{
+					"value": "s",
+					"label": "t:sections.all.section-padding.options__3.label"
+				},
+				{
+					"value": "m",
+					"label": "t:sections.all.section-padding.options__4.label"
+				},
+				{
+					"value": "l",
+					"label": "t:sections.all.section-padding.options__5.label"
+				}
+			],
+			"default": "m",
+			"label": "t:sections.all.section-padding.padding_bottom.label"
+		}
+	],
+	"blocks": [
+		{
+			"type": "subtotal",
+			"name": "t:sections.main-cart-footer.blocks.subtotal.name",
+			"limit": 1
+		},
+		{
+			"type": "buttons",
+			"name": "t:sections.main-cart-footer.blocks.buttons.name",
+			"limit": 1
+		},
+		{
+			"type": "@app"
+		}
+	]
+}
+{% endschema %}

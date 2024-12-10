@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "rich_text_EzpnBa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nAPhNA": {
+          "type": "heading",
+          "settings": {
+            "heading": "account created!",
+            "heading_size": "h2"
+          }
+        },
+        "text_pGCi3F": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please click the link below to login<\/p>",
+            "text_color": "heading",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "button_QDkGM7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Retail Login",
+            "button_link": "https:\/\/account.bostoninternational.com",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nAPhNA",
+        "text_pGCi3F",
+        "button_QDkGM7"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_UPXLkW": {
+      "type": "image-banner",
+      "blocks": {
+        "image_xGFd3D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FillerImage.png",
+            "image_ratio": "square",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        }
+      },
+      "block_order": [
+        "image_xGFd3D"
+      ],
+      "disabled": true,
+      "settings": {
+        "customer_segment": "all",
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "small",
+        "overlay_opacity": 20,
+        "subheading": "",
+        "heading": "About Boston International",
+        "description": "<p>Celebrating Over 30 Years of Integrity, Innovation, and Artisanal Excellence<\/p>",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "Learn About Our Products",
+        "button_link": "",
+        "button_style": "primary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_EzpnBa",
+    "image_banner_UPXLkW"
+  ]
+}

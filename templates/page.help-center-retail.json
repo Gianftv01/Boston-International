@@ -1,0 +1,342 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "rich_text_bTacBY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XkA4Ce": {
+          "type": "heading",
+          "settings": {
+            "heading": "help center",
+            "heading_size": "h2"
+          }
+        },
+        "text_izFXJV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find quick answers to your questions below.<em> If you don't find the answer you were looking for, please contact our customer service team. <\/em><\/p>",
+            "text_color": "heading",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "button_MXcG6D": {
+          "type": "button",
+          "settings": {
+            "button_label": "contact us",
+            "button_link": "shopify:\/\/pages\/contact-boston-international",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XkA4Ce",
+        "text_izFXJV",
+        "button_MXcG6D"
+      ],
+      "custom_css": [
+        ".button {font-size: 1em;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "collapsible_content_MFyiXn": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_KY8rNx": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How do I track my order?",
+            "text": "<p>Click the profile icon at the top right hand side of our site to track your order.<\/p>"
+          }
+        },
+        "text_block_Mxj94M": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Has my order shipped?",
+            "text": "<p>Click the profile link at the top right hand side of our site to check your orders status.<\/p>"
+          }
+        },
+        "text_block_MbwLgk": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "When will my backorder arrive?",
+            "text": "<p>Backordered items are those which our suppliers are unable to predict when they will have more in stock, but as soon as they do, we will be able to ship the item to you.<\/p>"
+          }
+        },
+        "text_block_FttJtU": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How do I change quantities or cancel an item in my order?",
+            "text": "<p>Click the profile icon at the top right hand side of our site to view and edit orders you have placed. <\/p><p>Please note that once an order has begun processing or has shipped, the order is no longer editable.<\/p>"
+          }
+        },
+        "text_block_xE93z7": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Help! My order never arrived.",
+            "text": "<p>We are here to help! First let's make sure that your order has shipped. <\/p><p>Click on your profile link at the top right hand side of our site to track your order status. <\/p><p>Be sure that all of the items in your order have shipped already. <\/p><p>If you order displays your Package Tracking Numbers, check with the shipper to confirm that your packages were delivered. <\/p><p>If your packages each show a status of \"delivered\", please contact customer service for assistance.<\/p>"
+          }
+        },
+        "text_block_YqPDFA": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Help! An item is missing or is missing parts from my shipment.",
+            "text": "<p>We are here to help! First let's make sure that your order has shipped. <\/p><p>Click on your profile link at the top right hand side of our site to track your order status. <\/p><p>Be sure that all of the items in your order have shipped already. <\/p><p>If you order displays your Package Tracking Numbers, check with the shipper to confirm that your packages were delivered. <\/p><p>If your packages each show a status of \"delivered\", please contact customer service for assistance.<\/p>"
+          }
+        },
+        "text_block_y637p8": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Help! I received the wrong product.",
+            "text": "<p>If you feel that you have received the wrong product, please contact customer service within 72 hours of receiving the product.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_KY8rNx",
+        "text_block_Mxj94M",
+        "text_block_MbwLgk",
+        "text_block_FttJtU",
+        "text_block_xE93z7",
+        "text_block_YqPDFA",
+        "text_block_y637p8"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "heading": "order status questions",
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "collapsible_content_UnU7CE": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_qxeRQ3": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How do I create an account?",
+            "text": "<p>Click the profile icon at the top right hand side of our site to create a new  shopping account with us. We will need your name, email, and a password to get started. <\/p><p><em>If you're looking to start a wholesale account, please click \"wholesale\" in the menu bar and click \"register now\".<\/em><\/p>"
+          }
+        },
+        "text_block_84zwCP": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How do I edit my account information?",
+            "text": "<p>Click the profile icon at the top right hand side of our site to view and edit orders your account information.<\/p>"
+          }
+        },
+        "text_block_bEwT3m": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How do I return my product?",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_qxeRQ3",
+        "text_block_84zwCP",
+        "text_block_bEwT3m"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "heading": "my account questions",
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "collapsible_content_XwxUef": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_y3DQTc": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How much is my shipping?",
+            "text": "<p>Shipping is automatically calculated prior to submitting your payment information.  <\/p><p>Simply add items to your cart and proceed to the Checkout page where you will be offered Shipping Method choices and their prices.<\/p>"
+          }
+        },
+        "text_block_8FQNcL": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "When will my order ship?",
+            "text": "<p>Please see each individual item page for more information on the availability of each item. Also, after placing your order, you may click the account icon link at the top right hand side of our site to track the status of your order. <\/p><p>You will receive a shipment confirmation when your order has shipped and tracking information within 24-48 hours of shipment.<\/p>"
+          }
+        },
+        "text_block_pnPWy6": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Do you ship to my country?",
+            "text": "<p>Click on the profile icon at the top right hand side of our site. <\/p><p>During signup we'll ask for your shipping address details including country. If your country is not in the dropdown menu of available countries, unfortunately we cannot ship to your country at this time.<\/p><p>We currently ship to the continental US.<\/p>"
+          }
+        },
+        "text_block_Gm9aqA": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "When will my order ship and what are my shipping charges?",
+            "text": "<p>Shipping is automatically calculated prior to submitting your payment information.  Simply add items to your cart and proceed to the Checkout page where you will be offered Shipping Method choices and their prices. We will ship your order shortly after we receive payment from you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_y3DQTc",
+        "text_block_8FQNcL",
+        "text_block_pnPWy6",
+        "text_block_Gm9aqA"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "heading": "shipping questions",
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "collapsible_content_y8KGiA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_jGMUYh": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How do I return my order?",
+            "text": "<p><em>Note: if you purchased your product from a 3rd party retailer we are unable to accept your return.<\/em><\/p><p>You may return or exchange your purchase within 14 days of delivery. All products must be in the original condition received. All refunds will be credited to the original purchasing credit card number.<\/p><p>Please call us at 812-906-9578 to begin the return or exchange process.<\/p><p>Original shipping costs are <strong>not refundable<\/strong>. Return and exchange shipping costs are your responsibility. Boston international will, however, pay the return shipping costs if the return is a result of our error (incorrect or defective item).<\/p><p><span style=\"text-decoration:underline\"><strong>Returns<\/strong><\/span>: Please note that it takes 3 to 5 business days to process returns once they arrive at our location. Upon receipt of your return, we will initiate the refund process. You will receive an e-mail from Boston International confirming this.<\/p>"
+          }
+        },
+        "text_block_UBeipG": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How do I exchange my item?",
+            "text": "<p><em>Note: if you purchased your product from a 3rd party retailer we are unable to accept your exchange. <\/em><\/p><p>You may return or exchange your purchase within 14 days of delivery. All products must be in the original condition received. <\/p><p>Please call us at 812-906-9578 to begin the return or exchange process.<\/p><p>Original shipping costs are <strong>not refundable<\/strong>. Return and exchange shipping costs are your responsibility. Boston international will, however, pay the return shipping costs if the return is a result of our error (incorrect or defective item).<\/p><p><span style=\"text-decoration:underline\"><strong>Exchanges<\/strong><\/span>: If you are doing an even exchange, we will send out the new item(s) once we receive the returned item(s). If the products are not of equal value, you will be refunded or charged the difference in cost upon us receiving the returned item(s). All exchanged items will be shipped contingent upon us receiving the returned item(s) in their original conditions.<\/p>"
+          }
+        },
+        "text_block_MT6mwb": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "When will my credit appear on my account?",
+            "text": "<p>Credits usually take 7-10 business days from the time we receive your item(s).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_jGMUYh",
+        "text_block_UBeipG",
+        "text_block_MT6mwb"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "heading": "return & exchange questions",
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "collapsible_content_YPgEnB": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_waHrnk": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "I have a question about a charge on my card.",
+            "text": "<p>Click the profile icon at the top right hand side of our site to review your orders. You may compare your order history on our website, with your financial records. <\/p><p>If you have further questions or concerns, please contact customer service for further assistance.<\/p>"
+          }
+        },
+        "text_block_UXBjwG": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "When will my credit card be charged?",
+            "text": "<p>Your credit card will be charged at time of shipment. A pre-authorization will be done 24 hours prior to shipment.<\/p>"
+          }
+        },
+        "text_block_aBXQPm": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Do I have to pay sales tax?",
+            "text": "<p>You only have to pay sales tax if you are located in the same state as our warehouse.<\/p>"
+          }
+        },
+        "text_block_zxpmHn": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What are my payment choices?",
+            "text": "<p>During the checkout process you may choose any of our current payment options and continue to place your order. <\/p><p>Please note that we will not ship your order until we receive payment from you.<\/p>"
+          }
+        },
+        "text_block_xNwfzy": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Read about our Low Price Guarantee",
+            "text": "<p>It is our commitment to provide you with the best value, at the best price. We value your business and strive to keep our prices low, and SAVE you money!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_waHrnk",
+        "text_block_UXBjwG",
+        "text_block_aBXQPm",
+        "text_block_zxpmHn",
+        "text_block_xNwfzy"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "heading": "billing questions",
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_bTacBY",
+    "collapsible_content_MFyiXn",
+    "collapsible_content_UnU7CE",
+    "collapsible_content_XwxUef",
+    "collapsible_content_y8KGiA",
+    "collapsible_content_YPgEnB"
+  ]
+}

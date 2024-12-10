@@ -1,0 +1,170 @@
+<style>
+.{{ section.id }}-padding{
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+}
+@media screen and (max-width: 991px) {
+  .{{ section.id }}-padding{
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+}
+
+</style>
+<section id="artistry" class="{{ section.id }}-padding" style="background-color: {{ section.settings.bg_color }}; color:{{ section.settings.text_color }}">
+  <div class="custom-container">
+    <div class="custom-row">
+      <div class="custom-col-40">
+        <div class="heading-area">
+          {% if section.settings.title != blank %}
+          <h2 class="heading">{{ section.settings.title }}</h2>
+          {% endif %}
+        </div>
+        <div class="tab-nav">
+          {% for block in section.blocks %}
+            <div class="nav-item {% if forloop.index == 1 %}active{% endif %}" data-tab="tab-{{forloop.index}}">
+              <div class="option-content">
+                {% if block.settings.blk_title != blank %}
+                  <h4 class="optipn-title">{{ block.settings.blk_title }}</h4>
+                {% endif %}
+                <div class="option-text">
+                  {% if block.settings.blk_img != blank %}
+                    <img src="{{ block.settings.blk_img | image_url }}" class="for-mob">
+                  {% endif %}
+                  {% if block.settings.blk_desc != blank %}
+                    {{ block.settings.blk_desc }}
+                  {% endif %}
+                  {% if block.settings.btn_text != blank %}
+                    <a href="{{ block.settings.btn_link }}" class="btn"><span>{{ block.settings.btn_text }}</span></a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="custom-col-60">
+        <div id="tabs-content-wrapper">
+          {% for block in section.blocks %}
+          <div class="tab-content" id="tab-{{forloop.index}}">
+            {% if block.settings.blk_img != blank %}
+              <div class="img_blk for-desktop">
+                <img src="{{ block.settings.blk_img | image_url }}">
+              </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+          {% if section.settings.enable_arrow != blank %}
+          <div class="button-controls">
+            <a href="javascript:void(0);" id="prev-btn"><img src="{{ section.settings.arrow-prev-image | image_url }}"></a>
+            <a href="javascript:void(0);" id="next-btn"><img src="{{ section.settings.arrow-next-image | image_url }}"></a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div> 
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Tabs",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Add Title",
+      "default": "what makes our<br>products Special"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_arrow",
+      "label": "Show/Hide Tab Arrows Controls",
+      "default": true
+    },
+    {
+          "type": "image_picker",
+          "id": "arrow-prev-image",
+          "label": "Add Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "arrow-next-image",
+          "label": "Add Image"
+        },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Add Section Paading Top",
+      "default": 70
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Add Section Padding Bottom",
+      "default": 70
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Section Background Color",
+      "default": "#A2AB94"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Section Text Color",
+      "default": "#000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Tab block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "blk_img",
+          "label": "Add Image"
+        },
+        {
+          "type": "text",
+          "id": "blk_title",
+          "label": "Add Title",
+          "default": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "blk_desc",
+          "label": "Add Description",
+          "default": "<p>Lorem ipsum dolor sit amet consectetur. Sed sit massa eget iaculis consequat et amet. Vivamus es</p>"
+        },
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Add Button Text",
+          "default": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "Add Button link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Tabs"
+    }
+  ]
+}
+{% endschema %}

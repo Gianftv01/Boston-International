@@ -1,0 +1,233 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "slideshow_DpTiH8": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_item_36FCAw": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/278164723_3524181077705832_6725435132503341417_n.webp",
+            "color_scheme": "background-2",
+            "overlay_opacity": 25,
+            "heading": "celebrate the home",
+            "text": "<h5>come visit Boston International's retail store<\/h5>",
+            "button_label": "",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "article": ""
+          }
+        },
+        "slideshow_item_ywqbWe": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/326766943_3407484766238762_5292616988047722047_n.jpg",
+            "color_scheme": "background-2",
+            "overlay_opacity": 25,
+            "heading": "celebrate the home",
+            "text": "<h5>come visit Boston International's retail store<\/h5>",
+            "button_label": "",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "article": ""
+          }
+        },
+        "slideshow_item_DjyyxG": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/450716506_971126155025004_4719145840225517156_n.jpg",
+            "color_scheme": "background-2",
+            "overlay_opacity": 25,
+            "heading": "celebrate the home",
+            "text": "<h5>come visit Boston International's retail store<\/h5>",
+            "button_label": "",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_item_36FCAw",
+        "slideshow_item_ywqbWe",
+        "slideshow_item_DjyyxG"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "section_layout": "container",
+        "section_alignment": "center",
+        "vertical_alignment": "center",
+        "text_animation": false,
+        "image_size": "21\/9",
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": true,
+        "show_bullets": true,
+        "parallax": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "fade",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "multicolumn_mLCX97": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bDBF98": {
+          "type": "column",
+          "settings": {
+            "text": "Come visit our store in Indiana!",
+            "heading": "8084 W Beechwood Avenue, French Lick, IN",
+            "desc": "<p>Monday-Saturday 10am-6pm |<strong> <\/strong>Sunday 12-4pm<\/p><p><\/p><p>Contact our store here: <strong>(812) 906-9578<\/strong><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "column_bDBF98"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "multicolumn_to_show": 1,
+        "horizontal_alignment": "center",
+        "object_fit": "cover",
+        "img_size": "small",
+        "swipe_on_mobile": true,
+        "margin_top": "m",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "ap_section_art_9ze8wi": {
+      "type": "ap-section-art",
+      "blocks": {
+        "art_jXLDay": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/345297342_1029287858477346_6100411267563483415_n.jpg"
+          }
+        },
+        "art_Rx6GBk": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/450716506_971126155025004_4719145840225517156_n.jpg"
+          }
+        },
+        "art_w4VmGb": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/Pam-art-2.png"
+          }
+        },
+        "art_qGpURg": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/244487120_2966118943512051_8942295866093783617_n.jpg"
+          }
+        },
+        "art_gH9JcB": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/Pam-art-3.png"
+          }
+        },
+        "art_9FYMeQ": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/452374443_968279065309713_1772931348446946328_n.jpg"
+          }
+        },
+        "art_X4xpmF": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/386316364_767206545416967_8318882645447224428_n.jpg"
+          }
+        },
+        "art_KdVR8Q": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/274949220_3438417979615476_4874588888276485450_n_1.jpg"
+          }
+        },
+        "art_rFUnQr": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/391714358_772093064928315_3706690623298069304_n.jpg"
+          }
+        },
+        "art_TqL3VE": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/452353263_968279041976382_117923486325527843_n.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "art_jXLDay",
+        "art_Rx6GBk",
+        "art_w4VmGb",
+        "art_qGpURg",
+        "art_gH9JcB",
+        "art_9FYMeQ",
+        "art_X4xpmF",
+        "art_KdVR8Q",
+        "art_rFUnQr",
+        "art_TqL3VE"
+      ],
+      "settings": {
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000"
+      }
+    },
+    "ap_section_about_pam_EnKMm8": {
+      "type": "ap-section-about-pam",
+      "custom_css": [
+        "div {padding-left: 25px; padding-right: 25px;}"
+      ],
+      "settings": {
+        "title": "welcome to celebrate the home",
+        "desc": "<p>Celebrate the Home is the retail brand for Boston International. We offer design-driven paper products, giftware and decorative accessories to help you celebrate your home. We bring the right product, for the right occasion, right to your door!<\/p><p>Whether you are entertaining company, your family, or yourself, celebrating the home is a favorite American pastime. Without exception, you will find our home selections to be of quality and great value.<\/p>",
+        "pam_img": "shopify:\/\/shop_images\/1263b1bbf0a2518bded45cb18bc632f9.webp",
+        "qoute": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "bg_color": "#ede4dc",
+        "text_color": "#737d62"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_DpTiH8",
+    "multicolumn_mLCX97",
+    "ap_section_art_9ze8wi",
+    "ap_section_about_pam_EnKMm8"
+  ]
+}

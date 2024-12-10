@@ -1,0 +1,216 @@
+{% schema %}
+{
+	"name": "Wholesale Benefits",
+	"settings": [
+		{
+			"type": "image_picker",
+			"id": "image1",
+			"label": "Image for First Benefit"
+		},
+		{
+			"type": "text",
+			"id": "text1",
+			"label": "Text for First Benefit",
+			"default": "Wholesale pricing on our fun and exclusive designs"
+		},
+		{
+			"type": "image_picker",
+			"id": "image2",
+			"label": "Image for Second Benefit"
+		},
+		{
+			"type": "text",
+			"id": "text2",
+			"label": "Text for Second Benefit",
+			"default": "Curated catalogs and stories for easy purchasing"
+		},
+		{
+			"type": "image_picker",
+			"id": "image3",
+			"label": "Image for Third Benefit"
+		},
+		{
+			"type": "text",
+			"id": "text3",
+			"label": "Text for Third Benefit",
+			"default": "In-house and experienced customer service"
+		},
+		{
+			"type": "image_picker",
+			"id": "image4",
+			"label": "Image for Fourth Benefit"
+		},
+		{
+			"type": "text",
+			"id": "text4",
+			"label": "Text for Fourth Benefit",
+			"default": "Flexible payment and ordering options"
+		},
+		{
+			"type": "image_picker",
+			"id": "row_1_image",
+			"label": "Row 1 Image"
+		},
+		{
+			"type": "textarea",
+			"id": "wholesale_text",
+			"label": "Wholesale Program Description",
+			"default": "Our wholesale program is designed to make your purchasing decisions seamless and to celebrate homes around the world."
+		},
+		{
+			"type": "url",
+			"id": "join_link",
+			"label": "Join Now Link"
+		},
+		{
+			"type": "image_picker",
+			"id": "row_2_image",
+			"label": "Row 2 Image"
+		},
+	],
+	"presets": [
+		{
+			"name": "Wholesale Benefits",
+			"category": "Custom Sections"
+		}
+	]
+}
+{% endschema %}
+
+<style type="text/css">
+	.wholesale-benefits {
+		padding: 2em 0;
+		background: white;
+		.container {
+			.content {
+				background-color: #F3EEEA;
+				padding: 1.5em;
+				max-width: 1200px;
+				margin: 0 auto;
+				.wb-lr {
+					display: flex;
+					flex-direction: column;
+					gap: 1em;
+					* { margin: 0; }
+					div, figure {
+						margin: 0;
+						@media screen and (min-width: 1024px) {
+							flex: 1;
+						}
+					}
+					> figure {
+						img {
+							width: 100%;
+							height: auto;
+						}
+					}
+					@media screen and (min-width: 1024px) {
+						flex-direction: row;
+					}
+					&#wb-lr-1 {
+						div {
+							display: flex;
+							flex-direction: column;
+							gap: 1em;
+							padding: 2em;
+							align-items: center;
+							justify-content: center;
+							text-align: left;
+						}
+						h3 {
+							text-transform: lowercase;
+							text-align: center;
+						}
+						ul {
+							margin: 0;
+							padding: 0;
+							display: flex;
+							flex-wrap: wrap;
+							align-items: flex-start;
+							row-gap: 1.5em;
+							li {
+								list-style-type: none;
+								width: 50%;
+								display: flex;
+								flex-direction: column;
+								align-items: center;
+								text-align: center;
+								p {
+									font-size: 0.8em;
+									max-width: 12rem;
+								}
+								figure {
+									background: white;
+									aspect-ratio: 1/1;
+									padding: 0.5em;
+									width: 3em;
+									border-radius: 50%;
+									display: flex;
+									align-items: center;
+									justify-content: center;
+									img {
+										width: 90%;
+										margin: auto;
+										height: auto;
+									}
+								}
+							}
+						}
+					}
+					&#wb-lr-2 {
+						div {
+							display: flex;
+							flex-direction: column;
+							gap: 1em;
+							padding: 2em;
+							align-items: flex-start;
+							justify-content: center;
+							text-align: left;
+							@media screen and (min-width: 1024px) {
+								padding: 2em 5em;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+</style>
+
+<section class="wholesale-benefits">
+	<div class="container">
+		<div class="content">
+			<div class="wb-lr" id="wb-lr-1">
+				<div>
+					<h3>Benefits for Wholesale Members</h3>
+					<ul>
+						<li>
+							<figure><img src="{{ section.settings.image1 | img_url: 'master' }}"></figure>
+							<p>{{ section.settings.text1 }}</p>
+						</li>
+						<li>
+							<figure><img src="{{ section.settings.image2 | img_url: 'master' }}"></figure>
+							<p>{{ section.settings.text2 }}</p>
+						</li>
+						<li>
+							<figure><img src="{{ section.settings.image3 | img_url: 'master' }}"></figure>
+							<p>{{ section.settings.text3 }}</p>
+						</li>
+						<li>
+							<figure><img src="{{ section.settings.image4 | img_url: 'master' }}"></figure>
+							<p>{{ section.settings.text4 }}</p>
+						</li>
+					</ul>
+				</div>
+				<figure><img src="{{ section.settings.row_1_image | img_url: 'master' }}"></figure>
+			</div>
+			<div class="wb-lr" id="wb-lr-2">
+				<figure><img src="{{ section.settings.row_2_image | img_url: 'master' }}"></figure>
+				<div>
+					<p>{{ section.settings.wholesale_text }}</p>
+					<a href="{{ section.settings.join_link }}" class="btn">Join Now</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

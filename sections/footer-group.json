@@ -1,0 +1,88 @@
+{
+  "type": "footer",
+  "name": "t:sections.footer.settings.footer-group.label",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "logo_info",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo_f5a98a55-e5cc-45a4-bf83-56648f1121e4.png",
+            "logo_width": 250,
+            "copyright_show": true
+          }
+        },
+        "link_list_dtpwHb": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Store Links",
+            "menu": "footer"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "account pages",
+            "menu": "footer-2"
+          }
+        },
+        "footer-5": {
+          "type": "subscribe",
+          "disabled": true,
+          "settings": {
+            "newsletter_text": "<p>Additional text for subscribe form.<\/p>",
+            "heading": "Heading for subscribe form",
+            "button_label": "Button label",
+            "button_style": "primary",
+            "newsletter_sub": "<p>By subscribing you agree to the Terms of Use and Privacy Policy.<\/p>"
+          }
+        },
+        "text_block_6PCPAH": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "heading": "Your Heading",
+            "text": "<p>Your content here.<\/p>"
+          }
+        },
+        "text_block_PAhtJy": {
+          "type": "text_block",
+          "settings": {
+            "heading": "Get In Touch",
+            "text": "<p><strong>Toll Free:<\/strong> 800-637-5061<br\/><strong>Fax:<\/strong> 812-906-9575<br\/><strong>Email:<\/strong> orders@bostoninternational.com<br\/><a href=\"\/pages\/help-center\" title=\"Help Center\"><span style=\"text-decoration:underline\"><strong>Help Center \/ FAQ<\/strong><\/span><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "link_list_dtpwHb",
+        "footer-1",
+        "footer-5",
+        "text_block_6PCPAH",
+        "text_block_PAhtJy"
+      ],
+      "custom_css": [
+        "h5 {font-weight: bold; font-size: 0.75em;}",
+        "div.footer-block--menu {margin-top: 15px;}"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "color_scheme_bottom": "",
+        "enable_language_selector": false,
+        "enable_country_selector": false,
+        "enable_follow_on_shop": false,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": "no-indent",
+        "padding_top": "l",
+        "padding_bottom": "l",
+        "enable_border_top": true,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

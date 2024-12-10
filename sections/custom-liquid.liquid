@@ -1,0 +1,58 @@
+{% assign customer_segment = section.settings.customer_segment %}
+{% assign show_section = false %}
+
+{% if customer_segment == 'all' %}
+  {% assign show_section = true %}
+{% elsif customer_segment == 'retail' %}
+  
+    {% assign show_section = true %}
+  
+{% elsif customer_segment == 'wholesale' and customer %}
+  {% if customer.tags contains 'wholesale' %}
+    {% assign show_section = true %}
+  {% endif %}
+{% endif %}
+
+{% if show_section %}
+  
+{{ section.settings.custom_liquid }}
+{% endif %}
+{% schema %}
+{
+  "name": "t:sections.custom-liquid.name",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+      {
+      "type": "select",
+      "id": "customer_segment",
+      "label": "Customer Segment",
+      "options": [
+        {
+          "value": "all",
+          "label": "All Customers"
+        },
+        {
+          "value": "retail",
+          "label": "Retail"
+        },
+        {
+          "value": "wholesale",
+          "label": "Wholesale"
+        }
+      ],
+      "default": "all"
+    },
+    {
+      "type": "liquid",
+      "id": "custom_liquid",
+      "label": "t:sections.custom-liquid.settings.custom_liquid.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.custom-liquid.presets.name"
+    }
+  ]
+}
+{% endschema %}

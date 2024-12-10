@@ -1,0 +1,579 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-custom",
+      "disabled": true,
+      "settings": {}
+    },
+    "ap_section_artists_home_DapH49": {
+      "type": "ap-section-artists-home",
+      "settings": {
+        "about_img": "shopify:\/\/shop_images\/ap-head.png",
+        "logo_img": "shopify:\/\/shop_images\/logo_f5a98a55-e5cc-45a4-bf83-56648f1121e4.png",
+        "title": "where the world’s artists call home",
+        "desc": "<p>Art has the power to change both a place and the people who inhabit it.<\/p>",
+        "btn_text": "",
+        "btn_link": "",
+        "product_blk-desc": "<p>At Boston International, we believe that the changing seasons bring opportunities to infuse your home with warmth, style, and sophistication.<\/p>",
+        "padding_top": 30,
+        "padding_bottom": 60,
+        "bg_color": "#ede4dc",
+        "text_color": "#000000",
+        "blk_bg_color": "#a2ab94",
+        "blk_text_color": "#ffffff"
+      }
+    },
+    "brands_ga64xe": {
+      "type": "brands",
+      "blocks": {
+        "column_3ttkYM": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/ATLMarket_AM_Blk.svg",
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_iAKBRE": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/giftbeat_paper_napkins.jpg",
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_XL7mh3": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Logo_1.jpg",
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_FiCbQH": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/WebHeaderLogo.svg",
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_WXwyc3": {
+          "type": "column",
+          "settings": {
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_gP6n9g": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/logo.svg",
+            "image_width": 100,
+            "brand_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_3ttkYM",
+        "column_iAKBRE",
+        "column_XL7mh3",
+        "column_FiCbQH",
+        "column_WXwyc3",
+        "column_gP6n9g"
+      ],
+      "custom_css": [
+        "div {background-color: #fff; padding-top: 10px; padding-bottom: 10px;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "ap_section_our_story_tjtRb3": {
+      "type": "ap-section-our-story",
+      "settings": {
+        "title": "Our Story",
+        "desc": "<p>Boston International (BI) , a woman-owned, design-driven company, has led the gift industry since 1986. Starting as an import company, we became the exclusive distributor of Ideal Home Range® (IHR) in 2001, offering high-quality paper linen and tabletop accessories from Germany. We proudly partner with prestigious brands and artists to provide superior-quality products that celebrate the home and reflect our passion for entertaining.<\/p>",
+        "button_white": false,
+        "btn_text": "Join Our Team",
+        "btn_link": "shopify:\/\/pages\/careers",
+        "padding_top": 90,
+        "padding_bottom": 60,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000",
+        "blk_bg_color": "#a2ab94",
+        "blk_text_color": "#ffffff"
+      }
+    },
+    "index_custom_banner_KDkMTx": {
+      "type": "index-custom-banner",
+      "settings": {
+        "background_image_desk": "shopify:\/\/shop_images\/ap-banner-new.png",
+        "background_image_mob": "shopify:\/\/shop_images\/ap-banner-new.png",
+        "banner_height": 100,
+        "tag_list": false,
+        "tag_1": "Tag Text 1",
+        "tag_2": "Tag Text 2",
+        "text_alignment": "center",
+        "subtitle": "Welcome to Boston International",
+        "title": "Proudly headquartered in<br>French Lick, Indiana",
+        "desc": "",
+        "button_white": false,
+        "btn_text": "",
+        "btn_link": "",
+        "padding_top": 70,
+        "padding_bottom": 50,
+        "bg_color": "#151f2a",
+        "text_color": "#ffffff",
+        "btn_bg_color": "",
+        "btn_text_color": "",
+        "btn_border_color": ""
+      }
+    },
+    "ap_section_about_pam_YkGkxP": {
+      "type": "ap-section-about-pam",
+      "settings": {
+        "title": "meet Pam",
+        "desc": "<p>In 2007, Pam Metz began consulting with BI and by 2014, she was the president-owner. With Pam at the helm, BI launched partnerships, new product lines, and the entire business moved cross-country to French Lick, Indiana in 2020. <\/p><p>After touring an available 125,000-square-foot facility in French Link, IN, Pam turned to her husband and asked: \"could it be that we just found our space?\" <\/p><p>Although the company was founded in Boston, MA, since relocating, BI has nearly doubled in volume and has opened its first retail outlet. With Pam’s leadership and dedication, BI and French Lick have become a vibrant haven for aspiring and seasoned artists alike.<\/p>",
+        "pam_img": "shopify:\/\/shop_images\/Pam.png",
+        "qoute": "<p>“It’s very exciting knowing BI [contributes] to the economic growth of such a wonderful community as French Lick.I’m originally from southern Indiana and... the fact that I’m able to bring my company with me is a dream come true.” - Pam Metz<\/p>",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#737d62"
+      }
+    },
+    "ap_section_art_XyMd6A": {
+      "type": "ap-section-art",
+      "blocks": {
+        "art_Fcq63D": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/Pam-art-1.png"
+          }
+        },
+        "art_HYkrVM": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/Pam-art-2.png"
+          }
+        },
+        "art_XcW3fJ": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/Pam-art-3.png"
+          }
+        },
+        "art_J7t9tJ": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/Pam-art-4.png"
+          }
+        },
+        "art_DVYcNj": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/Pam-art-5.png"
+          }
+        },
+        "art_TEz6rm": {
+          "type": "art",
+          "settings": {
+            "blk_link": "",
+            "blk_img": "shopify:\/\/shop_images\/Pam-art-6.png"
+          }
+        }
+      },
+      "block_order": [
+        "art_Fcq63D",
+        "art_HYkrVM",
+        "art_XcW3fJ",
+        "art_J7t9tJ",
+        "art_DVYcNj",
+        "art_TEz6rm"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "ap_section_our_believe_KVCk9K": {
+      "type": "ap-section-our-believe",
+      "blocks": {
+        "believe_GNiNHK": {
+          "type": "believe",
+          "settings": {
+            "caption": "We believe in the  power of celebration. "
+          }
+        },
+        "believe_btP48Y": {
+          "type": "believe",
+          "settings": {
+            "caption": "We believe artists and artisans around the world should be celebrated. "
+          }
+        },
+        "believe_K8z68i": {
+          "type": "believe",
+          "settings": {
+            "caption": "We believe that art that uplifts and inspires belongs in every home. "
+          }
+        },
+        "believe_PB79DV": {
+          "type": "believe",
+          "settings": {
+            "caption": "We are a woman-owned lifestyle brand that elevates artists worldwide and infuses their passion and artistry into everyday home goods. "
+          }
+        }
+      },
+      "block_order": [
+        "believe_GNiNHK",
+        "believe_btP48Y",
+        "believe_K8z68i",
+        "believe_PB79DV"
+      ],
+      "settings": {
+        "title": "We Believe",
+        "pam_img": "shopify:\/\/shop_images\/believe-img.png",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_tabs_b9WxeM": {
+      "type": "index-section-tabs",
+      "blocks": {
+        "product_pYFVwK": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-1.png",
+            "blk_title": "artistry at its finest",
+            "blk_desc": "<p>Our prints and products are created by world-renown artists, ensuring each piece is a work of art that adds elegance and sophistication to your home.<\/p>",
+            "btn_text": "shop artisanal napkins",
+            "btn_link": "shopify:\/\/collections\/napkins"
+          }
+        },
+        "product_hwyjUr": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-2.png",
+            "blk_title": "quality",
+            "blk_desc": "<p>Our napkins are made with luxurious Italian triple-ply paper, and printed in Germany, ensuring high standards of luxury, craftsmanship and precision. Every product is sourced from heavily vetted suppliers that we partner with for years to come. <\/p>",
+            "btn_text": "shop artisanal napkins",
+            "btn_link": "shopify:\/\/collections\/napkins"
+          }
+        },
+        "product_WcwmHt": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-3.png",
+            "blk_title": "vivid & vibrant colors",
+            "blk_desc": "<p>While most napkins are printed using a 4-color press, we use the world’s best 8-color press system. This allows for intricate designs with subtle fading, shadows, superior gradients, and vivid colors that truly pop.<\/p>",
+            "btn_text": "shop artisanal napkins",
+            "btn_link": "shopify:\/\/collections\/napkins"
+          }
+        },
+        "product_hkx8xN": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-4.png",
+            "blk_title": "eco-friendly & save",
+            "blk_desc": "<p>Our commitment to safety and sustainability is reflected in our FSC certification. We use nontoxic, water-based inks, making our products safe for you and your family while being environmentally friendly.<\/p>",
+            "btn_text": "shop artisanal napkins",
+            "btn_link": "shopify:\/\/collections\/napkins"
+          }
+        }
+      },
+      "block_order": [
+        "product_pYFVwK",
+        "product_hwyjUr",
+        "product_WcwmHt",
+        "product_hkx8xN"
+      ],
+      "settings": {
+        "title": "what makes our products special",
+        "enable_arrow": true,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#a2ab94",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_product_range_UTUMU6": {
+      "type": "index-section-product-range",
+      "blocks": {
+        "content_nkByCU": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-1.png",
+            "blk_link": "shopify:\/\/collections\/napkins"
+          }
+        },
+        "content_aMcFhr": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-2.png",
+            "blk_link": "shopify:\/\/collections\/textiles"
+          }
+        },
+        "content_tmt4AG": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-3.png",
+            "blk_link": "shopify:\/\/collections\/giftware"
+          }
+        },
+        "content_zKXrEn": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-4.png",
+            "blk_link": "shopify:\/\/collections\/kitchen"
+          }
+        },
+        "content_dh8cKi": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-5.png",
+            "blk_link": "shopify:\/\/collections\/skincare"
+          }
+        },
+        "content_nzfg38": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-6.png",
+            "blk_link": "shopify:\/\/collections\/garden-accessories"
+          }
+        },
+        "content_WYJzpn": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/gift_-_card_-_ATC31751-2_1_3.png",
+            "blk_link": "shopify:\/\/collections\/greeting-cards"
+          }
+        }
+      },
+      "block_order": [
+        "content_nkByCU",
+        "content_aMcFhr",
+        "content_tmt4AG",
+        "content_zKXrEn",
+        "content_dh8cKi",
+        "content_nzfg38",
+        "content_WYJzpn"
+      ],
+      "settings": {
+        "title": "Discover our range of products",
+        "subtitle": "shop every occasion from gifts to decor",
+        "desc": "<p>Whether you're looking to refresh your stock or add new, on-trend items to your inventory, our extensive library of products provides the perfect pieces to delight your customers and drive sales.<\/p>",
+        "cta_bar": true,
+        "list_item_1": "napkins",
+        "list_link_1": "\/collections\/napkins",
+        "list_item_2": "textiles",
+        "list_link_2": "\/collections\/textiles",
+        "list_item_3": "gifts",
+        "list_link_3": "\/collections\/gifts",
+        "list_item_4": "kitchen",
+        "list_link_4": "\/collections\/kitchen",
+        "list_item_5": "personal care",
+        "list_link_5": "\/collections\/personal-care",
+        "list_item_6": "garden",
+        "list_link_6": "\/collections\/garden",
+        "list_item_7": "decor",
+        "list_link_7": "\/collections\/decor",
+        "list_item_8": "greeting cards",
+        "list_link_8": "\/collections\/greeting-cards",
+        "list_item_9": "seasonal",
+        "list_link_9": "\/collections\/seasonal",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000",
+        "cta_bg_color": "#a2ab94",
+        "cta_text_color": "#ffffff",
+        "cta_border_color": "#ffffff"
+      }
+    },
+    "index_section_autumn_coll_jHhyEK": {
+      "type": "index-section-autumn-coll",
+      "blocks": {
+        "product_F838Hn": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/topseller-1.png",
+            "blk_link": "shopify:\/\/products\/cktl-rosarium-rose-c791450",
+            "blk_title": "rosarium rose",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_y8HHkK": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/topseller-2.png",
+            "blk_link": "shopify:\/\/products\/cktl-watercolor-beach-c007400",
+            "blk_title": "watercolor beach",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_jBr8Dx": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/topseller-3.png",
+            "blk_link": "shopify:\/\/products\/cktl-my-little-green-cactus-wh-c770390",
+            "blk_title": "my little green cactus",
+            "blk_cta_text": "shop"
+          }
+        }
+      },
+      "block_order": [
+        "product_F838Hn",
+        "product_y8HHkK",
+        "product_jBr8Dx"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "Our most popular napkins",
+        "desc": "",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "index_custom_section_artist_WYGhWh": {
+      "type": "index-custom-section-artist",
+      "blocks": {
+        "product_H8pBCk": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/artist-1.png",
+            "blk_img_2": "shopify:\/\/shop_images\/napkins-2_274b519f-5af2-40a9-8578-b3b4c527e8bd.png",
+            "blk_link": "shopify:\/\/collections\/rosanne-beck",
+            "blk_title": "Rosanne Beck",
+            "blk_desc": "<p>Rosanne Beck blends vibrant, playful colors with sophisticated patterns.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_7aixrB": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/new-artst-1.png",
+            "blk_img_2": "shopify:\/\/shop_images\/23_1fcec00c-937b-4d7f-9e7d-dc8b6ec6be02.jpg",
+            "blk_link": "shopify:\/\/collections\/ihr",
+            "blk_title": "IHR",
+            "blk_desc": "<p>IHR (Ideal Home Range) turns artistic creativity into high-quality home products.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_cENcdi": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/25_931cc4ed-2668-47f9-a4ca-4b203241ae37.png",
+            "blk_img_2": "shopify:\/\/shop_images\/26_25bdab10-ad8a-486b-8423-e24ec513919b.png",
+            "blk_link": "shopify:\/\/collections\/marimekko",
+            "blk_title": "Marimekko",
+            "blk_desc": "<p>Explore the original prints and colors of this renowned Finnish lifestyle design company.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_ghbgxw": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/artist-4.png",
+            "blk_img_2": "shopify:\/\/shop_images\/8_ca54f21c-2dd2-400a-9601-24177bdb8f7c.jpg",
+            "blk_link": "shopify:\/\/collections\/kate-nelligan",
+            "blk_title": "Kate Nelligan",
+            "blk_desc": "<p>Known for her brilliant colors and coastal shapes, Kate's designs make a statement in any room.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        }
+      },
+      "block_order": [
+        "product_H8pBCk",
+        "product_7aixrB",
+        "product_cENcdi",
+        "product_ghbgxw"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "Our world-class artists & partners",
+        "desc": "",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": true,
+        "btn_text_2": "shop by artist",
+        "btn_link_2": "shopify:\/\/collections",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#ede4dc",
+        "text_color": "#000000"
+      }
+    },
+    "ap_section_join_team_3qUdcW": {
+      "type": "ap-section-join-team",
+      "settings": {
+        "title": "join Our Team",
+        "desc": "<p>Boston International is always looking for passionate and talented individuals to join our team. We offer a dynamic work environment, opportunities for growth, and a culture of promoting from within.<\/p>",
+        "button_white": true,
+        "btn_text": "apply now",
+        "btn_link": "https:\/\/www.indeed.com\/cmp\/Boston-International,-Inc.",
+        "img_1": "shopify:\/\/shop_images\/274949220_3438417979615476_4874588888276485450_n_1.jpg",
+        "img_2": "shopify:\/\/shop_images\/join-team-2.png",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000",
+        "blk_bg_color": "#a2ab94",
+        "blk_text_color": "#ffffff"
+      }
+    },
+    "ap_section_wholesale_partner_gh4QAQ": {
+      "type": "ap-section-wholesale-partner",
+      "settings": {
+        "background_image_desk": "shopify:\/\/shop_images\/bg-pattren-1.png",
+        "title": "Join Our Wholesale Program",
+        "desc": "<p>Become a part of our growing network of retailers and enjoy exclusive benefits, dedicated support, and a partnership built on integrity and mutual success.<\/p>",
+        "button_white": true,
+        "btn_text": "learn more",
+        "btn_link": "shopify:\/\/pages\/wholesale-program",
+        "padding_top": 120,
+        "padding_bottom": 120,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000",
+        "blk_bg_color": "#a2ab94"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ap_section_artists_home_DapH49",
+    "brands_ga64xe",
+    "ap_section_our_story_tjtRb3",
+    "index_custom_banner_KDkMTx",
+    "ap_section_about_pam_YkGkxP",
+    "ap_section_art_XyMd6A",
+    "ap_section_our_believe_KVCk9K",
+    "index_section_tabs_b9WxeM",
+    "index_section_product_range_UTUMU6",
+    "index_section_autumn_coll_jHhyEK",
+    "index_custom_section_artist_WYGhWh",
+    "ap_section_join_team_3qUdcW",
+    "ap_section_wholesale_partner_gh4QAQ"
+  ]
+}

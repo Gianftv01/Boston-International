@@ -1,0 +1,200 @@
+{
+  "parent": "page.help-center-retail.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+    "collapsible_content_EHycV": {
+      "type": "collapsible-content",
+      "disabled": false,
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "heading": "backorders",
+        "description": "",
+        "header-d16ae2834f7485d5393a29f727eaf1aa": null,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "header-eabd5f5444374a4bea1f6034243244f9": null,
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "header-3a1c6d15b0ca7deaf9d0b0b952c7b985": null,
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      },
+      "blocks": {
+        "text_block_HWC3V": {
+          "type": "text-block",
+          "disabled": false,
+          "settings": {
+            "block_heading": "How do backorders work?",
+            "text": "<p>We have an extensive line and occasionally we are out of stock on certain items. <br\/><br\/>For our wholesale buyers, we allow you to purchase items that will be in stock soon. You will be notified of any product delays on your invoice.<\/p><p>Any cancellation of a backorder must be received no later than 10 days from invoice date. <\/p><p>We only make reasonable substitutions, and only when completely necessary. Otherwise back orders will be shipped without further notice. Back orders under $50.00 may be cancelled without notice.<\/p>"
+          }
+        },
+        "text_block_yKPXN": {
+          "type": "text-block",
+          "disabled": false,
+          "settings": {
+            "block_heading": "How do I cancel or make a substitution on my backorder?",
+            "text": "<p>Any cancellation of a backorder must be received no later than 10 days from invoice date. <\/p><p>We only make reasonable substitutions, and only when completely necessary. Otherwise back orders will be shipped without further notice. Back orders under $50.00 may be cancelled without notice.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_HWC3V",
+        "text_block_yKPXN"
+      ]
+    },
+    "rich_text_bTacBY": {
+      "settings": {},
+      "blocks": {
+        "heading_XkA4Ce": {
+          "settings": {
+            "heading": "wholesale help center",
+            "heading_size": "h2"
+          }
+        },
+        "button_MXcG6D": {
+          "settings": {
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        }
+      }
+    },
+    "collapsible_content_MFyiXn": {
+      "settings": {
+        "heading": "order status questions"
+      },
+      "blocks": {
+        "text_block_6xzLf": {
+          "type": "text-block",
+          "disabled": false,
+          "settings": {
+            "block_heading": "how do backorders work?",
+            "text": "<p>We have an extensive line and occasionally we are out of stock on certain items. <br\/><br\/>Any cancellation of a backorder must be received no later than 10 days from invoice date. We only make reasonable substitutions, and only when completely necessary. Otherwise back orders will be shipped without further notice. Back orders under $50.00 may be cancelled without notice.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_KY8rNx",
+        "text_block_Mxj94M",
+        "text_block_FttJtU",
+        "text_block_xE93z7",
+        "text_block_YqPDFA",
+        "text_block_y637p8",
+        "text_block_6xzLf"
+      ]
+    },
+    "collapsible_content_UnU7CE": {
+      "settings": {
+        "heading": "my account questions"
+      },
+      "blocks": {}
+    },
+    "collapsible_content_XwxUef": {
+      "settings": {
+        "heading": "shipping questions"
+      },
+      "blocks": {
+        "text_block_y3DQTc": {
+          "settings": {
+            "text": "<p>BI ships via UPS and will add shipping charges to your invoice. If you require other shipping methods please contact Customer Service at 800-637-5061.<br\/><br\/>*<span style=\"text-decoration:underline\">Please Note<\/span>: To take advantage of any shipping promotions run by Boston International, the order must ship to an address within the continental United States, and fixtures are excluded.<\/p>"
+          }
+        },
+        "text_block_8FQNcL": {
+          "settings": {
+            "text": "<p><strong>8:30am - 4:00pm Monday-Friday (Holiday hours may vary)<\/strong>*<\/p><p>If you would like to pick up your order at our warehouse, please contact us to arrange pickup.<\/p><p>Please see each individual item page for more information on the availability of each item. Also, after placing your order, you may click the account icon link at the top right hand side of our site to track the status of your order. <\/p><p>You will receive a shipment confirmation when your order has shipped and tracking information within 24-48 hours of shipment.<\/p>"
+          }
+        },
+        "text_block_pnPWy6": {
+          "settings": {
+            "text": "<p>We currently ship to the continental US.<\/p><p>During signup we'll ask for your shipping address details including country. If your country is not in the dropdown menu of available countries, unfortunately we cannot ship to your country at this time.<\/p>"
+          }
+        },
+        "text_block_drWN7": {
+          "type": "text-block",
+          "disabled": false,
+          "settings": {
+            "block_heading": "freight claims",
+            "text": "<p>Freight claims must be filed with delivering carrier on merchandise damaged in transit. Claims for shortages or damages must be called into customer service (800-637-5061) within five days of receipt of goods. It is our policy to replace all damaged or shorted merchandise.<br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0874\/7388\/1387\/files\/ClaimForm.pdf?v=1728924506\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0874\/7388\/1387\/files\/ClaimForm.pdf?v=1728924506\"><span style=\"text-decoration:underline\">Click here to download a Claim Form.<\/span><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_y3DQTc",
+        "text_block_8FQNcL",
+        "text_block_pnPWy6",
+        "text_block_drWN7"
+      ]
+    },
+    "collapsible_content_y8KGiA": {
+      "settings": {
+        "heading": "return & exchanges questions"
+      },
+      "blocks": {
+        "text_block_jGMUYh": {
+          "settings": {
+            "text": "<p><em>Note: if you purchased your product from a 3rd party retailer we are unable to accept your return.<\/em><\/p><p>All sales are final. No returns accepted without authorization from Boston International, Inc. We only accept returns on defective or damaged merchandise authorized by Customer Service. No returns accepted after 10 days of receipt.<br\/><br\/>However, at the company's discretion, non-defective merchandise returned for credit will be subject to a 20% restocking fee if a return is authorized for non defective goods . Please note that the customer will be responsible for all freight charges.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_jGMUYh"
+      ]
+    },
+    "collapsible_content_YPgEnB": {
+      "settings": {
+        "heading": "billing questions"
+      },
+      "blocks": {
+        "text_block_zxpmHn": {
+          "settings": {
+            "text": "<p><span style=\"text-decoration:underline\"><strong>Please Note: <\/strong><\/span>When placing orders on our website you will <strong>not <\/strong>be asked to fill out payment information. Your regular terms will apply. If this is your first time ordering with us, please refer to our Payment Terms.<\/p><p>Initial orders are credit card only. A Credit Card Authorization Form must be filled out prior to shipment:<a href=\"http:\/\/xqebl.wmtdk.servertrust.com\/v\/vspfiles\/PDFs\/Credit%20Card%20Authorization%20Form.PDF\" target=\"_blank\" title=\"BI Credit Card Authorization\"><span style=\"text-decoration:underline\">Click here to download a Credit Card Authorization Form<\/span><\/a><\/p>"
+          }
+        },
+        "text_block_UXBjwG": {
+          "settings": {
+            "text": "<p>Your credit card will be charged at time of shipment. A pre-authorization will be done 24 hours prior to shipment.<\/p>"
+          }
+        },
+        "text_block_EgbRF": {
+          "type": "text-block",
+          "disabled": false,
+          "settings": {
+            "block_heading": "Tell me about BI's wholesale prices",
+            "text": "<p>Prices quoted are wholesale costs in US dollars. Prices are subject to change without notice.<\/p>"
+          }
+        },
+        "text_block_xNwfzy": {
+          "settings": {
+            "block_heading": "What is BI's Low Price Guarantee?"
+          }
+        },
+        "text_block_aBXQPm": {
+          "settings": {
+            "block_heading": "How do I establish an open account?",
+            "text": "<p>To establish an open account with terms you will need to supply at least three trade references, one bank reference with complete address and account number, and your re-sale number. <\/p><p>If you do not supply us with this information your account will remain on a credit card or pro forma basis. <\/p><p>Open Account Terms: Net 30 days. 1 1\/2% interest will be charged on all balances over 30 days.<br\/><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0874\/7388\/1387\/files\/Credit_Application_Form.pdf?v=1728925140\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0874\/7388\/1387\/files\/Credit_Application_Form.pdf?v=1728925140\"><span style=\"text-decoration:underline\">Click here to download a Credit Application Form<\/span><\/a><\/p><p>Please fill out and email the forms toorders@bostoninternational.com, or fax them to 812-906-9575, Attn: New Accounts.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_zxpmHn",
+        "text_block_UXBjwG",
+        "text_block_EgbRF",
+        "text_block_waHrnk",
+        "text_block_xNwfzy",
+        "text_block_aBXQPm"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_bTacBY",
+    "collapsible_content_MFyiXn",
+    "collapsible_content_UnU7CE",
+    "collapsible_content_XwxUef",
+    "collapsible_content_y8KGiA",
+    "collapsible_content_YPgEnB",
+    "collapsible_content_EHycV"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "hero_banner_alt_k4rhcW": {
+      "type": "hero-banner-alt",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/wholesale-hero.webp",
+        "subheading": "introducing boston international's",
+        "heading": "Wholesale Program",
+        "join_now_link": "shopify:\/\/pages\/wholesale-registration",
+        "join_now_text": "join now",
+        "login_link": "",
+        "login_text": "login"
+      }
+    },
+    "centered_text_nzeA8U": {
+      "type": "centered-text",
+      "settings": {
+        "centered_text_content": "Nobody does luxury like Boston International. We specialize in artisanal napkins, tableware, home decor, and gifts that delight customers and drive repeat sales."
+      }
+    },
+    "wholesale_benefits_qaN7xP": {
+      "type": "wholesale-benefits",
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/benefit-1.svg",
+        "text1": "Wholesale pricing on our fun and exclusive designs",
+        "image2": "shopify:\/\/shop_images\/benefit-2.svg",
+        "text2": "Curated catalogs and stories for easy purchasing",
+        "image3": "shopify:\/\/shop_images\/benefit-3.svg",
+        "text3": "In-house and experienced customer service",
+        "image4": "shopify:\/\/shop_images\/benefit-4.svg",
+        "text4": "Flexible payment and ordering options",
+        "row_1_image": "shopify:\/\/shop_images\/benefit-1.png",
+        "wholesale_text": "Our wholesale program is designed to make your purchasing decisions seamless and to celebrate homes around the world.",
+        "join_link": "shopify:\/\/pages\/wholesale-registration",
+        "row_2_image": "shopify:\/\/shop_images\/benefit-2.png"
+      }
+    },
+    "wholesale_steps_E7nytG": {
+      "type": "wholesale-steps",
+      "settings": {
+        "heading": "How our wholesale program works",
+        "subheading": "Here's how you can get started",
+        "join_link": "shopify:\/\/pages\/wholesale-registration",
+        "step1_title": "Qualification",
+        "step1_description": "Any retail, purchasing, or merchandising business is eligible for our wholesale program, including:",
+        "step1_list": "Retail buyers,Purchasing managers,Wholesale managers,Sales representatives,Owners\/Proprietors\/C-Level Executives,Senior management,Marketing & merchandising professionals",
+        "step2_title": "Application",
+        "step2_description": "Fill out the registration form to join our napkin wholesaler program. You'll need to provide:",
+        "step2_list": "Your Federal Tax ID number,At least three trade references,One bank reference with complete address and account number",
+        "step3_title": "Review",
+        "step3_description": "Once you submit your application, our sales team will review the details and reply within one business day. You'll gain full access to our exclusive wholesale catalog and begin placing orders upon approval.",
+        "step4_title": "Start Orders",
+        "step4_description": "Boston International has a variety of convenient ways to place your wholesale napkin orders:",
+        "step4_list": "Phone: Call us toll-free at 800.637.5061 between 8:30 AM and 5:00 PM ET,Fax: Transmit your wholesale napkin order via fax at 812-906-9575,Email: Email your order to orders@bostoninternational.com,Mail: Send your order to 8084 W. Beechwood Avenue, French Lick, IN 47432"
+      }
+    },
+    "collections_3up_k6UNTy": {
+      "type": "collections-3up",
+      "settings": {
+        "collection1_title": "Honeycomb dreams",
+        "collection1_description": "Shop honeycomb ceramics",
+        "collection1_link": "shopify:\/\/collections\/honeycomb",
+        "collection1_image": "shopify:\/\/shop_images\/c3up-1.png",
+        "collection2_title": "The right style",
+        "collection2_description": "Mix and match for the perfect look",
+        "collection2_link": "shopify:\/\/collections\/best-selling-napkins",
+        "collection2_image": "shopify:\/\/shop_images\/c3up-2.png",
+        "collection3_title": "The right size",
+        "collection3_description": "Shop napkins at every size you need",
+        "collection3_link": "shopify:\/\/collections\/napkins",
+        "collection3_image": "shopify:\/\/shop_images\/c3up-3.png"
+      }
+    },
+    "join_our_program_irebdU": {
+      "type": "join-our-program",
+      "settings": {
+        "logo_image": "shopify:\/\/shop_images\/logo_8ec3f10d-b7cb-4703-841f-159315dc112c.png",
+        "heading": "join our program",
+        "description": "Ready to elevate your product offerings with Boston International's artistic and high-quality napkins? We have an impressive selection of everything from beverage napkins to luncheon napkins.",
+        "register_link": "shopify:\/\/pages\/wholesale-registration",
+        "register_button_text": "register now",
+        "aside_image": "shopify:\/\/shop_images\/join-our-program.png"
+      }
+    },
+    "napking_contact_hcgyC6": {
+      "type": "napking-contact",
+      "settings": {
+        "contact_text": "For any questions, please contact our customer service team:",
+        "contact_email": "orders@bostoninternational.com",
+        "contact_phone": "800.637.5061",
+        "link1": "",
+        "image1": "shopify:\/\/shop_images\/napkin-1_c4c67ec4-0b20-44b7-a196-3fddd0751006.png",
+        "link2": "",
+        "image2": "shopify:\/\/shop_images\/napkin-2_483a6008-6b16-4adb-9716-2c4c4af1ad1b.png",
+        "link3": "",
+        "image3": "shopify:\/\/shop_images\/napkin-3_94186ee4-bc15-4021-99a8-8b6e96dba266.png"
+      }
+    },
+    "wholesale_faq_fwWd6h": {
+      "type": "wholesale-faq",
+      "blocks": {
+        "faq_7KD7nG": {
+          "type": "faq",
+          "settings": {
+            "question": "What is your minimum order amount?",
+            "answer": "We do not have a minimum order. Order what you need when you need it."
+          }
+        },
+        "faq_Qxini4": {
+          "type": "faq",
+          "settings": {
+            "question": "What payment terms and options do you offer? Are these available on the website?",
+            "answer": "All initial orders must be placed with a credit card on your account and your card will be charged at fulfillment. Your credit card will be charged within 24 hours prior to shipment of your item(s).\n\nAfter you become an established account, we offer a variety of terms and payment options for our wholesalers, including ACH, net15, net30, net60, and more. \n\nIf you have an established account, you can place an order on the website according to your terms agreement. \n\nTo learn more about terms, please contact us at orders@bostoninternational.com"
+          }
+        },
+        "faq_3EPATw": {
+          "type": "faq",
+          "settings": {
+            "question": "Are there exclusive wholesale discounts or incentives",
+            "answer": "We offer our products at wholesale prices and frequently run sales, promos, and free freight offers for our approved wholesale partners. \n\nTo qualify as an approved wholesaler, you will need to fill out our wholesale registration form and include a copy of your resale certificate."
+          }
+        },
+        "faq_wTgdBV": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does it take to process and ship orders?",
+            "answer": "This depends on the time of year, and our stock position of course. Generally orders ship within 1 week. If you have a time sensitive ship date, please contact our customer service department and they’ll be happy to try and accommodate your request."
+          }
+        },
+        "faq_EeMDjq": {
+          "type": "faq",
+          "settings": {
+            "question": "What are the return, exchange, or refund policies?",
+            "answer": "We stand by our products and we want our customers to purchase our products with confidence. We accept returns only for damaged or defective merchandise, or if we have shipped you the wrong item. \n\nReturns are only accepted with authorization from our Customer Service department. However, at the company’s discretion, non-defective merchandise returned for credit will be subject to a 20% restocking fee if a return is authorized for non defective goods. Please note that the customer will be responsible for all freight charges.\n\nAny returns or credits that will return to your account usually take 7-10 business days from the time we receive your item(s)."
+          }
+        }
+      },
+      "block_order": [
+        "faq_7KD7nG",
+        "faq_Qxini4",
+        "faq_3EPATw",
+        "faq_wTgdBV",
+        "faq_EeMDjq"
+      ],
+      "settings": {
+        "heading": "how our wholesale program works",
+        "subheading": "here's how you can get started"
+      }
+    },
+    "seasonal_highlight_QDwG4A": {
+      "type": "seasonal-highlight",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/seasonal-highlight.png",
+        "subheading": "fall highlight",
+        "heading": "Complete Your Pumpkin Patch",
+        "button_link": "shopify:\/\/collections\/pumpkins",
+        "button_text": "shop pumpkins"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_banner_alt_k4rhcW",
+    "centered_text_nzeA8U",
+    "wholesale_benefits_qaN7xP",
+    "wholesale_steps_E7nytG",
+    "collections_3up_k6UNTy",
+    "join_our_program_irebdU",
+    "napking_contact_hcgyC6",
+    "wholesale_faq_fwWd6h",
+    "seasonal_highlight_QDwG4A"
+  ]
+}

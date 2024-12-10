@@ -1,0 +1,298 @@
+<style>
+.{{ section.id }}-padding{
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+}
+@media screen and (max-width: 991px) {
+  .{{ section.id }}-padding{
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+}
+</style>
+<section id="product-range" style="background-color: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }};">
+  <div class="custom-container">
+    <div class="custom-row main-row">
+      <div class="custom-col-6">
+        <div class="content">
+          {% if section.settings.title != blank %}
+            <h2 class="heading">{{ section.settings.title }}</h2>
+          {% endif %}
+          {% if section.settings.subtitle != blank %}
+            <h4 >{{ section.settings.subtitle }}</h4>
+          {% endif %}
+          {% if section.settings.desc != blank %}
+          {{ section.settings.desc }}
+        {% endif %}
+        </div>
+      </div>
+      <div class="custom-col-6">
+        <div class="slider-wrapper">
+          <div class="custom-row inner-row">
+            <div class="custom-col-6">
+              <div class="slick-carousel-left">
+               {% for block in section.blocks %}
+                {% assign mod = forloop.index | modulo: 2 %}
+                {% if mod != 0 %}
+                    <div class="items">
+                      <a href="{{ block.settings.blk_link }}" class="pro-img-blk">
+                        {% if block.settings.blk_icon != blank %}<img src="{{ block.settings.blk_icon | image_url }}" loading="lazy">{% endif %}
+                      </a>
+                    </div>
+                {% endif %}
+               {% endfor %}
+              </div>
+            </div>
+            <div class="custom-col-6">
+              <div class="slick-carousel-right" dir="rtl">
+                {% for block in section.blocks %}
+                {% assign mod = forloop.index | modulo: 2 %}
+                {% if mod == 0 %}
+                    <div class="items">
+                      <a href="{{ block.settings.blk_link }}" class="pro-img-blk">
+                        {% if block.settings.blk_icon != blank %}<img src="{{ block.settings.blk_icon | image_url }}" loading="lazy">{% endif %}
+                      </a>
+                    </div>
+                {% endif %}
+               {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% if section.settings.cta_bar != blank %}
+    <ul class="cta-bar" style="background-color: {{ section.settings.cta_bg_color }}; color: {{ section.settings.cta_text_color }}; border-color:{{ section.settings.cta_border_color }};">
+      {% if section.settings.list_item_1 != blank %}<li><a href="{{ section.settings.list_link_1 }}">{{ section.settings.list_item_1 }}</a></li>{% endif %}
+      {% if section.settings.list_item_2 != blank %}<li><a href="{{ section.settings.list_link_2 }}">{{ section.settings.list_item_2 }}</a></li>{% endif %}
+      {% if section.settings.list_item_3 != blank %}<li><a href="{{ section.settings.list_link_3 }}">{{ section.settings.list_item_3 }}</a></li>{% endif %}
+      {% if section.settings.list_item_4 != blank %}<li><a href="{{ section.settings.list_link_4 }}">{{ section.settings.list_item_4 }}</a></li>{% endif %}
+      {% if section.settings.list_item_5 != blank %}<li><a href="{{ section.settings.list_link_5 }}">{{ section.settings.list_item_5 }}</a></li>{% endif %}
+      {% if section.settings.list_item_6 != blank %}<li><a href="{{ section.settings.list_link_6 }}">{{ section.settings.list_item_6 }}</a></li>{% endif %}
+      {% if section.settings.list_item_7 != blank %}<li><a href="{{ section.settings.list_link_7 }}">{{ section.settings.list_item_7 }}</a></li>{% endif %}
+      {% if section.settings.list_item_8 != blank %}<li><a href="{{ section.settings.list_link_8 }}">{{ section.settings.list_item_8 }}</a></li>{% endif %}
+      {% if section.settings.list_item_9 != blank %}<li><a href="{{ section.settings.list_link_9 }}">{{ section.settings.list_item_9 }}</a></li>{% endif %}
+    </ul>
+    {% endif %}
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Discover our Range",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Enter Title Here",
+      "default": "Discover our range of products"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Enter Subtitle",
+      "default": "Shop every occasion from gifts to decor"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label": "Enter Description Here",
+      "default": "<p>Whether you're looking to refresh your stock or add new, on-trend items to your inventory, our extensive library of products provides the perfect pieces to delight your customers and drive sales.</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "cta_bar",
+      "label": "Show/Hide Collection List Items  Bar",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "list_item_1",
+      "label": "Enter Item Text",
+      "default": "Napkins"
+    },
+    {
+      "type": "text",
+      "id": "list_link_1",
+      "label": "Enter Item Link",
+      "default": "Item Link"
+    },
+    {
+      "type": "text",
+      "id": "list_item_2",
+      "label": "Enter Item Text",
+      "default": "Textiles"
+    },
+    {
+      "type": "text",
+      "id": "list_link_2",
+      "label": "Enter Item Link",
+      "default": "Item Link"
+    },
+    {
+      "type": "text",
+      "id": "list_item_3",
+      "label": "Enter Item Text",
+      "default": "Gifts"
+    },
+    {
+      "type": "text",
+      "id": "list_link_3",
+      "label": "Enter Item Link",
+      "default": "Item Link"
+    },
+    {
+      "type": "text",
+      "id": "list_item_4",
+      "label": "Enter Item Text",
+      "default": "Kitchen"
+    },
+    {
+      "type": "text",
+      "id": "list_link_4",
+      "label": "Enter Item Link",
+      "default": "Item Link"
+    },
+    {
+      "type": "text",
+      "id": "list_item_5",
+      "label": "Enter Item Text",
+      "default": "Personal Care"
+    },
+    {
+      "type": "text",
+      "id": "list_link_5",
+      "label": "Enter Item Link",
+      "default": "Item Link"
+    },
+    {
+      "type": "text",
+      "id": "list_item_6",
+      "label": "Enter Item Text",
+      "default": "Garden"
+    },
+    {
+      "type": "text",
+      "id": "list_link_6",
+      "label": "Enter Item Link",
+      "default": "Item Link"
+    },
+    {
+      "type": "text",
+      "id": "list_item_7",
+      "label": "Enter Item Text",
+      "default": "Decor"
+    },
+    {
+      "type": "text",
+      "id": "list_link_7",
+      "label": "Enter Item Link",
+      "default": "Item Link"
+    },
+    {
+      "type": "text",
+      "id": "list_item_8",
+      "label": "Enter Item Text",
+      "default": "Greeting Cards"
+    },
+    {
+      "type": "text",
+      "id": "list_link_8",
+      "label": "Enter Item Link",
+      "default": "Item Link"
+    },
+    {
+      "type": "text",
+      "id": "list_item_9",
+      "label": "Enter Item Text",
+      "default": "Seasonal"
+    },
+    {
+      "type": "text",
+      "id": "list_link_9",
+      "label": "Enter Item Link",
+      "default": "Item Link"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Add Section Paading Top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Add Section Padding Bottom",
+      "default": 50
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#f4eee9"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "cta_bg_color",
+      "label": "CTA Bar Background Color",
+      "default": "#A2AB94"
+    },
+    {
+      "type": "color",
+      "id": "cta_text_color",
+      "label": "CTA Bar Text Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "cta_border_color",
+      "label": "CTA Bar Items Border Color",
+      "default": "#fff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content",
+      "name": "Prodcut block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "blk_icon",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "blk_link",
+          "label": "Enter Block Link",
+        },
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Discover our Range",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

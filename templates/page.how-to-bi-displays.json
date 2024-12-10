@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "video_mJPTt8": {
+      "type": "video",
+      "settings": {
+        "customer_segment": "all",
+        "section_layout": "full",
+        "color_scheme": "background-2",
+        "heading": "",
+        "subheading": "",
+        "cover_image": "shopify:\/\/shop_images\/BI.jpg",
+        "image_size": "medium",
+        "overlay_opacity": 20,
+        "video_url": "https:\/\/youtu.be\/METU5fVOpMc?feature=shared",
+        "video_autoplay": false,
+        "video_loop": false,
+        "video_muted": false,
+        "video_controls": true,
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "rich_text_EzpnBa": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Gq7RgL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "animation": true
+          }
+        },
+        "heading_nAPhNA": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to assemble your display",
+            "heading_size": "h2"
+          }
+        },
+        "text_pGCi3F": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A quick how-to video to help you assemble your BI Apex Spinner SP17801.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "button_QDkGM7": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Learn About Our Products",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Gq7RgL",
+        "heading_nAPhNA",
+        "text_pGCi3F",
+        "button_QDkGM7"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_mJPTt8",
+    "rich_text_EzpnBa"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "image_banner_3JyF6q": {
+      "type": "image-banner",
+      "settings": {
+        "customer_segment": "all",
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/Contact-header-v2_cf9b829b-14b3-4ed9-acd4-f66768c22e59.jpg",
+        "image_size": "small",
+        "overlay_opacity": 44,
+        "subheading": "we're dedicted to helping you",
+        "heading": "contact us",
+        "description": "",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "centered_text_nzeA8U": {
+      "type": "centered-text",
+      "settings": {
+        "centered_text_content": "Whether you're a retail customer looking to enhance your living space or a wholesale partner interested in offering our exquisite products to your clientele, we'd love to hear from you. \nFill out the form below."
+      }
+    },
+    "1726543569fdcaf35a": {
+      "type": "apps",
+      "blocks": {
+        "helium_customer_fields_app_block_DxDJpw": {
+          "type": "shopify:\/\/apps\/helium-customer-fields\/blocks\/app-block\/bab58598-3e6a-4377-aaaa-97189b15f131",
+          "settings": {
+            "form_id": "70tJ5B",
+            "width": 460,
+            "vertical_spacing": 0,
+            "horizontal_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "helium_customer_fields_app_block_DxDJpw"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "desc": "",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "include_margins": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "wholesale_benefits_qaN7xP": {
+      "type": "wholesale-benefits",
+      "disabled": true,
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/benefit-1.svg",
+        "text1": "Wholesale pricing on our fun and exclusive designs",
+        "image2": "shopify:\/\/shop_images\/benefit-2.svg",
+        "text2": "Curated catalogs and stories for easy purchasing",
+        "image3": "shopify:\/\/shop_images\/benefit-3.svg",
+        "text3": "In-house and experienced customer service",
+        "image4": "shopify:\/\/shop_images\/benefit-4.svg",
+        "text4": "Flexible payment and ordering options",
+        "row_1_image": "shopify:\/\/shop_images\/benefit-1.png",
+        "wholesale_text": "Our wholesale program is designed to make your purchasing decisions seamless and to celebrate homes around the world.",
+        "join_link": "shopify:\/\/pages\/wholesale-registration",
+        "row_2_image": "shopify:\/\/shop_images\/benefit-2.png"
+      }
+    },
+    "collections_3up_k6UNTy": {
+      "type": "collections-3up",
+      "disabled": true,
+      "settings": {
+        "collection1_title": "Honeycomb dreams",
+        "collection1_description": "Shop honeycomb ceramics",
+        "collection1_link": "shopify:\/\/collections\/honeycomb",
+        "collection1_image": "shopify:\/\/shop_images\/c3up-1.png",
+        "collection2_title": "The right style",
+        "collection2_description": "Mix and match for the perfect look",
+        "collection2_link": "shopify:\/\/collections\/best-selling-napkins",
+        "collection2_image": "shopify:\/\/shop_images\/c3up-2.png",
+        "collection3_title": "The right size",
+        "collection3_description": "Shop napkins at every size you need",
+        "collection3_link": "shopify:\/\/collections\/napkins",
+        "collection3_image": "shopify:\/\/shop_images\/c3up-3.png"
+      }
+    },
+    "wholesale_faq_fwWd6h": {
+      "type": "wholesale-faq",
+      "blocks": {
+        "faq_7KD7nG": {
+          "type": "faq",
+          "settings": {
+            "question": "What is your minimum order amount?",
+            "answer": "We do not have a minimum order. Order what you need when you need it."
+          }
+        },
+        "faq_Qxini4": {
+          "type": "faq",
+          "settings": {
+            "question": "What payment terms and options do you offer? Are these available on the website?",
+            "answer": "All initial orders must be placed with a credit card on your account and your card will be charged at fulfillment. Your credit card will be charged within 24 hours prior to shipment of your item(s).\n\nAfter you become an established account, we offer a variety of terms and payment options for our wholesalers, including ACH, net15, net30, net60, and more. \n\nIf you have an established account, you can place an order on the website according to your terms agreement. \n\nTo learn more about terms, please contact us at orders@bostoninternational.com"
+          }
+        },
+        "faq_3EPATw": {
+          "type": "faq",
+          "settings": {
+            "question": "Are there exclusive wholesale discounts or incentives",
+            "answer": "We offer our products at wholesale prices and frequently run sales, promos, and free freight offers for our approved wholesale partners. \n\nTo qualify as an approved wholesaler, you will need to fill out our wholesale registration form and include a copy of your resale certificate."
+          }
+        },
+        "faq_wTgdBV": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does it take to process and ship orders?",
+            "answer": "This depends on the time of year, and our stock position of course. Generally orders ship within 1 week. If you have a time sensitive ship date, please contact our customer service department and they’ll be happy to try and accommodate your request."
+          }
+        },
+        "faq_EeMDjq": {
+          "type": "faq",
+          "settings": {
+            "question": "What are the return, exchange, or refund policies?",
+            "answer": "We stand by our products and we want our customers to purchase our products with confidence. We accept returns only for damaged or defective merchandise, or if we have shipped you the wrong item. \n\nReturns are only accepted with authorization from our Customer Service department. However, at the company’s discretion, non-defective merchandise returned for credit will be subject to a 20% restocking fee if a return is authorized for non defective goods. Please note that the customer will be responsible for all freight charges.\n\nAny returns or credits that will return to your account usually take 7-10 business days from the time we receive your item(s)."
+          }
+        }
+      },
+      "block_order": [
+        "faq_7KD7nG",
+        "faq_Qxini4",
+        "faq_3EPATw",
+        "faq_wTgdBV",
+        "faq_EeMDjq"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "how our wholesale program works",
+        "subheading": "here's how you can get started"
+      }
+    },
+    "join_our_program_irebdU": {
+      "type": "join-our-program",
+      "settings": {
+        "logo_image": "shopify:\/\/shop_images\/logo_8ec3f10d-b7cb-4703-841f-159315dc112c.png",
+        "heading": "wholesale questions?",
+        "description": "Looking for wholesale options and support? We have countless benefits prepared for both our loyal and brand-new wholesale customers. Take a look!",
+        "register_link": "shopify:\/\/pages\/wholesale-program",
+        "register_button_text": "show me the program",
+        "aside_image": "shopify:\/\/shop_images\/join-our-program.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_3JyF6q",
+    "centered_text_nzeA8U",
+    "1726543569fdcaf35a",
+    "wholesale_benefits_qaN7xP",
+    "collections_3up_k6UNTy",
+    "wholesale_faq_fwWd6h",
+    "join_our_program_irebdU"
+  ]
+}

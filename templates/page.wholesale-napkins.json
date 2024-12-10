@@ -1,0 +1,462 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "index_custom_banner_PQXhVf": {
+      "type": "index-custom-banner",
+      "settings": {
+        "background_image_desk": "shopify:\/\/shop_images\/artistry-pro-3.png",
+        "background_image_mob": "shopify:\/\/shop_images\/artistry-pro-3.png",
+        "banner_height": 100,
+        "tag_list": false,
+        "tag_1": "Tag Text 1",
+        "tag_2": "Tag Text 2",
+        "text_alignment": "center",
+        "subtitle": "Welcome to Boston International",
+        "title": "Premium Wholesale <br> Napkins for Every <br>  Occasion",
+        "desc": "",
+        "button_white": false,
+        "btn_text": "",
+        "btn_link": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#151f2a",
+        "text_color": "#ffffff",
+        "btn_bg_color": "",
+        "btn_text_color": "",
+        "btn_border_color": ""
+      }
+    },
+    "index_section_cta_bar_aJeiPf": {
+      "type": "index-section-cta-bar",
+      "settings": {
+        "bg_color": "#a2ab94",
+        "text_color": "#ffffff",
+        "subtitle": "elegance and quality",
+        "desc": "<p> Discover our range of beautifully designed napkins, and elevate your displays today.<\/p>",
+        "btn_text": "shop now",
+        "btn_link": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "index_section_autumn_coll_idp7TY": {
+      "type": "index-section-autumn-coll",
+      "blocks": {
+        "product_TgpXth": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/custom-collection-1.png",
+            "blk_link": "shopify:\/\/collections\/halloween",
+            "blk_title": "black & white halloween",
+            "blk_cta_text": "shop This collection"
+          }
+        },
+        "product_artgVq": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/custom-collection-1.png",
+            "blk_link": "shopify:\/\/collections\/halloween",
+            "blk_title": "black & white halloween",
+            "blk_cta_text": "shop This collection"
+          }
+        },
+        "product_UgXixE": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/custom-collection-1.png",
+            "blk_link": "shopify:\/\/collections\/halloween",
+            "blk_title": "black & white halloween",
+            "blk_cta_text": "shop This collection"
+          }
+        }
+      },
+      "block_order": [
+        "product_TgpXth",
+        "product_artgVq",
+        "product_UgXixE"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "Designed with Distinction",
+        "desc": "<p>Explore our large selection of paper napkins, dinner napkins, wholesale linen <br\/>napkins, beverage napkins, table napkins, disposable napkins, cocktail napkins, <br\/>and napkin rings. Each product is crafted with precision and care, ensuring you <br\/>get the best for every occasion.<\/p>",
+        "btn_text": "Shop best-selling fall",
+        "btn_link": "",
+        "button_white": true,
+        "btn_text_2": "Read our story",
+        "btn_link_2": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_boston_napkins_wwwbMK": {
+      "type": "index-section-boston-napkins",
+      "settings": {
+        "subtitle": "the Boston International difference",
+        "title": "Crafting \u2028 elegance",
+        "desc": "",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_pumpkin_AHw8tM": {
+      "type": "index-section-pumpkin",
+      "settings": {
+        "primary_image": "shopify:\/\/shop_images\/inner-bg-1.png",
+        "secondery_image": "shopify:\/\/shop_images\/inner-bg-1.png",
+        "title": "the art of exceptional design",
+        "subtitle": "Boston International sets the standard for sophistication and quality in home decor. Designed with an eye for timeless elegance and a touch of modern flair, we offer your store unparalleled advantages.",
+        "button_white": false,
+        "btn_text": "shop napkins",
+        "btn_link": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000",
+        "btn_bg_color": "",
+        "btn_text_color": "",
+        "btn_border_color": ""
+      }
+    },
+    "index_section_tabs_GnGAp9": {
+      "type": "index-section-tabs",
+      "blocks": {
+        "product_3nGNxp": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-1.png",
+            "blk_title": "World-Class Artistry",
+            "blk_desc": "<p>Exclusive prints and products crafted by <br\/>renowned artists, offering your <br\/>customers unique and exquisite designs <br\/>that cannot be found elsewhere.<\/p>",
+            "btn_text": "Shop artisanal napkins",
+            "btn_link": ""
+          }
+        },
+        "product_CKR9U7": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-1.png",
+            "blk_title": "superior craftsmanship",
+            "blk_desc": "<p>Lorem ipsum dolor sit amet consectetur. Sed sit massa eget iaculis consequat et amet. Vivamus es<\/p>",
+            "btn_text": "Button Text",
+            "btn_link": ""
+          }
+        },
+        "product_3TPeiN": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-1.png",
+            "blk_title": "advanced color technology",
+            "blk_desc": "<p>Lorem ipsum dolor sit amet consectetur. Sed sit massa eget iaculis consequat et amet. Vivamus es<\/p>",
+            "btn_text": "Button Text",
+            "btn_link": ""
+          }
+        },
+        "product_iQ9MQJ": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-1.png",
+            "blk_title": "eco-friendly elegance",
+            "blk_desc": "<p>Lorem ipsum dolor sit amet consectetur. Sed sit massa eget iaculis consequat et amet. Vivamus es<\/p>",
+            "btn_text": "Button Text",
+            "btn_link": ""
+          }
+        },
+        "product_M4DMEG": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-1.png",
+            "blk_title": "premium presentation",
+            "blk_desc": "<p>Lorem ipsum dolor sit amet consectetur. Sed sit massa eget iaculis consequat et amet. Vivamus es<\/p>",
+            "btn_text": "Button Text",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_3nGNxp",
+        "product_CKR9U7",
+        "product_3TPeiN",
+        "product_iQ9MQJ",
+        "product_M4DMEG"
+      ],
+      "settings": {
+        "title": "",
+        "enable_arrow": true,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#ffffff",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_custom_collection_cyJ8Gg": {
+      "type": "index-section-custom-collection",
+      "blocks": {
+        "product_BWcXTa": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-1.png",
+            "blk_link": "",
+            "blk_title": "Tabletop Accessories",
+            "blk_desc": "<p>Elevate dining experiences <br\/>with our selection of placemats, <br\/>table runners, and coasters, <br\/>designed to harmonize <br\/>beautifully with our napkin <br\/>collections.<\/p>",
+            "blk_cta_text": "shop",
+            "bg_card_color": "#ede4dc"
+          }
+        },
+        "product_VVwggC": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-1.png",
+            "blk_link": "",
+            "blk_title": "Home decor",
+            "blk_desc": "<p>From seasonal decorations to <br\/>timeless pieces, our decor items <br\/>add flair and warmth. Discover <br\/>sculptures, candle holders, and <br\/>wall art that resonate with <br\/>sophisticated tastes.<\/p>",
+            "blk_cta_text": "shop",
+            "bg_card_color": "#ede4dc"
+          }
+        },
+        "product_gHXEG9": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-1.png",
+            "blk_link": "",
+            "blk_title": "Gift Items",
+            "blk_desc": "<p>Our range of gift products, <br\/>including decorative matches, <br\/>notebooks, and tote bags, are <br\/>perfect for customers looking <br\/>for thoughtful and stylish <br\/>presents.<\/p>",
+            "blk_cta_text": "shop",
+            "bg_card_color": "#ede4dc"
+          }
+        },
+        "product_WdJfrf": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-1.png",
+            "blk_link": "",
+            "blk_title": "Kitchen Essentials",
+            "blk_desc": "<p>Complete the culinary <br\/>experience with our kitchen <br\/>linens, aprons, and serving <br\/>utensils, all crafted to meet the <br\/>high standards of both <br\/>aesthetics and functionality<\/p>",
+            "blk_cta_text": "shop",
+            "bg_card_color": "#ede4dc"
+          }
+        }
+      },
+      "block_order": [
+        "product_BWcXTa",
+        "product_VVwggC",
+        "product_gHXEG9",
+        "product_WdJfrf"
+      ],
+      "settings": {
+        "subtitle": "Expand Your Collection with Our Diverse Range",
+        "title": "beyond first-class napkins: a world of coordinated elegance",
+        "desc": "<p>Boston International napkins are first-class. We also offer a huge selection of other products perfectly tailored for your customers. Find the best accents for any setting:<\/p>",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": true,
+        "btn_text_2": "Shop by artist",
+        "btn_link_2": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "index_custom_banner_zCHeWV": {
+      "type": "index-custom-banner",
+      "settings": {
+        "background_image_desk": "shopify:\/\/shop_images\/inner-bg-1.png",
+        "banner_height": 70,
+        "tag_list": false,
+        "tag_1": "",
+        "tag_2": "",
+        "text_alignment": "left",
+        "subtitle": "subtitle here",
+        "title": "Bigger title needs <br> to be added here",
+        "desc": "",
+        "button_white": true,
+        "btn_text": "Button Text",
+        "btn_link": "",
+        "padding_top": 80,
+        "padding_bottom": 50,
+        "bg_color": "#151f2a",
+        "text_color": "#ffffff",
+        "btn_bg_color": "",
+        "btn_text_color": "",
+        "btn_border_color": ""
+      }
+    },
+    "collapsible_content_QKXH7z": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_FzDkMt": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What types of paper napkins do you offer fordifferent occasions?",
+            "text": "<p>Description<\/p>"
+          }
+        },
+        "text_block_HMpU8A": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Can dinner napkins from your collection beused for everyday meals and specialoccasions?",
+            "text": "<p>Description<\/p>"
+          }
+        },
+        "text_block_VrmrW6": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What makes your table linens suitable for bothcasual and formal events?",
+            "text": "<p>Description<\/p>"
+          }
+        },
+        "text_block_Ht39hY": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Are there eco-friendly options for wholesalenapkins?",
+            "text": "<p>Description<\/p>"
+          }
+        },
+        "text_block_AMnjxQ": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What support can retailers expect when theystart selling wholesale napkins?",
+            "text": "<p>Description<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_FzDkMt",
+        "text_block_HMpU8A",
+        "text_block_VrmrW6",
+        "text_block_Ht39hY",
+        "text_block_AMnjxQ"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "heading": "Wholesale Napkins FAQ",
+        "description": "",
+        "margin_top": "m",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "index_section_custom_collection_hrPh34": {
+      "type": "index-section-custom-collection",
+      "blocks": {
+        "product_XeGt3r": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-1.png",
+            "blk_link": "",
+            "blk_title": "Holiday napkins",
+            "blk_desc": "<p>Elevate your table settings and<br\/>retail displays<\/p>",
+            "blk_cta_text": "read",
+            "bg_card_color": "#ede4dc"
+          }
+        },
+        "product_XPRHii": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-1.png",
+            "blk_link": "",
+            "blk_title": "Mastering Retail DisplayStrategies",
+            "blk_desc": "<p>Boost Your Napkin Sales<\/p>",
+            "blk_cta_text": "read",
+            "bg_card_color": "#ede4dc"
+          }
+        },
+        "product_tPzNRb": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-1.png",
+            "blk_link": "",
+            "blk_title": "Event & Catering Napkins",
+            "blk_desc": "<p>Highlight Every Occasion with<br\/>Style<\/p>",
+            "blk_cta_text": "read",
+            "bg_card_color": "#ede4dc"
+          }
+        }
+      },
+      "block_order": [
+        "product_XeGt3r",
+        "product_XPRHii",
+        "product_tPzNRb"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "Recommended Resources",
+        "desc": "",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_newsletter_VL3Gey": {
+      "type": "index-section-newsletter",
+      "settings": {
+        "title": "Sign up to save 10% off your nextorder. ",
+        "subtitle": "join our newsletter list for the deals, bundles, &new drops",
+        "desc": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
+        "show_social_media": true,
+        "link_1": "",
+        "link_2": "",
+        "link_3": "",
+        "link_4": "",
+        "btn_text": "Button Text",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "Button Text",
+        "btn_link_2": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "index_custom_banner_PQXhVf",
+    "index_section_cta_bar_aJeiPf",
+    "index_section_autumn_coll_idp7TY",
+    "index_section_boston_napkins_wwwbMK",
+    "index_section_pumpkin_AHw8tM",
+    "index_section_tabs_GnGAp9",
+    "index_section_custom_collection_cyJ8Gg",
+    "index_custom_banner_zCHeWV",
+    "collapsible_content_QKXH7z",
+    "index_section_custom_collection_hrPh34",
+    "index_section_newsletter_VL3Gey"
+  ]
+}

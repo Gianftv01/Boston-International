@@ -1,0 +1,142 @@
+<section id="newsletter" style="background-color: {{ section.settings.bg_color }}; color:{{ section.settings.text_color }}">
+  <div class="wrapper">
+    <div class="form-content-holder">
+      <div class="inner-text">
+        {% if section.settings.title != blank %}
+          <h4>{{ section.settings.title }}</h4>
+        {% endif %}
+        {% if section.settings.desc != blank %}
+          {{ section.settings.desc }}
+        {% endif %}
+        {% if section.settings.caption != blank %}
+          <p class="caption">{{ section.settings.caption }}</p>
+        {% endif %}
+        {% if section.settings.btn_text != blank %}
+          <a href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="form-holder" style="background-image: url('{{ section.settings.form-pattren | img_url: 'master' }}');">
+    {%- form 'contact', id: 'ContactForm' -%}
+          {% if section.settings.form_desc != blank %}
+            {{ section.settings.form_desc }}
+          {% endif %}
+          {%- if form.posted_successfully? -%}
+              <div
+                  class="for
+                m-status form-status-list form__message"
+                  tabindex="-1"
+                  autofocus
+              >
+                  {% render 'icon-success' %}
+                  {{ 'templates.contact.form.post_success' | t }}
+              </div>
+          {%- elsif form.errors -%}
+          {%- endif -%}
+          <input
+                  class="input-style"
+                  autocomplete="name"
+                  type="text"
+                  id="name"
+                  name="name"
+                  aria-required="true"
+                  placeholder="Name"
+                  required
+              >
+          <input
+                  autocomplete="email"
+                  type="email"
+                  id="email"
+                  class="input-style"
+                  name="email"
+                  spellcheck="false"
+                  autocapitalize="off"
+                  aria-required="true"
+                  {% if form.errors contains 'email' %}
+                      aria-invalid="true"
+                      aria-describedby="ContactForm-email-error"
+                  {% endif %}
+                  placeholder="Email"
+                  required
+              >
+              {%- if form.errors contains 'email' -%}
+                  <small class="contact__field-error" id="ContactForm-email-error">
+                      <span class="visually-hidden">
+                          {{- 'accessibility.error' | t -}}
+                      </span>
+                      <span class="form__message">
+                          {{- form.errors.translated_fields.email | capitalize }}
+                          {{ form.errors.messages.email -}}
+                      </span>
+                  </small>
+              {%- endif -%}
+              <button type="submit" class="btn">Sign me up for promos</button>
+      {%- endform %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Contact Form",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Enter Heading",
+      "default": "Spend $1,500, get Net 60 terms and a 12% freight cap"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label": "Enter Description",
+      "default": "<p>Join our mailing list to unlock your checkout code</p>"
+    },
+    {
+      "type": "text",
+      "id": "caption",
+      "label": "Enter Caption",
+      "default": "Must order by Aug 31, 2024. Cannot combine with items from other seasons/catalogs"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Add CTA Text",
+      "default": "Call TO Action"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "Add CTA link"
+    },
+    {
+      "type": "image_picker",
+      "id": "form-pattren",
+      "label": "Form Background Pattren"
+    },
+    {
+      "type": "richtext",
+      "id": "form_desc",
+      "label": "Enter Form Description",
+      "default": "<p>Join our mailing list to be notified about special wholesale deals</p>"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Section Background Color",
+      "default": "#f4eee9"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Section Text Color",
+      "default": "#000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Contact Form"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,1004 @@
+{
+  "sections": {
+    "index_custom_banner_mky3CL": {
+      "type": "index-custom-banner",
+      "settings": {
+        "background_image_desk": "shopify:\/\/shop_images\/1440x820_Landing_Page_banner.jpg",
+        "background_image_mob": "shopify:\/\/shop_images\/1440x820_Landing_Page_banner.jpg",
+        "banner_height": 100,
+        "tag_list": false,
+        "tag_1": "Tag Text 1",
+        "tag_2": "Tag Text 2",
+        "text_alignment": "center",
+        "subtitle": "welcome to Boston International",
+        "title": "Bring the Magic of the <br>holiday to the table",
+        "desc": "",
+        "button_white": true,
+        "btn_text": "",
+        "btn_link": "",
+        "padding_top": 80,
+        "padding_bottom": 50,
+        "bg_color": "#151f2a",
+        "text_color": "#ffffff",
+        "btn_bg_color": "",
+        "btn_text_color": "",
+        "btn_border_color": ""
+      }
+    },
+    "index_section_cta_bar_UjnPGW": {
+      "type": "index-section-cta-bar",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#a2ab94",
+        "text_color": "#ffffff",
+        "subtitle": "flash sale",
+        "desc": "<p>Pick you fav pumpkin, or pumpkin pattern, now 10% off.<\/p>",
+        "btn_text": "shop 10% Off now",
+        "btn_link": "shopify:\/\/collections",
+        "padding_top": 35,
+        "padding_bottom": 35
+      }
+    },
+    "index_section_boston_napkins_rHKVN9": {
+      "type": "index-section-boston-napkins",
+      "blocks": {
+        "napkin_TA47XF": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-auringonkukka-orange-yell-c982317",
+            "blk_img": "shopify:\/\/shop_images\/napkins-4.png"
+          }
+        },
+        "napkin_dJ3dRQ": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-blue-and-white-urns-c737800",
+            "blk_img": "shopify:\/\/shop_images\/napkins-2.png"
+          }
+        },
+        "napkin_F4we3b": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-unikko-cream-gold-c552669",
+            "blk_img": "shopify:\/\/shop_images\/media_8b8723fa-b020-4fbe-84d1-d16a92caec6e.jpg"
+          }
+        },
+        "napkin_EDhHdD": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-arwea-white-blue-c847594",
+            "blk_img": "shopify:\/\/shop_images\/media_355b37bc-d733-4fbc-badd-5ab349420c65.jpg"
+          }
+        },
+        "napkin_wkN8TT": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-blue-heirloom-flowers-c783100",
+            "blk_img": "shopify:\/\/shop_images\/media_f84232ce-4fc9-4ec8-80ff-2b4af220a727.jpg"
+          }
+        },
+        "napkin_37pLQr": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-bee-inspired-yellow-c911170",
+            "blk_img": "shopify:\/\/shop_images\/media_5f5792fc-aa5f-4051-a5f3-43e816d0c342.jpg"
+          }
+        },
+        "napkin_wQnTeP": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-bee-haven-c932800",
+            "blk_img": "shopify:\/\/shop_images\/media_13dbf89c-5f04-4428-b2d8-fc5fa10c5941.jpg"
+          }
+        },
+        "napkin_fK6K7U": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-nasia-white-blue-c771094",
+            "blk_img": "shopify:\/\/shop_images\/media_c2b751c0-4167-453a-8f10-61021781f088.jpg"
+          }
+        },
+        "napkin_fnwNHt": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-exotic-garden-c845500",
+            "blk_img": "shopify:\/\/shop_images\/media_d58dc846-d6ac-4a13-af93-73304d0ad640.jpg"
+          }
+        },
+        "napkin_tK6BFt": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-citrus-limon-c868500",
+            "blk_img": "shopify:\/\/shop_images\/media_6c716312-0dcc-447e-ab69-53ff385e4b37.jpg"
+          }
+        },
+        "napkin_XT8JWp": {
+          "type": "napkin",
+          "settings": {
+            "blk_link": "shopify:\/\/products\/cktl-coral-blue-c897940",
+            "blk_img": "shopify:\/\/shop_images\/media_d2c01a44-998e-4283-8dbf-0f394fa8ed8a.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "napkin_TA47XF",
+        "napkin_dJ3dRQ",
+        "napkin_F4we3b",
+        "napkin_EDhHdD",
+        "napkin_wkN8TT",
+        "napkin_37pLQr",
+        "napkin_wQnTeP",
+        "napkin_fK6K7U",
+        "napkin_fnwNHt",
+        "napkin_tK6BFt",
+        "napkin_XT8JWp"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "Where art &<br>function meet",
+        "desc": "<p>Boston International's napkins, crafted from Italian triple-ply paper and printed with an 8-color press using nontoxic, water-based inks, offer unparalleled luxury and artistry, making them the finest napkins in the world<\/p>",
+        "btn_text": "shop napkins & plates",
+        "btn_link": "shopify:\/\/collections\/all",
+        "button_white": true,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_about_boston_fd3gwa": {
+      "type": "index-section-about-boston",
+      "blocks": {
+        "napkin_KTRq9P": {
+          "type": "napkin",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/media_b928dbcb-b185-4dfd-8fa0-e709784181a8.jpg",
+            "blk_text": "shop this",
+            "blk_link": "shopify:\/\/products\/cktl-kuusikossa-white-gold-c565799"
+          }
+        },
+        "napkin_j9BaNC": {
+          "type": "napkin",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/media_f8afd3c6-c4f4-43a1-a145-302b7f0a87df.jpg",
+            "blk_text": "shop this",
+            "blk_link": "shopify:\/\/products\/cktl-cranberry-wreath-c062300"
+          }
+        },
+        "napkin_mrU8TB": {
+          "type": "napkin",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/media_7426df15-77f7-4a1c-8b15-e2199b760b8e.jpg",
+            "blk_text": "shop this",
+            "blk_link": "shopify:\/\/products\/lnch-christmas-tree-pattern-l1028000"
+          }
+        }
+      },
+      "block_order": [
+        "napkin_KTRq9P",
+        "napkin_j9BaNC",
+        "napkin_mrU8TB"
+      ],
+      "settings": {
+        "about_img": "shopify:\/\/shop_images\/553_x714_Holiday_landing_page.jpg",
+        "logo_img": "shopify:\/\/shop_images\/logo_8ec3f10d-b7cb-4703-841f-159315dc112c.png",
+        "title": "Artist-designed,<br> artist-crafted to<br><strong>celebrate your home<\/strong>",
+        "desc": "<p>We believe in turning familiar spaces into works of art—by infusing the simple things with personality and artistry.<\/p>",
+        "btn_text": "shop our holiday catalog",
+        "btn_link": "shopify:\/\/collections\/holiday-catalog-2024",
+        "product_blk-desc": "<p>At Boston International, we believe that the changing seasons bring opportunities to infuse your home with warmth, style, and sophistication.<\/p>",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "bg_color": "#ede4dc",
+        "text_color": "#000000",
+        "blk_bg_color": "#a2ab94",
+        "blk_text_color": "#ffffff"
+      }
+    },
+    "index_custom_banner_3aUi3g": {
+      "type": "index-custom-banner",
+      "settings": {
+        "background_image_desk": "shopify:\/\/shop_images\/inner-bg-1.png",
+        "background_image_mob": "shopify:\/\/shop_images\/inner-bg-1.png",
+        "banner_height": 100,
+        "tag_list": true,
+        "tag_1": "bees & honeycomb",
+        "tag_2": "collections",
+        "text_alignment": "left",
+        "subtitle": "",
+        "title": "Complete looks<br>for every style",
+        "desc": "",
+        "button_white": true,
+        "btn_text": "shop bees & honeycomb",
+        "btn_link": "shopify:\/\/collections\/bees-honeycomb-collection",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#151f2a",
+        "text_color": "#ffffff",
+        "btn_bg_color": "#f4eee9",
+        "btn_text_color": "#31362a",
+        "btn_border_color": "#f4eee9"
+      }
+    },
+    "index_section_product_range_TzJh4f": {
+      "type": "index-section-product-range",
+      "blocks": {
+        "content_z9RjrH": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-1.png",
+            "blk_link": "shopify:\/\/collections\/napkins"
+          }
+        },
+        "content_RKEqnG": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/plate_-_PEK925060-2T.png",
+            "blk_link": "shopify:\/\/collections\/textiles"
+          }
+        },
+        "content_EY7gpy": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-2.png",
+            "blk_link": "shopify:\/\/collections\/plates"
+          }
+        },
+        "content_yheCeU": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-3.png",
+            "blk_link": "shopify:\/\/collections\/pots-planters"
+          }
+        },
+        "content_eFbWE3": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-4.png",
+            "blk_link": "shopify:\/\/collections\/codi-glass-collection"
+          }
+        },
+        "content_c83t6M": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-5.png",
+            "blk_link": "shopify:\/\/collections\/utensils"
+          }
+        },
+        "content_eWXNXG": {
+          "type": "content",
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-6.png",
+            "blk_link": "shopify:\/\/collections\/garden-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "content_z9RjrH",
+        "content_RKEqnG",
+        "content_EY7gpy",
+        "content_yheCeU",
+        "content_eFbWE3",
+        "content_c83t6M",
+        "content_eWXNXG"
+      ],
+      "settings": {
+        "title": "Discover our range of products",
+        "subtitle": "shop every occasion from gifts to decor",
+        "desc": "<p>Whether you're looking to refresh your stock or add new, on-trend items to your inventory, our extensive library of products provides the perfect pieces to delight your customers and drive sales.<\/p>",
+        "cta_bar": true,
+        "list_item_1": "napkins",
+        "list_link_1": "\/collections\/napkins",
+        "list_item_2": "textiles",
+        "list_link_2": "\/collections\/textiles",
+        "list_item_3": "candles",
+        "list_link_3": "\/collections\/candles",
+        "list_item_4": "kitchen",
+        "list_link_4": "\/collections\/kitchen",
+        "list_item_5": "skincare",
+        "list_link_5": "\/collections\/skincare",
+        "list_item_6": "garden",
+        "list_link_6": "\/collections\/outdoor",
+        "list_item_7": "decor",
+        "list_link_7": "\/collections\/everyday",
+        "list_item_8": "greeting cards",
+        "list_link_8": "\/collections\/greeting-cards",
+        "list_item_9": "seasonal",
+        "list_link_9": "\/collections\/holiday",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000",
+        "cta_bg_color": "#a2ab94",
+        "cta_text_color": "#ffffff",
+        "cta_border_color": "#ffffff"
+      }
+    },
+    "index_section_pumpkin_L3eQb8": {
+      "type": "index-section-pumpkin",
+      "custom_css": [
+        "div {margin-top: 20px;}"
+      ],
+      "settings": {
+        "primary_image": "shopify:\/\/shop_images\/592A0126-SM_1.png",
+        "secondery_image": "shopify:\/\/shop_images\/592A0114SM_1.png",
+        "title": "cranberry charm",
+        "subtitle": "rich crimson and lush greenery, adds holiday charm to every gathering",
+        "button_white": false,
+        "btn_text": "shop cranberries",
+        "btn_link": "shopify:\/\/collections\/cranberry-wreath-collection",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000",
+        "btn_bg_color": "",
+        "btn_text_color": "",
+        "btn_border_color": ""
+      }
+    },
+    "index_section_catalog_gfDDCq": {
+      "type": "index-section-catalog",
+      "blocks": {
+        "product_TjbMRR": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/catalog-1.jpg",
+            "blk_link": "shopify:\/\/collections\/spring-catalog-2025",
+            "blk_title": "spring 2025",
+            "blk_desc": "<p>Browse our handpicked floral treasures that bring spring's cheer and vibrance into any space or occasion.<\/p>",
+            "blk_cta_text": "shop catalog"
+          }
+        },
+        "product_FzpqjE": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/catalog-2.png",
+            "blk_link": "shopify:\/\/collections\/holiday-catalog-2024",
+            "blk_title": "holiday 2024",
+            "blk_desc": "<p>Cozy up with our holiday 2024 catalog that's brimming with sparkle and charm for every festive celebration.<\/p>",
+            "blk_cta_text": "shop catalog"
+          }
+        },
+        "product_Q4D36E": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/catalog-3.png",
+            "blk_link": "shopify:\/\/collections\/fall-catalog-2024",
+            "blk_title": "fall 2024",
+            "blk_desc": "<p>Fall in love with our autumn-themed catalog, packed with stylish essentials that capture the beauty of the season.<\/p>",
+            "blk_cta_text": "shop catalog"
+          }
+        }
+      },
+      "block_order": [
+        "product_TjbMRR",
+        "product_FzpqjE",
+        "product_Q4D36E"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "<h2>shop our catalogs<\/h2>",
+        "desc": "<h5>discover the top trends and stories for every season<\/h5>",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#ffffff",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_about_boston_xQe4tg": {
+      "type": "index-section-about-boston",
+      "custom_css": [],
+      "settings": {
+        "about_img": "shopify:\/\/shop_images\/bi_winter_catalog_tray.png",
+        "logo_img": "shopify:\/\/shop_images\/logo_f5a98a55-e5cc-45a4-bf83-56648f1121e4.png",
+        "title": "Join our Wholesale Program",
+        "desc": "<p>Elevate your product offerings with Boston International's artistic and high-quality products. Click the link below to login or register for a wholesale account. <\/p>",
+        "btn_text": "login \/ register for wholesale",
+        "btn_link": "shopify:\/\/pages\/wholesale-program",
+        "product_blk-desc": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "bg_color": "#ede4dc",
+        "text_color": "#000000",
+        "blk_bg_color": "#a2ab94",
+        "blk_text_color": "#ffffff"
+      }
+    },
+    "index_custom_banner_y4kicR": {
+      "type": "index-custom-banner",
+      "settings": {
+        "background_image_desk": "shopify:\/\/shop_images\/inner-bg-2.png",
+        "background_image_mob": "shopify:\/\/shop_images\/inner-bg-2.png",
+        "banner_height": 100,
+        "tag_list": true,
+        "tag_1": "cranberry wreath",
+        "tag_2": "collections",
+        "text_alignment": "left",
+        "subtitle": "",
+        "title": "Complete your<br>winter table",
+        "desc": "",
+        "button_white": true,
+        "btn_text": "shop collection",
+        "btn_link": "shopify:\/\/collections\/winter",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#151f2a",
+        "text_color": "#ffffff",
+        "btn_bg_color": "#f4eee9",
+        "btn_text_color": "#31362a",
+        "btn_border_color": "#f4eee9"
+      }
+    },
+    "product_markers_ggeTnn": {
+      "type": "product-markers",
+      "blocks": {
+        "marker_JtpAt7": {
+          "type": "marker",
+          "settings": {
+            "marker_background": "#f4eee9",
+            "marker_color": "#988c63",
+            "marker_background_hover": "#17324e",
+            "marker_color_hover": "#ffffff",
+            "product": "joy-to-the-world-bw-sign-hua22498",
+            "image_ratio": "portrait",
+            "position_x": 20,
+            "position_y": 30,
+            "marker_text": "Prodcut"
+          }
+        },
+        "marker_8wtLhH": {
+          "type": "marker",
+          "settings": {
+            "marker_background": "#f4eee9",
+            "marker_color": "#988c63",
+            "marker_background_hover": "#17324e",
+            "marker_color_hover": "#ffffff",
+            "product": "large-pearly-snow-tree-lgf22572",
+            "image_ratio": "portrait",
+            "position_x": 20,
+            "position_y": 14,
+            "marker_text": "Prodcut"
+          }
+        },
+        "marker_VdwQ3h": {
+          "type": "marker",
+          "settings": {
+            "marker_background": "#f4eee9",
+            "marker_color": "#988c63",
+            "marker_background_hover": "#17324e",
+            "marker_color_hover": "#ffffff",
+            "product": "white-crisscross-lanterns-s-white-w-black-top-mu20576",
+            "image_ratio": "portrait",
+            "position_x": 20,
+            "position_y": 30,
+            "marker_text": "Prodcut"
+          }
+        }
+      },
+      "block_order": [
+        "marker_JtpAt7",
+        "marker_8wtLhH",
+        "marker_VdwQ3h"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "section_stype": "banner",
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/Rectangle_24.png",
+        "banner_ratio": "landscape",
+        "overlay_opacity": 30,
+        "subtitle": "Sub Heading Text",
+        "title": "Title Text",
+        "desc": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
+        "btn_text": "Button Text",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "Button Text",
+        "btn_link_2": "",
+        "heading": "black and white collection",
+        "description": "<p>shop this curated winter porch decor<\/p>",
+        "alignment": "left",
+        "show_secondary_image": true,
+        "show_color_swatch": true,
+        "show_sku": false,
+        "show_vendor": true,
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "banner_color_scheme": "",
+        "banner_image": "shopify:\/\/shop_images\/Rectangle_26.png",
+        "banner_heading": "",
+        "banner_link": "",
+        "banner_description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "l",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "index_section_custom_collection_PyFkjy": {
+      "type": "index-section-custom-collection",
+      "blocks": {
+        "product_NYFBKw": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-1.png",
+            "blk_link": "shopify:\/\/collections\/black-white-christmas-collection",
+            "blk_title": "black & white holiday",
+            "blk_desc": "<p>Create a striking contrast for a modern winter wonderland with a classic color scheme<\/p>",
+            "blk_cta_text": "shop now",
+            "bg_card_color": "#ffffff"
+          }
+        },
+        "product_THDbAH": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-2.png",
+            "blk_link": "shopify:\/\/collections\/silver-holiday-collection",
+            "blk_title": "silver holiday",
+            "blk_desc": "<p>Capture the magic of a frosty winter night with the elegant blend of silver a blue.<\/p>",
+            "blk_cta_text": "shop now",
+            "bg_card_color": "#ffffff"
+          }
+        },
+        "product_AkNYWV": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-3.png",
+            "blk_link": "shopify:\/\/collections\/cranberry-wreath-collection",
+            "blk_title": "cranberry wreath",
+            "blk_desc": "<p>Add cranberry patterns to bring a cozy, classic feel to your Christmas decorations.<\/p>",
+            "blk_cta_text": "shop now",
+            "bg_card_color": "#ffffff"
+          }
+        },
+        "product_8GLDVg": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "blk_img": "shopify:\/\/shop_images\/winter-collection-4.png",
+            "blk_link": "shopify:\/\/collections\/white-spruce-holiday-collection",
+            "blk_title": "white spruce",
+            "blk_desc": "<p>Bring the outdoors inside with this blend of herbaceous pine with perfect detailing.<\/p>",
+            "blk_cta_text": "shop now",
+            "bg_card_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "product_NYFBKw",
+        "product_THDbAH",
+        "product_AkNYWV",
+        "product_8GLDVg"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "winter wonders await",
+        "desc": "<p>festive favs for every home<\/p>",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "product_markers_GXMTYz": {
+      "type": "product-markers",
+      "blocks": {
+        "marker_cJdjaa": {
+          "type": "marker",
+          "settings": {
+            "marker_background": "#f4eee9",
+            "marker_color": "#988c63",
+            "marker_background_hover": "#17324e",
+            "marker_color_hover": "#ffffff",
+            "product": "",
+            "image_ratio": "portrait",
+            "position_x": 11,
+            "position_y": 40,
+            "marker_text": "platter"
+          }
+        },
+        "marker_PPrBVH": {
+          "type": "marker",
+          "settings": {
+            "marker_background": "#f4eee9",
+            "marker_color": "#988c63",
+            "marker_background_hover": "#17324e",
+            "marker_color_hover": "#ffffff",
+            "product": "",
+            "image_ratio": "portrait",
+            "position_x": 30,
+            "position_y": 30,
+            "marker_text": "glass"
+          }
+        },
+        "marker_KXLBLb": {
+          "type": "marker",
+          "settings": {
+            "marker_background": "#f4eee9",
+            "marker_color": "#988c63",
+            "marker_background_hover": "#17324e",
+            "marker_color_hover": "#ffffff",
+            "product": "",
+            "image_ratio": "portrait",
+            "position_x": 55,
+            "position_y": 60,
+            "marker_text": "platter"
+          }
+        }
+      },
+      "block_order": [
+        "marker_cJdjaa",
+        "marker_PPrBVH",
+        "marker_KXLBLb"
+      ],
+      "disabled": true,
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "",
+        "section_stype": "markers",
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/product-marker-ibg.png",
+        "banner_ratio": "landscape",
+        "overlay_opacity": 0,
+        "subtitle": "",
+        "title": "",
+        "desc": "",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "heading": "",
+        "description": "",
+        "alignment": "center",
+        "show_secondary_image": true,
+        "show_color_swatch": true,
+        "show_sku": false,
+        "show_vendor": true,
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "banner_color_scheme": "",
+        "banner_heading": "Banner heading",
+        "banner_link": "",
+        "banner_description": "<p>Banner description<\/p>",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "index_section_multicolumn_jANAWd": {
+      "type": "index-section-multicolumn",
+      "disabled": true,
+      "settings": {
+        "title": "the everyday<br>collection",
+        "subtitle": "introducing your new favorites list",
+        "desc": "<p>Discover our new everyday catalog, brimming with must-have home decor, gifts, and paper goods that will quickly become staples on your shelves all year long.<\/p>",
+        "btn_text": "shop our everyday catalog",
+        "btn_link": "shopify:\/\/collections\/everyday-catalog",
+        "grid_img_1": "shopify:\/\/shop_images\/Untitled_design_18.jpg",
+        "grid_img_2": "shopify:\/\/shop_images\/multicolumn-3.png",
+        "grid_img_3": "shopify:\/\/shop_images\/multicolumn-1.png",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_tabs_XhbWfg": {
+      "type": "index-section-tabs",
+      "blocks": {
+        "product_bzQzAc": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-1.png",
+            "blk_title": "artistry at its finest",
+            "blk_desc": "<p>Our prints and products are created by world-renown artists, ensuring each piece is a work of art that adds elegance and sophistication to your home.<\/p>",
+            "btn_text": "shop artisanal napkins",
+            "btn_link": "shopify:\/\/collections\/napkins"
+          }
+        },
+        "product_HLUN4D": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-2.png",
+            "blk_title": "quality",
+            "blk_desc": "<p>Our napkins are made with luxurious Italian triple-ply paper, and printed in Germany, ensuring high standards of luxury, craftsmanship and precision. Every product is sourced from heavily vetted suppliers that we partner with for years to come. <\/p>",
+            "btn_text": "shop artisanal napkins",
+            "btn_link": "shopify:\/\/collections\/napkins"
+          }
+        },
+        "product_L9JDCk": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-3.png",
+            "blk_title": "vivid & vibrant colors",
+            "blk_desc": "<p>While most napkins are printed using a 4-color press, we use the world’s best 8-color press system. This allows for intricate designs with subtle fading, shadows, superior gradients, and vivid colors that truly pop.<\/p>",
+            "btn_text": "shop artisanal napkins",
+            "btn_link": "shopify:\/\/collections\/napkins"
+          }
+        },
+        "product_z8bB8P": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/artistry-pro-4.png",
+            "blk_title": "eco-friendly & save",
+            "blk_desc": "<p>Our commitment to safety and sustainability is reflected in our FSC certification. We use nontoxic, water-based inks, making our products safe for you and your family while being environmentally friendly.<\/p>",
+            "btn_text": "shop artisanal napkins",
+            "btn_link": "shopify:\/\/collections\/napkins"
+          }
+        }
+      },
+      "block_order": [
+        "product_bzQzAc",
+        "product_HLUN4D",
+        "product_L9JDCk",
+        "product_z8bB8P"
+      ],
+      "settings": {
+        "title": "what makes our<br>products special",
+        "enable_arrow": true,
+        "arrow-prev-image": "shopify:\/\/shop_images\/arrow-white-prev.png",
+        "arrow-next-image": "shopify:\/\/shop_images\/arrow-white-next.png",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#a2ab94",
+        "text_color": "#000000"
+      }
+    },
+    "index_custom_banner_EGeDFC": {
+      "type": "index-custom-banner",
+      "settings": {
+        "background_image_desk": "shopify:\/\/shop_images\/inner-bg-4.png",
+        "background_image_mob": "shopify:\/\/shop_images\/inner-bg-4.png",
+        "banner_height": 100,
+        "tag_list": true,
+        "tag_1": "gold holiday",
+        "tag_2": "collections",
+        "text_alignment": "left",
+        "subtitle": "",
+        "title": "the final touches",
+        "desc": "",
+        "button_white": true,
+        "btn_text": "shop collection",
+        "btn_link": "shopify:\/\/collections\/gold-holiday-collection",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#151f2a",
+        "text_color": "#ffffff",
+        "btn_bg_color": "#f4eee9",
+        "btn_text_color": "#31362a",
+        "btn_border_color": "#f4eee9"
+      }
+    },
+    "index_custom_section_artist_iKuyHE": {
+      "type": "index-custom-section-artist",
+      "blocks": {
+        "product_H8pBCk": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/artist-1.png",
+            "blk_img_2": "shopify:\/\/shop_images\/napkins-2_274b519f-5af2-40a9-8578-b3b4c527e8bd.png",
+            "blk_link": "shopify:\/\/collections\/rosanne-beck",
+            "blk_title": "Rosanne Beck",
+            "blk_desc": "<p>Rosanne Beck blends vibrant, playful colors and themes with sophisticated patterns.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_7aixrB": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/new-artst-1.png",
+            "blk_img_2": "shopify:\/\/shop_images\/23_1fcec00c-937b-4d7f-9e7d-dc8b6ec6be02.jpg",
+            "blk_link": "shopify:\/\/collections\/ihr",
+            "blk_title": "IHR",
+            "blk_desc": "<p>IHR (Ideal Home Range) turns artistic creativity into high-quality home products.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_cENcdi": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/25_931cc4ed-2668-47f9-a4ca-4b203241ae37.png",
+            "blk_img_2": "shopify:\/\/shop_images\/26_25bdab10-ad8a-486b-8423-e24ec513919b.png",
+            "blk_link": "shopify:\/\/collections\/marimekko",
+            "blk_title": "Marimekko",
+            "blk_desc": "<p>Explore the original prints and colors of this renowned Finnish lifestyle design company.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_ghbgxw": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/artist-4.png",
+            "blk_img_2": "shopify:\/\/shop_images\/8_ca54f21c-2dd2-400a-9601-24177bdb8f7c.jpg",
+            "blk_link": "shopify:\/\/collections\/kate-nelligan",
+            "blk_title": "Kate Nelligan",
+            "blk_desc": "<p>Known for her brilliant colors and coastal shapes, Kate's designs make a statement in any room.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_gMj9EY": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/11.jpg",
+            "blk_img_2": "shopify:\/\/shop_images\/12.jpg",
+            "blk_link": "shopify:\/\/collections\/anne-taintor",
+            "blk_title": "Anne Taintor",
+            "blk_desc": "<p>Anne Taintor combines retro imagery with humorous text, bringing a playful and modern twist to everyday products.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_C4m4rn": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/13.jpg",
+            "blk_img_2": "shopify:\/\/shop_images\/14.jpg",
+            "blk_link": "shopify:\/\/products\/tait-henson-angel-evergreens-mxc39635",
+            "blk_title": "The Metropolitan Museum of Art",
+            "blk_desc": "<p>The MET partners with Boston International to share exceptional art, blending prestige with global artistic innovation.<\/p>",
+            "blk_cta_text": "shop"
+          }
+        },
+        "product_mkqGrW": {
+          "type": "product",
+          "settings": {
+            "blk_img_1": "shopify:\/\/shop_images\/3.jpg",
+            "blk_img_2": "shopify:\/\/shop_images\/4.jpg",
+            "blk_link": "shopify:\/\/collections\/mia-charro",
+            "blk_title": "Mia Charro",
+            "blk_desc": "<p>Mia Charro is a Spanish illustrator blending nature, magical realism, and empowering quotes. <\/p>",
+            "blk_cta_text": "shop"
+          }
+        }
+      },
+      "block_order": [
+        "product_H8pBCk",
+        "product_7aixrB",
+        "product_cENcdi",
+        "product_ghbgxw",
+        "product_gMj9EY",
+        "product_C4m4rn",
+        "product_mkqGrW"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "Our world-class artists & partners",
+        "desc": "",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": true,
+        "btn_text_2": "",
+        "btn_link_2": "shopify:\/\/collections",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#ede4dc",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_contact_form_Y7VTmF": {
+      "type": "index-section-contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Spend $1,500, get Net60 terms and a 12% freight cap",
+        "desc": "<p>Join our mailing list to unlock your checkout code<\/p>",
+        "caption": "Must order by Aug 31, 2024. Cannot combine with items from other seasons\/catalogs",
+        "btn_text": "",
+        "btn_link": "",
+        "form-pattren": "shopify:\/\/shop_images\/background-pattner.png",
+        "form_desc": "<p>Join our mailing list to be notified about special wholesale deals<\/p>",
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "1723555369771df03d": {
+      "type": "apps",
+      "blocks": {
+        "essential_grid_gallery_app_block_xJbMVn": {
+          "type": "shopify:\/\/apps\/essential-grid-gallery\/blocks\/app-block\/b252af1e-c43a-4272-b19c-e87bc447c686",
+          "settings": {
+            "eg_grid_metakey": 1,
+            "eg_grid_dynamic_metakey": "",
+            "eg_grid_heading": "",
+            "eg_grid_sub_heading": "",
+            "eg_grid_heading_size": 30,
+            "eg_grid_sub_heading_size": 15,
+            "eg_grid_heading_alignment": "center",
+            "eg_grid_sec_back_color": "",
+            "eg_grid_sec_front_color": "",
+            "eg_grid_sec_sub_heading_color": "",
+            "eg_grid_sec_pad_top": 0,
+            "eg_grid_sec_pad_bot": 0
+          }
+        }
+      },
+      "block_order": [
+        "essential_grid_gallery_app_block_xJbMVn"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "more than just napkins",
+        "desc": "<p>See how just a few of our thousands of customers use our products to celebrate their home.<\/p>",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "include_margins": true,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    },
+    "index_section_newsletter_CK6EMh": {
+      "type": "index-section-newsletter",
+      "disabled": true,
+      "settings": {
+        "title": "Sign up to save 10% off your next order. ",
+        "subtitle": "join our newsletter list for the deals, bundles, & new drops",
+        "desc": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
+        "show_social_media": false,
+        "icon_1": "shopify:\/\/shop_images\/Vector_1.png",
+        "link_1": "",
+        "icon_2": "shopify:\/\/shop_images\/Vector.png",
+        "link_2": "",
+        "icon_3": "shopify:\/\/shop_images\/Vector.png",
+        "link_3": "",
+        "icon_4": "shopify:\/\/shop_images\/Group_1.png",
+        "link_4": "",
+        "btn_text": "Button Text",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "Button Text",
+        "btn_link_2": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "index_custom_banner_mky3CL",
+    "index_section_cta_bar_UjnPGW",
+    "index_section_boston_napkins_rHKVN9",
+    "index_section_about_boston_fd3gwa",
+    "index_custom_banner_3aUi3g",
+    "index_section_product_range_TzJh4f",
+    "index_section_pumpkin_L3eQb8",
+    "index_section_catalog_gfDDCq",
+    "index_section_about_boston_xQe4tg",
+    "index_custom_banner_y4kicR",
+    "product_markers_ggeTnn",
+    "index_section_custom_collection_PyFkjy",
+    "product_markers_GXMTYz",
+    "index_section_multicolumn_jANAWd",
+    "index_section_tabs_XhbWfg",
+    "index_custom_banner_EGeDFC",
+    "index_custom_section_artist_iKuyHE",
+    "index_section_contact_form_Y7VTmF",
+    "1723555369771df03d",
+    "index_section_newsletter_CK6EMh"
+  ]
+}

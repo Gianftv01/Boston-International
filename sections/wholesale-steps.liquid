@@ -1,0 +1,205 @@
+{% schema %}
+{
+	"name": "Wholesale Steps",
+	"settings": [
+		{
+			"type": "text",
+			"id": "heading",
+			"label": "Heading",
+			"default": "How our wholesale program works"
+		},
+		{
+			"type": "textarea",
+			"id": "subheading",
+			"label": "Subheading",
+			"default": "Here's how you can get started"
+		},
+		{
+			"type": "url",
+			"id": "join_link",
+			"label": "Join Now Button Link"
+		},
+		{
+			"type": "text",
+			"id": "step1_title",
+			"label": "Step 1 Title",
+			"default": "Qualification"
+		},
+		{
+			"type": "textarea",
+			"id": "step1_description",
+			"label": "Step 1 Description",
+			"default": "Any retail, purchasing, or merchandising business is eligible for our wholesale program, including:"
+		},
+		{
+			"type": "textarea",
+			"id": "step1_list",
+			"label": "Step 1 List (separated by commas)",
+			"default": "Retail buyers,Purchasing managers,Wholesale managers,Sales representatives,Owners/Proprietors/C-Level Executives,Senior management,Marketing & merchandising professionals"
+		},
+		{
+			"type": "text",
+			"id": "step2_title",
+			"label": "Step 2 Title",
+			"default": "Application"
+		},
+		{
+			"type": "textarea",
+			"id": "step2_description",
+			"label": "Step 2 Description",
+			"default": "Fill out the registration form to join our napkin wholesaler program. You'll need to provide:"
+		},
+		{
+			"type": "textarea",
+			"id": "step2_list",
+			"label": "Step 2 List (separated by commas)",
+			"default": "Your Federal Tax ID number,At least three trade references,One bank reference with complete address and account number"
+		},
+		{
+			"type": "text",
+			"id": "step3_title",
+			"label": "Step 3 Title",
+			"default": "Review"
+		},
+		{
+			"type": "textarea",
+			"id": "step3_description",
+			"label": "Step 3 Description",
+			"default": "Once you submit your application, our sales team will review the details and reply within one business day. You'll gain full access to our exclusive wholesale catalog and begin placing orders upon approval."
+		},
+		{
+			"type": "text",
+			"id": "step4_title",
+			"label": "Step 4 Title",
+			"default": "Start Orders"
+		},
+		{
+			"type": "textarea",
+			"id": "step4_description",
+			"label": "Step 4 Description",
+			"default": "Boston International has a variety of convenient ways to place your wholesale napkin orders:"
+		},
+		{
+			"type": "textarea",
+			"id": "step4_list",
+			"label": "Step 4 List (separated by commas)",
+			"default": "Phone: Call us toll-free at 800.637.5061 between 8:30 AM and 5:00 PM ET,Fax: Transmit your wholesale napkin order via fax at 812-906-9575,Email: Email your order to orders@bostoninternational.com,Mail: Send your order to 8084 W. Beechwood Avenue, French Lick, IN 47432"
+		}
+	],
+	"presets": [
+		{
+			"name": "Wholesale Steps",
+			"category": "Custom Sections"
+		}
+	]
+}
+{% endschema %}
+
+<style>
+	.wholesale-steps {
+		padding: 2em 0;
+		@media screen and (min-width: 1024px) {
+			padding: 4em 0;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			gap: 2em;
+			max-width: 1200px;
+			@media screen and (min-width: 1024px) {
+				flex-direction: row;
+				gap: 5em;
+			}
+			.content {
+				* { margin: 0; }
+				text-align: left;
+				display: flex;
+				flex-direction: column;
+				gap: 1em;
+				align-items: flex-start;
+				@media screen and (min-width: 1024px) {
+					flex: 1;
+				}
+			}
+			aside {
+				display: flex;
+				flex-direction: column;
+				gap: 1em;
+				@media screen and (min-width: 1024px) {
+					flex: 1.5;
+				}
+				.wholesale-step {
+					background: #EDE4DC;
+					padding: 1em;
+					display: flex;
+					flex-direction: column;
+					gap: 1em;
+					align-items: flex-start;
+					span {
+						background: #F4EEE9;
+						display: block;
+						padding: 0.5em;
+						border-radius: 0.5em;
+						font-size: 1.15em;
+						font-family: news-gothic-std, sans-serif;
+					}
+					strong {
+						font-family: news-gothic-std, sans-serif;
+						font-size: 1.15em;
+						font-weight: 300;
+					}
+				}
+			}
+		}
+	}
+</style>
+
+<section class="wholesale-steps">
+	<div class="container">
+		<div class="content">
+			<h2>{{ section.settings.heading }}</h2>
+			<p>{{ section.settings.subheading }}</p>
+			<a href="{{ section.settings.join_link }}" class="btn">Join Now</a>
+		</div>
+		<aside>
+			<div class="wholesale-step">
+				<span>Step 1</span>
+				<strong>{{ section.settings.step1_title }}</strong>
+				<p>{{ section.settings.step1_description }}</p>
+				<ul>
+					{% assign step1_items = section.settings.step1_list | split: ',' %}
+					{% for item in step1_items %}
+					<li>{{ item }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="wholesale-step">
+				<span>Step 2</span>
+				<strong>{{ section.settings.step2_title }}</strong>
+				<p>{{ section.settings.step2_description }}</p>
+				<ul>
+					{% assign step2_items = section.settings.step2_list | split: ',' %}
+					{% for item in step2_items %}
+					<li>{{ item }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="wholesale-step">
+				<span>Step 3</span>
+				<strong>{{ section.settings.step3_title }}</strong>
+				<p>{{ section.settings.step3_description }}</p>
+			</div>
+			<div class="wholesale-step">
+				<span>Step 4</span>
+				<strong>{{ section.settings.step4_title }}</strong>
+				<p>{{ section.settings.step4_description }}</p>
+				<ul>
+					{% assign step4_items = section.settings.step4_list | split: ',' %}
+					{% for item in step4_items %}
+					<li>{{ item }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</aside>
+	</div>
+</section>

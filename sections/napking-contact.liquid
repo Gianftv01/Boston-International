@@ -1,0 +1,153 @@
+{% schema %}
+{
+	"name": "Napkin Contact",
+	"settings": [
+		{
+			"type": "textarea",
+			"id": "contact_text",
+			"label": "Contact Text",
+			"default": "For any questions, please contact our customer service team:"
+		},
+		{
+			"type": "text",
+			"id": "contact_email",
+			"label": "Contact Email",
+			"default": "orders@bostoninternational.com"
+		},
+		{
+			"type": "text",
+			"id": "contact_phone",
+			"label": "Contact Phone",
+			"default": "800.637.5061"
+		},
+		{
+			"type": "url",
+			"id": "link1",
+			"label": "Link 1"
+		},
+		{
+			"type": "image_picker",
+			"id": "image1",
+			"label": "Image 1"
+		},
+		{
+			"type": "url",
+			"id": "link2",
+			"label": "Link 2"
+		},
+		{
+			"type": "image_picker",
+			"id": "image2",
+			"label": "Image 2"
+		},
+		{
+			"type": "url",
+			"id": "link3",
+			"label": "Link 3"
+		},
+		{
+			"type": "image_picker",
+			"id": "image3",
+			"label": "Image 3"
+		}
+	],
+	"presets": [
+		{
+			"name": "Napkin Contact",
+			"category": "Custom Sections"
+		}
+	]
+}
+{% endschema %}
+<style>
+	.napkin-contact {
+		background-color: #737D62;
+		padding: 2em 0;
+		.container {
+			display: flex;
+			flex-direction: column;
+			gap: 2em;
+			@media screen and (min-width: 1024px) {
+				flex-direction: row-reverse;
+				align-items: center;
+			}
+			.content {
+				color: white;
+				@media screen and (min-width: 1024px) {
+					flex: 1;
+				}
+				a {
+					color: white;
+				}
+			}
+			aside {
+				margin: 0;
+				padding: 0;
+				@media screen and (min-width: 1024px) {
+					flex: 1;
+				}
+				ul {
+					display: flex;
+					flex-direction: column;
+					gap: 1em;
+					margin: 0;
+					padding: 0;
+					@media screen and (min-width: 1024px) {
+						flex-direction: row;
+					}
+					li {
+						list-style-type: none;
+						display: flex;
+						flex-direction: column;
+						gap: 0.5em;
+						align-items: flex-end;
+						a {
+							color: white;
+							text-decoration: underline;
+						}
+						a.nc-imagelink {
+							display: block;
+							img {
+								width: 100%;
+								height: auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+</style>
+<section class="napkin-contact">
+	<div class="container">
+		<div class="content">
+			<p>{{ section.settings.contact_text }}</p>
+			<ul>
+				<li><a href="mailto:{{ section.settings.contact_email }}">{{ section.settings.contact_email }}</a></li>
+				<li><a href="tel:{{ section.settings.contact_phone }}">{{ section.settings.contact_phone }}</a></li>
+			</ul>
+		</div>
+		<aside>
+			<ul>
+				<li>
+					<a href="{{ section.settings.link1 }}" class="nc-imagelink">
+						<img src="{{ section.settings.image1 | img_url: 'master' }}">
+					</a>
+					<a href="{{ section.settings.link1 }}">shop</a>
+				</li>
+				<li>
+					<a href="{{ section.settings.link2 }}" class="nc-imagelink">
+						<img src="{{ section.settings.image2 | img_url: 'master' }}">
+					</a>
+					<a href="{{ section.settings.link2 }}">shop</a>
+				</li>
+				<li>
+					<a href="{{ section.settings.link3 }}" class="nc-imagelink">
+						<img src="{{ section.settings.image3 | img_url: 'master' }}">
+					</a>
+					<a href="{{ section.settings.link3 }}">shop</a>
+				</li>
+			</ul>
+		</aside>
+	</div>
+</section>

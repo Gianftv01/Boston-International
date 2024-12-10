@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "image_banner_tLjxCP": {
+      "type": "image-banner",
+      "settings": {
+        "customer_segment": "all",
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "small",
+        "overlay_opacity": 20,
+        "subheading": "boston international's",
+        "heading": "paperware collection",
+        "description": "<p>Our collection offers a wide array of premium napkins, plates, and tabletop essentials that blend design and functionality. Setting the perfect table has never been easier or more inspiring. From elegant patterns to playful prints, each item adds a touch of artistry to your table, making every occasion feel special. <\/p>",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "collection_grid_WfqxF6": {
+      "type": "collection-grid",
+      "blocks": {
+        "categories_7Vwejf": {
+          "type": "categories",
+          "settings": {
+            "collection": "napkins",
+            "collection_image": "shopify:\/\/shop_images\/Untitled_design_16.png",
+            "button_label": "shop now",
+            "button_link": "shopify:\/\/collections\/napkins",
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_8dRpja": {
+          "type": "categories",
+          "settings": {
+            "collection": "paper-plates",
+            "collection_image": "shopify:\/\/shop_images\/believe-img.png",
+            "button_label": "shop now",
+            "button_link": "shopify:\/\/collections\/paper-plates",
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_7naqWn": {
+          "type": "categories",
+          "settings": {
+            "collection": "caddies",
+            "collection_image": "shopify:\/\/shop_images\/592A3941.jpg",
+            "button_label": "shop now",
+            "button_link": "shopify:\/\/collections\/caddies",
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "categories_7Vwejf",
+        "categories_8dRpja",
+        "categories_7naqWn"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "columns": 3,
+        "blocks_spacing": "m",
+        "image_ratio": "portrait",
+        "card_type": "standart",
+        "text_horizontal": "left",
+        "overlay_opacity": 20,
+        "show_collection_desc": true,
+        "show_collection_button": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_tLjxCP",
+    "collection_grid_WfqxF6"
+  ]
+}

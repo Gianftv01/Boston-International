@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-custom",
+      "settings": {
+      }
+    },
+    "cp_section_head_BtLRbC": {
+      "type": "cp-section-head",
+      "blocks": {
+        "form_WdNbxU": {
+          "type": "form",
+          "settings": {
+            "blk_nav": "retail shoppers",
+            "blk_heading": "Contact our retail department",
+            "blk_link": "",
+            "blk_email": "orders@bostoninternational.com",
+            "helium_shortcode": "70tJ5B"
+          }
+        },
+        "form_Rbz7nG": {
+          "type": "form",
+          "settings": {
+            "blk_nav": "wholesale supplier",
+            "blk_heading": "Contact our wholesale team",
+            "blk_link": "#",
+            "blk_email": "orders@bostoninternational.com",
+            "helium_shortcode": "ewtRvQ"
+          }
+        },
+        "form_BBtFL8": {
+          "type": "form",
+          "settings": {
+            "blk_nav": "pr\/media",
+            "blk_heading": "Contact about media inquires",
+            "blk_link": "",
+            "blk_email": "gracie@sqrdmedia.com",
+            "helium_shortcode": "xPtAKq"
+          }
+        }
+      },
+      "block_order": [
+        "form_WdNbxU",
+        "form_Rbz7nG",
+        "form_BBtFL8"
+      ],
+      "settings": {
+        "title": "Contact Us",
+        "desc": "<p>We'd love to hear from you. Which department do you want to reach?<\/p>",
+        "pam_img": "shopify:\/\/shop_images\/contact-us-pg.png",
+        "qoute": "<p>I need to be able to find this text. Wakarimasuka?<\/p>",
+        "background_image_desk": "shopify:\/\/shop_images\/contac-form-pattren.png",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "blk_bg_color": "#ede4dc",
+        "text_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cp_section_head_BtLRbC"
+  ]
+}

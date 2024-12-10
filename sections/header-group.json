@@ -1,0 +1,58 @@
+{
+  "type": "header",
+  "name": "t:sections.header.settings.header-group.label",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "slide_RixzXw": {
+          "type": "slide",
+          "settings": {
+            "text": "<h6>Looking for wholesale pricing?<a href=\"\/pages\/wholesale-login\" title=\"Wholesale Login \/ Create Account\"><span style=\"text-decoration:underline\">Click this link to login\/register for a wholesale account.<\/span><\/a><\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_RixzXw"
+      ],
+      "custom_css": [
+        "h6 {margin-top: 18px;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "full_width": true,
+        "height": 60,
+        "color_scheme": "background-2",
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "button_label_about": "",
+        "button_link_about": ""
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "height": 100,
+        "header_enable_border_bottom": false,
+        "logo": "shopify:\/\/shop_images\/BI_centered_74372023-e96a-411a-90e5-416d7626cbde.png",
+        "logo_width": 160,
+        "header_overlay": false,
+        "menu": "main-menu",
+        "color_scheme": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "sticky_header_type": "on-scroll-up",
+        "logo_position": "left",
+        "enable_search": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

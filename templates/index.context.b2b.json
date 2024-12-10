@@ -1,0 +1,125 @@
+{
+  "parent": "index.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+    "index_section_product_range_kwK3qJ": {
+      "type": "index-section-product-range",
+      "disabled": false,
+      "settings": {
+        "title": "Discover our range of products",
+        "subtitle": "Shop every occasion from gifts to decor",
+        "desc": "<p>Whether you're looking to refresh your stock or add new, on-trend items to your inventory, our extensive library of products provides the perfect pieces to delight your customers and drive sales.<\/p>",
+        "cta_bar": true,
+        "list_item_1": "Napkins",
+        "list_link_1": "\/collections\/napkins",
+        "list_item_2": "Textiles",
+        "list_link_2": "\/collections\/textiles",
+        "list_item_3": "Gifts",
+        "list_link_3": "\/collections\/gifts",
+        "list_item_4": "Kitchen",
+        "list_link_4": "\/collections\/kitchen",
+        "list_item_5": "Personal Care",
+        "list_link_5": "\/collections\/personal-care",
+        "list_item_6": "Garden",
+        "list_link_6": "\/collections\/garden",
+        "list_item_7": "Decor",
+        "list_link_7": "\/collections-decor",
+        "list_item_8": "Greeting Cards",
+        "list_link_8": "\/collections\/greeting-cards",
+        "list_item_9": "Seasonal",
+        "list_link_9": "\/collections\/seasonal",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "bg_color": "#f4eee9",
+        "text_color": "#000000",
+        "cta_bg_color": "#a2ab94",
+        "cta_text_color": "#ffffff",
+        "cta_border_color": "#ffffff"
+      },
+      "blocks": {
+        "content_z9RjrH": {
+          "type": "content",
+          "disabled": false,
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-1.png",
+            "blk_link": ""
+          }
+        },
+        "content_EY7gpy": {
+          "type": "content",
+          "disabled": false,
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-2.png",
+            "blk_link": ""
+          }
+        },
+        "content_yheCeU": {
+          "type": "content",
+          "disabled": false,
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-3.png",
+            "blk_link": ""
+          }
+        },
+        "content_eFbWE3": {
+          "type": "content",
+          "disabled": false,
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-4.png",
+            "blk_link": ""
+          }
+        },
+        "content_c83t6M": {
+          "type": "content",
+          "disabled": false,
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-5.png",
+            "blk_link": ""
+          }
+        },
+        "content_eWXNXG": {
+          "type": "content",
+          "disabled": false,
+          "settings": {
+            "blk_icon": "shopify:\/\/shop_images\/prod-range-6.png",
+            "blk_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_z9RjrH",
+        "content_EY7gpy",
+        "content_yheCeU",
+        "content_eFbWE3",
+        "content_c83t6M",
+        "content_eWXNXG"
+      ]
+    },
+    "index_custom_banner_mky3CL": {
+      "settings": {
+        "title": "Bring the Magic of the <br>holiday to the table"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "index_custom_banner_mky3CL",
+    "index_section_cta_bar_UjnPGW",
+    "index_section_boston_napkins_rHKVN9",
+    "index_section_about_boston_fd3gwa",
+    "index_section_product_range_kwK3qJ",
+    "index_custom_banner_3aUi3g",
+    "index_section_pumpkin_L3eQb8",
+    "index_section_catalog_gfDDCq",
+    "index_custom_banner_y4kicR",
+    "product_markers_ggeTnn",
+    "index_section_custom_collection_PyFkjy",
+    "index_section_tabs_XhbWfg",
+    "index_custom_banner_EGeDFC",
+    "index_section_contact_form_Y7VTmF",
+    "1723555369771df03d",
+    "index_section_newsletter_CK6EMh"
+  ]
+}

@@ -1,0 +1,1321 @@
+{
+  "sections": {
+    "split-screen-slideshow": {
+      "type": "split-screen-slideshow",
+      "blocks": {
+        "slide_d7PRi7": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-1",
+            "image": "shopify:\/\/shop_images\/Filler_Image.png",
+            "subheading": "lorem ipsum",
+            "heading": "Lorem ipsum dolor",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod<\/p>",
+            "slide_index": false,
+            "button_label": "lorem ipsum",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "slide_9teB8e": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-1",
+            "image": "shopify:\/\/shop_images\/Filler_Image.png",
+            "subheading": "Lorem ipsum",
+            "heading": "Lorem ipsum dolor",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod<\/p>",
+            "slide_index": false,
+            "button_label": "lorem ipsum",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "slide_L37qzr": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-1",
+            "image": "shopify:\/\/shop_images\/Filler_Image.png",
+            "subheading": "lorem ipsum",
+            "heading": "Lorem ipsum dolor",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod<\/p>",
+            "slide_index": false,
+            "button_label": "SHOP THE COLLECTION",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "slide_d7PRi7",
+        "slide_9teB8e",
+        "slide_L37qzr"
+      ],
+      "settings": {
+        "sliding_types": "navigation",
+        "image_size": "60",
+        "parallax": true,
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": true,
+        "show_arrows": true,
+        "show_bullets": true,
+        "slideshow_speed": 2,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "margin_top": "no-indent",
+        "margin_bottom": "s"
+      }
+    },
+    "collection_grid_rgP7ck": {
+      "type": "collection-grid",
+      "blocks": {
+        "categories_9cWTJh": {
+          "type": "categories",
+          "settings": {
+            "collection": "napkin-collection",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_KTbHqP": {
+          "type": "categories",
+          "settings": {
+            "collection": "everyday-collection",
+            "button_label": "shop collection",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_nxTrXK": {
+          "type": "categories",
+          "settings": {
+            "collection": "seasonal-collection",
+            "button_label": "shop collection",
+            "button_link": "",
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_Deefmk": {
+          "type": "categories",
+          "settings": {
+            "collection": "home-collection",
+            "button_label": "shop collection",
+            "button_link": "",
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "categories_9cWTJh",
+        "categories_KTbHqP",
+        "categories_nxTrXK",
+        "categories_Deefmk"
+      ],
+      "settings": {
+        "columns": 3,
+        "blocks_spacing": "m",
+        "image_ratio": "portrait",
+        "card_type": "standart",
+        "text_horizontal": "left",
+        "overlay_opacity": 20,
+        "show_collection_desc": true,
+        "show_collection_button": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "brands_7RXHaD": {
+      "type": "brands",
+      "blocks": {
+        "column_KAj8XH": {
+          "type": "column",
+          "settings": {
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_CzxtDG": {
+          "type": "column",
+          "settings": {
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_aeDBGj": {
+          "type": "column",
+          "settings": {
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_DRHG4K": {
+          "type": "column",
+          "settings": {
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_8dw69r": {
+          "type": "column",
+          "settings": {
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_VwLY7K": {
+          "type": "column",
+          "settings": {
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "column_ReDbXq": {
+          "type": "column",
+          "settings": {
+            "image_width": 100,
+            "brand_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KAj8XH",
+        "column_CzxtDG",
+        "column_aeDBGj",
+        "column_DRHG4K",
+        "column_8dw69r",
+        "column_VwLY7K",
+        "column_ReDbXq"
+      ],
+      "settings": {
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "image_banner_nE8Rpb": {
+      "type": "image-banner",
+      "blocks": {
+        "image_aicjKp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Filler_Image.png",
+            "image_ratio": "square",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        },
+        "image_BBTpWc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Filler_Image.png",
+            "image_ratio": "square",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        }
+      },
+      "block_order": [
+        "image_aicjKp",
+        "image_BBTpWc"
+      ],
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "background-1",
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "subheading": "about us",
+        "heading": "lorem ipsum dolor sit amet consectetur",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+        "text_horizontal": "left",
+        "text_vertical": "center",
+        "button_label": "More about us",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "popular-products": {
+      "type": "popular-products",
+      "settings": {
+        "product_list": [
+          "acorn-jar",
+          "product-2",
+          "product-3",
+          "product-4",
+          "product-5"
+        ],
+        "heading": "Shop our best selling products",
+        "description": "<p>Lorem ipsum dolor sit amet consectetur adipiscing elit<\/p>",
+        "alignment": "center",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "slideshow_speed": 0.5,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "l",
+        "padding_bottom": "no-indent",
+        "enable_border_top": true,
+        "enable_border_bottom": false
+      }
+    },
+    "multicolumn_xgVUBt": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_i4UJfx": {
+          "type": "column",
+          "settings": {
+            "text": "1",
+            "heading": "Lorem ipsum dolor",
+            "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "button_label": "Lorem ipsum",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        },
+        "column_cg3dbp": {
+          "type": "column",
+          "settings": {
+            "text": "2",
+            "heading": "Lorem ipsum dolor",
+            "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "button_label": "Lorem ipsum",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        },
+        "column_B3xq8F": {
+          "type": "column",
+          "settings": {
+            "text": "3",
+            "heading": "Lorem ipsum dolor",
+            "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "button_label": "Lorem ipsum",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "column_i4UJfx",
+        "column_cg3dbp",
+        "column_B3xq8F"
+      ],
+      "settings": {
+        "multicolumn_to_show": 3,
+        "horizontal_alignment": "center",
+        "object_fit": "cover",
+        "img_size": "small",
+        "swipe_on_mobile": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "compare_a3kfNU": {
+      "type": "compare",
+      "settings": {
+        "section_type": "simple",
+        "color_scheme": "background-1",
+        "alignment": "center",
+        "subheading": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do",
+        "product": "",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "image_before": "shopify:\/\/shop_images\/Filler_Image.png",
+        "before_heading": "Lorem ipsum",
+        "image_after": "shopify:\/\/shop_images\/FillerImageSecondary.png",
+        "after_heading": "Lorem ipsum",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "banner_XYtLVH": {
+      "type": "banner",
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/Filler_Image.png",
+        "image_size": "small",
+        "overlay_opacity": 20,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "collapsible_content_cyBbfp": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_bjaKet": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What is the minimum order",
+            "text": "<p>We do not have a minimum order. Order what you need, when you need it.<\/p>"
+          }
+        },
+        "text_block_Qg6hTW": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Do you accept returns?",
+            "text": "<p>We stand by our products and we want our customers to purchase our products with confidence. We accept returns only for damaged or defective merchandise, or if we have shipped you the wrong item. Returns are only accepted with authorization from our Customer Service department. However, at the company’s discretion, non-defective merchandise returned for credit will be subject to a 20% restocking fee if a return is authorized for non defective goods. Please note that the customer will be responsible for all freight charges.<\/p>"
+          }
+        },
+        "text_block_GzUB6C": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What sizes do your napkins come in?",
+            "text": "<p>This is the most frequently asked “FAQ”. Almost all napkins come in both luncheon and cocktail sizes. Many of our designs are also available as Guest Towels.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_bjaKet",
+        "text_block_Qg6hTW",
+        "text_block_GzUB6C"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "heading": "Frequently asked questions",
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "countdown": {
+      "type": "countdown",
+      "blocks": {
+        "categories_fwLQJN": {
+          "type": "categories",
+          "settings": {
+            "collection": "collection-1",
+            "show_collection_desc": false,
+            "show_collection_button": true
+          }
+        },
+        "categories_f8YmmB": {
+          "type": "categories",
+          "settings": {
+            "collection": "collection-2",
+            "show_collection_desc": false,
+            "show_collection_button": true
+          }
+        },
+        "categories_UGaJwM": {
+          "type": "categories",
+          "settings": {
+            "collection": "collection-3",
+            "show_collection_desc": false,
+            "show_collection_button": true
+          }
+        }
+      },
+      "block_order": [
+        "categories_fwLQJN",
+        "categories_f8YmmB",
+        "categories_UGaJwM"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/Filler_Image.png",
+        "subheading": "Lorem ipsum",
+        "heading": "Lorem ipsum dolor sit amet",
+        "text_horizontal": "left",
+        "button_label": "Lorem ipsum dolor sit amet",
+        "button_link": "",
+        "button_style": "primary",
+        "overlay_opacity": 0,
+        "time_zone": 0,
+        "date_picker": "2024-08-31",
+        "time_picker": "00:00",
+        "heading_size": "large",
+        "completed_countdown": "hide_section",
+        "countdown_heading": "Header after countdown",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "l",
+        "padding_bottom": "l",
+        "enable_border_top": true,
+        "enable_border_bottom": true
+      }
+    },
+    "contact_form_biwNFR": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "We're Here to Help!",
+        "text": "<p>Lorem ipsum dolor sit amet consectetur<\/p>",
+        "color_scheme": "background-1",
+        "form_heading": "",
+        "form_desc": "<p> <\/p>",
+        "additional_text": "<p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit<\/p>",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "collection_grid_HWn4Jh": {
+      "type": "collection-grid",
+      "blocks": {
+        "categories_KdjYR7": {
+          "type": "categories",
+          "settings": {
+            "collection": "catalog-2024",
+            "button_label": "view catalog",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_jB8Feb": {
+          "type": "categories",
+          "settings": {
+            "collection": "catalog-2-2024",
+            "button_label": "shop collection",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_mr4Dzm": {
+          "type": "categories",
+          "settings": {
+            "collection": "catalog-3-2024",
+            "button_label": "Button label",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_Ybaeig": {
+          "type": "categories",
+          "settings": {
+            "collection": "catalog-4-2024",
+            "button_label": "shop collection",
+            "button_link": "",
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_Qq8g6d": {
+          "type": "categories",
+          "settings": {
+            "collection": "catalog-5-2024",
+            "button_label": "shop collection",
+            "button_link": "",
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_xcXebx": {
+          "type": "categories",
+          "settings": {
+            "collection": "catalog-6-2024",
+            "button_label": "Button label",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "categories_KdjYR7",
+        "categories_jB8Feb",
+        "categories_mr4Dzm",
+        "categories_Ybaeig",
+        "categories_Qq8g6d",
+        "categories_xcXebx"
+      ],
+      "settings": {
+        "columns": 3,
+        "blocks_spacing": "m",
+        "image_ratio": "portrait",
+        "card_type": "standart",
+        "text_horizontal": "left",
+        "overlay_opacity": 0,
+        "show_collection_desc": true,
+        "show_collection_button": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "split_screen_slideshow_Ci7P7t": {
+      "type": "split-screen-slideshow",
+      "blocks": {
+        "slide_zrypCX": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-1",
+            "image": "shopify:\/\/shop_images\/592A0887SM.jpg",
+            "subheading": "a fabulous fall",
+            "heading": "host a beautiful table",
+            "text": "<p>Napkins, tableware and decor<\/p>",
+            "slide_index": false,
+            "button_label": "shop fall collection",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "slide_CddRgM": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-1",
+            "image": "shopify:\/\/shop_images\/592A0235-SM.jpg",
+            "subheading": "A Fabulous Fall",
+            "heading": "Pumpkins of all kinds",
+            "text": "<p>Decorative, serving or outdoor<\/p>",
+            "slide_index": false,
+            "button_label": "SHOP ALL PUMPKINS",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "slide_gU3nbV": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-1",
+            "image": "shopify:\/\/shop_images\/592A0644SM.jpg",
+            "subheading": "A Fabulous Fall",
+            "heading": "Fall table decor",
+            "text": "<p>Napkins, tableware, platters and decor<\/p>",
+            "slide_index": false,
+            "button_label": "SHOP THE COLLECTION",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "slide_zrypCX",
+        "slide_CddRgM",
+        "slide_gU3nbV"
+      ],
+      "disabled": true,
+      "settings": {
+        "sliding_types": "navigation",
+        "image_size": "60",
+        "parallax": true,
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": true,
+        "show_arrows": true,
+        "show_bullets": true,
+        "slideshow_speed": 2,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "margin_top": "no-indent",
+        "margin_bottom": "s"
+      }
+    },
+    "countdown_ThhNhf": {
+      "type": "countdown",
+      "blocks": {
+        "categories_b4mkpb": {
+          "type": "categories",
+          "settings": {
+            "collection": "red-white-holiday",
+            "show_collection_desc": false,
+            "show_collection_button": true
+          }
+        },
+        "categories_gqFnHY": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "show_collection_desc": false,
+            "show_collection_button": true
+          }
+        },
+        "categories_KqMgzM": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "show_collection_desc": false,
+            "show_collection_button": true
+          }
+        }
+      },
+      "block_order": [
+        "categories_b4mkpb",
+        "categories_gqFnHY",
+        "categories_KqMgzM"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/592A5254SM.jpg",
+        "subheading": "Coming next",
+        "heading": "Christmas is around the corner",
+        "text_horizontal": "left",
+        "button_label": "Sign up to find out first",
+        "button_link": "",
+        "button_style": "primary",
+        "overlay_opacity": 0,
+        "time_zone": 0,
+        "date_picker": "2024-08-31",
+        "time_picker": "00:00",
+        "heading_size": "large",
+        "completed_countdown": "hide_section",
+        "countdown_heading": "Header after countdown",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "l",
+        "padding_bottom": "l",
+        "enable_border_top": true,
+        "enable_border_bottom": true
+      }
+    },
+    "compare_3wAm7m": {
+      "type": "compare",
+      "disabled": true,
+      "settings": {
+        "section_type": "simple",
+        "color_scheme": "background-1",
+        "alignment": "center",
+        "subheading": "Dreamy",
+        "heading": "The perfect porch",
+        "description": "Cohesive down to every last detail",
+        "product": "",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "image_before": "shopify:\/\/shop_images\/592A0906SM_da787a2c-e293-402b-8529-50d19117b0ff.jpg",
+        "before_heading": "Curb appeal",
+        "image_after": "shopify:\/\/shop_images\/592A0970SM_c38b281d-b125-43c3-81ed-49e9c58763be.jpg",
+        "after_heading": "Every detail",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "split_screen_slideshow_qPMB9b": {
+      "type": "split-screen-slideshow",
+      "blocks": {
+        "slide_7TJWYE": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/592A0463SM.jpg",
+            "subheading": "Halloween",
+            "heading": "Explore a timeless Halloween in black and white",
+            "text": "<p>Trendy bufflo check accents<\/p>",
+            "slide_index": true,
+            "button_label": "Shop this collection",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "slide_eiMj8p": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-1",
+            "subheading": "Subheading",
+            "heading": "Slide Heading",
+            "text": "<p>Text from here describes your slide<\/p>",
+            "slide_index": true,
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        },
+        "slide_T4cUAE": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/592A0506SM.jpg",
+            "subheading": "Halloween",
+            "heading": "The perfect porch",
+            "text": "",
+            "slide_index": true,
+            "button_label": "Shop this collection",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        },
+        "slide_UEdqBN": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/592A0564_SM.jpg",
+            "subheading": "Halloween",
+            "heading": "Kitchen accents without the spooky",
+            "text": "",
+            "slide_index": true,
+            "button_label": "Shop this collection",
+            "button_link": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "slide_7TJWYE",
+        "slide_eiMj8p",
+        "slide_T4cUAE",
+        "slide_UEdqBN"
+      ],
+      "disabled": true,
+      "settings": {
+        "sliding_types": "navigation",
+        "image_size": "75",
+        "parallax": false,
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": true,
+        "show_arrows": true,
+        "show_bullets": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "fade",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_item-3": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/592A0887SM.jpg",
+            "color_scheme": "background-2",
+            "overlay_opacity": 0,
+            "heading": "Host a beautiful table",
+            "text": "<p>Napkins, tableware and decor<\/p>",
+            "button_label": "Shop fall collection",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "article": ""
+          }
+        },
+        "slideshow_item-1": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/592A0235-SM.jpg",
+            "color_scheme": "",
+            "overlay_opacity": 46,
+            "heading": "Pumpkins of all kinds",
+            "text": "<p>Decorative, serving or outdoor<\/p>",
+            "button_label": "Shop all pumpkins",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "article": ""
+          }
+        },
+        "slideshow_item_RwaKxd": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/592A1371SM.jpg",
+            "color_scheme": "background-1",
+            "overlay_opacity": 20,
+            "heading": "Add that special something to your table",
+            "text": "<p>Unique serving ware<\/p>",
+            "button_label": "Shop all fall table",
+            "button_link": "",
+            "second_button_label": "Button label",
+            "second_button_link": "",
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_item-3",
+        "slideshow_item-1",
+        "slideshow_item_RwaKxd"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "container",
+        "section_alignment": "center",
+        "vertical_alignment": "center",
+        "text_animation": true,
+        "image_size": "21\/9",
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "show_bullets": true,
+        "parallax": false,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "image_banner_Xg9VdE": {
+      "type": "image-banner",
+      "blocks": {
+        "image_JqWA3X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/592A0235-SM.jpg",
+            "image_ratio": "square",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "scale"
+          }
+        }
+      },
+      "block_order": [
+        "image_JqWA3X"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "subheading": "Fall has arrived",
+        "heading": "Pumpkins of all kinds",
+        "description": "<p>Decorative, serving or outdoor<\/p><p><\/p>",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "Shop all pumpkins",
+        "button_link": "",
+        "button_style": "primary",
+        "margin_top": "no-indent",
+        "margin_bottom": "s",
+        "padding_top": "l",
+        "padding_bottom": "s",
+        "enable_border_top": true,
+        "enable_border_bottom": false
+      }
+    },
+    "blog-post": {
+      "type": "blog-post",
+      "disabled": true,
+      "settings": {
+        "posts_count": 4,
+        "per_row": 4,
+        "heading": "Heading",
+        "heading_position": "center",
+        "button_label": "Button label",
+        "button_link": "",
+        "blog": "",
+        "text_horizontal": "center",
+        "show_image": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": false,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "popular_products_zKXyP4": {
+      "type": "popular-products",
+      "disabled": true,
+      "settings": {
+        "product_list": [
+          "acorn-jar",
+          "acorn-napkin",
+          "pumpkin-salt-and-pepper-shakers",
+          "pumpkin-serving-platter",
+          "leaf-platter",
+          "velvet-pumpkins"
+        ],
+        "heading": "Shop our most popular fall favorites",
+        "description": "<p>The perfect details for every shopper<\/p>",
+        "alignment": "center",
+        "autoplay": true,
+        "stop_autoplay": true,
+        "slideshow_speed": 0.5,
+        "slideshow_delay": 3,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_secondary_image": true,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "l",
+        "padding_bottom": "no-indent",
+        "enable_border_top": true,
+        "enable_border_bottom": false
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "image_cFYD4j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/592A0887SM.jpg",
+            "image_ratio": "square",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        }
+      },
+      "block_order": [
+        "image_cFYD4j"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "subheading": "Fall has arrived",
+        "heading": "Host a beautiful table",
+        "description": "<p>Napkins, tableware and decor<\/p><p><\/p>",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "Shop fall collection",
+        "button_link": "",
+        "button_style": "primary",
+        "margin_top": "no-indent",
+        "margin_bottom": "s",
+        "padding_top": "l",
+        "padding_bottom": "s",
+        "enable_border_top": true,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_zJQyM8": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_cA334r": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "We're so excited to meet you",
+            "animation": true
+          }
+        },
+        "heading_aNQ47t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Boston International",
+            "heading_size": "h2"
+          }
+        },
+        "text_zKJ6fJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boston International is a woman-owned, design-drivencompany that has been a leader in the gift industry since 1986. We continue to enjoy this long standing relationship today, and that of our other prestigious “partners” such as Santoro Graphics from Great Britain, and The Metropolitan Museum of Art in New York City.<br\/><br\/>In 2013, with new owners and a new management team in place, BI launched its' own brand of giftware and increased dynamic partnerships with artists including - The Rosanne Beck Collection, Marimekko, and Anne Taintor - to name a few.We are deeply committed to growing the company’s partnerships with vendors and retailers to develop innovative products of superior quality that celebrate the home. <\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "medium",
+            "text_horizontal": "left"
+          }
+        },
+        "button_RWFfPj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more about us",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cA334r",
+        "heading_aNQ47t",
+        "text_zKJ6fJ",
+        "button_RWFfPj"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "l",
+        "padding_bottom": "s",
+        "enable_border_top": true,
+        "enable_border_bottom": false
+      }
+    },
+    "product_slider_izaXF6": {
+      "type": "product-slider",
+      "blocks": {
+        "product_slider_carousel_EhVfYG": {
+          "type": "product-slider_carousel",
+          "settings": {
+            "product": "black-white-check-bowks-set-of-3",
+            "image_show": true,
+            "image": "shopify:\/\/shop_images\/592A0463SM.jpg",
+            "image2": "shopify:\/\/shop_images\/buffalo_check_pattern.jpg"
+          }
+        },
+        "product_slider_carousel_gaDJCQ": {
+          "type": "product-slider_carousel",
+          "settings": {
+            "product": "b-w-check-platter",
+            "image_show": true,
+            "image": "shopify:\/\/shop_images\/592A0564_SM.jpg"
+          }
+        },
+        "product_slider_carousel_ViVYxU": {
+          "type": "product-slider_carousel",
+          "settings": {
+            "product": "black-white-check-bowl-spreader-set",
+            "image_show": true,
+            "image": "shopify:\/\/shop_images\/592A0511SM.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "product_slider_carousel_EhVfYG",
+        "product_slider_carousel_gaDJCQ",
+        "product_slider_carousel_ViVYxU"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "heading_slider": "Shop by collection",
+        "row-reverse": "row",
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_secondary_image": false,
+        "show_sku": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "show_desc": false,
+        "is_autoplay": true,
+        "is_hover_stop_autoplay": false,
+        "fade_effect": true,
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
+    "product_markers_jaTUAD": {
+      "type": "product-markers",
+      "blocks": {
+        "marker_4eHGXN": {
+          "type": "marker",
+          "settings": {
+            "marker_background": "#f4eee9",
+            "marker_color": "#988c63",
+            "marker_background_hover": "#17324e",
+            "marker_color_hover": "#ffffff",
+            "product": "",
+            "image_ratio": "portrait",
+            "position_x": 20,
+            "position_y": 30
+          }
+        },
+        "marker_dY49TK": {
+          "type": "marker",
+          "settings": {
+            "marker_background": "#f4eee9",
+            "marker_color": "#988c63",
+            "marker_background_hover": "#17324e",
+            "marker_color_hover": "#ffffff",
+            "product": "",
+            "image_ratio": "portrait",
+            "position_x": 40,
+            "position_y": 50
+          }
+        },
+        "marker_mBNkFy": {
+          "type": "marker",
+          "settings": {
+            "marker_background": "#f4eee9",
+            "marker_color": "#988c63",
+            "marker_background_hover": "#17324e",
+            "marker_color_hover": "#ffffff",
+            "product": "",
+            "image_ratio": "portrait",
+            "position_x": 70,
+            "position_y": 53
+          }
+        }
+      },
+      "block_order": [
+        "marker_4eHGXN",
+        "marker_dY49TK",
+        "marker_mBNkFy"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "section_stype": "markers",
+        "image": "shopify:\/\/shop_images\/592A1278SM.jpg",
+        "banner_ratio": "landscape",
+        "overlay_opacity": 0,
+        "heading": "Find an full look that you love",
+        "description": "<p>Or pick your one special piece<\/p>",
+        "alignment": "center",
+        "show_secondary_image": true,
+        "show_color_swatch": true,
+        "show_sku": false,
+        "show_vendor": true,
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style": "primary",
+        "button_arrow": true,
+        "banner_color_scheme": "",
+        "banner_heading": "Banner heading",
+        "banner_link": "",
+        "banner_description": "<p>Banner description<\/p>",
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "collection-grid": {
+      "type": "collection-grid",
+      "blocks": {
+        "categories-1": {
+          "type": "categories",
+          "settings": {
+            "collection": "fall-table-decor",
+            "collection_image": "shopify:\/\/shop_images\/592A0644SM.jpg",
+            "button_label": "Shop collection",
+            "button_link": "",
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories_iDKyTh": {
+          "type": "categories",
+          "settings": {
+            "collection": "fall-napkins",
+            "button_label": "Shop collection",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 7,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories-2": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        },
+        "categories-3": {
+          "type": "categories",
+          "settings": {
+            "collection": "",
+            "button_label": "Button label",
+            "button_link": "",
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset"
+          }
+        }
+      },
+      "block_order": [
+        "categories-1",
+        "categories_iDKyTh",
+        "categories-2",
+        "categories-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns": 3,
+        "blocks_spacing": "s",
+        "image_ratio": "portrait",
+        "card_type": "standart",
+        "text_horizontal": "left",
+        "overlay_opacity": 59,
+        "show_collection_desc": true,
+        "show_collection_button": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    }
+  },
+  "order": [
+    "split-screen-slideshow",
+    "collection_grid_rgP7ck",
+    "brands_7RXHaD",
+    "image_banner_nE8Rpb",
+    "popular-products",
+    "multicolumn_xgVUBt",
+    "compare_a3kfNU",
+    "banner_XYtLVH",
+    "collapsible_content_cyBbfp",
+    "countdown",
+    "contact_form_biwNFR",
+    "collection_grid_HWn4Jh",
+    "split_screen_slideshow_Ci7P7t",
+    "countdown_ThhNhf",
+    "compare_3wAm7m",
+    "split_screen_slideshow_qPMB9b",
+    "slideshow",
+    "image_banner_Xg9VdE",
+    "blog-post",
+    "popular_products_zKXyP4",
+    "image-banner",
+    "rich_text_zJQyM8",
+    "product_slider_izaXF6",
+    "product_markers_jaTUAD",
+    "collection-grid"
+  ]
+}

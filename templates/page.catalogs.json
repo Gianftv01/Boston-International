@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "hero_banner_rXe6K4": {
+      "type": "hero-banner",
+      "disabled": true,
+      "settings": {
+        "customer_segment": "all",
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "image_logo": "shopify:\/\/shop_images\/FillerImage.png",
+        "logo_margin": 0,
+        "enabel_animation": true,
+        "object_fit": "cover",
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
+    },
+    "index_section_catalog_hxacEj": {
+      "type": "index-section-catalog",
+      "blocks": {
+        "product_6gVtph": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/catalog-1.jpg",
+            "blk_link": "shopify:\/\/collections\/spring-catalog-2025",
+            "blk_title": "spring 2025 catalog",
+            "blk_desc": "<p>Browse our handpicked floral treasures that bring spring's cheer and vibrance into any space or occasion.<\/p>",
+            "blk_cta_text": "shop catalog"
+          }
+        },
+        "product_CHbJa8": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/catalog-2.png",
+            "blk_link": "shopify:\/\/collections\/holiday-catalog-2024",
+            "blk_title": "holiday 2024",
+            "blk_desc": "<p>Cozy up with our holiday 2024 catalog that's brimming with sparkle and charm for every festive celebration.<\/p>",
+            "blk_cta_text": "shop catalog"
+          }
+        },
+        "product_YtNzqx": {
+          "type": "product",
+          "settings": {
+            "blk_img": "shopify:\/\/shop_images\/catalog-3.png",
+            "blk_link": "shopify:\/\/collections\/fall-catalog-2024",
+            "blk_title": "fall 2024",
+            "blk_desc": "<p>Fall in love with our autumn-themed catalog, packed with stylish essentials that capture the beauty of the season.<\/p>",
+            "blk_cta_text": "shop catalog"
+          }
+        }
+      },
+      "block_order": [
+        "product_6gVtph",
+        "product_CHbJa8",
+        "product_YtNzqx"
+      ],
+      "custom_css": [
+        "#catalog .catalog-blk .blk-content .cta-style {font-size: 1em; color: #ffffff; background-color:rgb(162 171 148); padding-right:30px; padding-left:30px; padding-top:20px; padding-bottom:20px;}"
+      ],
+      "settings": {
+        "subtitle": "boston international's catalogs",
+        "title": "shop by catalog",
+        "desc": "<p>Discover our extensive range of products by clicking on the catalog below.<\/p>",
+        "btn_text": "",
+        "btn_link": "",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#ede4dc",
+        "text_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_banner_rXe6K4",
+    "index_section_catalog_hxacEj"
+  ]
+}

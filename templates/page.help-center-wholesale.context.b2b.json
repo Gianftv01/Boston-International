@@ -1,0 +1,15 @@
+{
+  "parent": "page.help-center-wholesale.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+    "rich_text_fhmin9": {
+      "custom_css": [
+        ".button {font-size: 1em;}"
+      ],
+      "settings": {},
+      "blocks": {}
+    }
+  }
+}

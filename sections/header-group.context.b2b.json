@@ -1,0 +1,28 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+    "announcement-bar": {
+      "custom_css": [
+        "h5 {margin-top: 18px;}"
+      ],
+      "settings": {
+        "height": 55,
+        "color_scheme": "background-2",
+        "is_autoplay": false,
+        "button_label_about": "",
+        "button_link_about": ""
+      },
+      "blocks": {
+        "slide_RixzXw": {
+          "settings": {
+            "text": "<h5>you are currently signed-in as a wholesaler. <\/h5>",
+            "image": "shopify:\/\/shop_images\/Untitled_design_27.png"
+          }
+        }
+      }
+    }
+  }
+}

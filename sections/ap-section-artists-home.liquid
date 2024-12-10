@@ -1,0 +1,133 @@
+{%- style -%}
+  .{{ section.id }}-padding{
+    padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  @media screen and (max-width: 991px) {
+    .{{ section.id }}-padding{
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section id="artists-home" style="background-color: {{ section.settings.bg_color }}; color:{{ section.settings.text_color }}">
+  <div class="wrapper">
+    {% if section.settings.about_img != blank %}
+      <div class="meida-holder">
+        <img src="{{ section.settings.about_img | image_url }}" loading="lazy">
+      </div>
+    {% endif %}
+    <div class="content {{ section.id }}-padding">
+      {% if section.settings.logo_img != blank %}
+        <img src="{{ section.settings.logo_img | image_url }}" loading="lazy">
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <h1 class="heading">{{ section.settings.title }}</h1>
+      {% endif %}
+      {% if section.settings.desc != blank %}
+        {{ section.settings.desc }}
+      {% endif %}
+      {% if section.settings.btn_text != blank %}
+        <a href="{{ section.settings.btn_link }}" class="btn">{{ section.settings.btn_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "About Page Head",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "about_img",
+      "label": "Add Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_img",
+      "label": "Add Logo Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Enter Title Here",
+      "default": "Title Text"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label": "Enter Description Here",
+      "default": "<p>Art has the power to change both a place and the people who inhabit it.</p>"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Add Button Text",
+      "default": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "Add Button link"
+    },
+    {
+      "type": "richtext",
+      "id": "product_blk-desc",
+      "label": "Product Block Description",
+      "default": "<p>At Boston International, we believe that the changing seasons bring opportunities to infuse your home with warmth, style, and sophistication.</p>"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Add Section Paading Top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Add Section Padding Bottom",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ede4dc"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "blk_bg_color",
+      "label": "Product Block Background Color",
+      "default": "#a2ab94"
+    },
+    {
+      "type": "color",
+      "id": "blk_text_color",
+      "label": "Product Block Text Color",
+      "default": "#fff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "About Page Head"
+    }
+  ]
+}
+{% endschema %}

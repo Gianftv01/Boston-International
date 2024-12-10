@@ -1,0 +1,306 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "hero_banner_gEHycc": {
+      "type": "hero-banner",
+      "settings": {
+        "customer_segment": "all",
+        "image": "shopify:\/\/shop_images\/product-marker-ibg.png",
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "logo_margin": 0,
+        "enabel_animation": true,
+        "object_fit": "cover",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_banner_q68ppL": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "customer_segment": "all",
+        "hide_mobile_image": true,
+        "full_width": false,
+        "color_scheme": "",
+        "image_size": "small",
+        "overlay_opacity": 20,
+        "subheading": "",
+        "heading": "Thank you for your interest in Boston International!",
+        "description": "<p>Boston International is a trend-setting company that imports and distributes high quality gift and home décor items from many sources around the world, and we're looking for talented go-getters. Boston International is an equal employment opportunity\/affirmative action employer committed to hiring a diverse workforce.<\/p>",
+        "text_horizontal": "left",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "http:\/\/www.indeed.com\/cmp\/Boston-International,-Inc.",
+        "button_style": "primary",
+        "margin_top": "no-indent",
+        "margin_bottom": "m",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_xNnLKD": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "customer_segment": "all",
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "background-2",
+        "image_size": "small",
+        "overlay_opacity": 20,
+        "subheading": "",
+        "heading": "Our philosophy is simple",
+        "description": "<p>Provide outstanding service to our customers and sales representatives who work hard to sell our beautiful products, and more importantly, create a work environment where individuals are respected, recognized, rewarded, and safe.<\/p>",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "current job postings",
+        "button_link": "http:\/\/www.indeed.com\/cmp\/Boston-International,-Inc.",
+        "button_style": "primary",
+        "margin_top": "no-indent",
+        "margin_bottom": "m",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_GpNEEj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fq8Jyh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Thank you for your interest in Boston International!",
+            "heading_size": "h2"
+          }
+        },
+        "text_V4MzXn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boston International is a trend-setting company that imports and distributes high quality gift and home décor items from many sources around the world, and we're looking for talented go-getters. <\/p>",
+            "text_color": "body",
+            "text_size": "large",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "text_Khgdym": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Boston International is an equal employment opportunity\/affirmative action employer committed to hiring a diverse workforce.<\/em><\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fq8Jyh",
+        "text_V4MzXn",
+        "text_Khgdym"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "background-2",
+        "full_width": false,
+        "content_horizontal": "center",
+        "margin_top": "s",
+        "margin_bottom": "s",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_NW33ng": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yAYfKK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our philosophy is simple.",
+            "heading_size": "h2"
+          }
+        },
+        "text_zf9AEk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Provide outstanding service to our customers and sales representatives who work hard to sell our beautiful products, and more importantly, create a work environment where individuals are respected, recognized, rewarded, and safe.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "medium",
+            "text_horizontal": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yAYfKK",
+        "text_zf9AEk"
+      ],
+      "disabled": true,
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "background-2",
+        "full_width": false,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "multicolumn_N4FYVm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yBzNJC": {
+          "type": "column",
+          "settings": {
+            "text": "current job postings",
+            "heading": "",
+            "desc": "<p>Click the link below to see our current job postings and get started on submitting your application!<\/p>",
+            "button_label": "open positions",
+            "button_link": "http:\/\/www.indeed.com\/cmp\/Boston-International,-Inc.",
+            "button_style": "tertiary"
+          }
+        },
+        "column_UMwJmT": {
+          "type": "column",
+          "settings": {
+            "text": "download application",
+            "heading": "",
+            "desc": "<p>Click the link below to download an application form to bring to our office in-person.<\/p>",
+            "button_label": "download application",
+            "button_link": "https:\/\/na4.documents.adobe.com\/public\/esignWidget?wid=CBFCIBAA3AAABLblqZhB-ZDmwAdR1nVT-adnxyblG6FbOY_yU2wcur_0uGF0Lb8JBSOLBQ3GQHPcnUL9VUAU*",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "column_yBzNJC",
+        "column_UMwJmT"
+      ],
+      "custom_css": [
+        ".button {font-size:1em;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "multicolumn_to_show": 2,
+        "horizontal_alignment": "center",
+        "object_fit": "cover",
+        "img_size": "small",
+        "swipe_on_mobile": true,
+        "margin_top": "l",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_8Fjp6Q": {
+      "type": "rich-text",
+      "blocks": {
+        "text_F4gKp3": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Please email your application to Human Resources or drop it off at our office:<\/h3>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "text_bneh7Y": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Boston International 8084 W. Beechwood Avenue, French Lick, IN 47432<\/h5><ul><li><h5>(812) 906-9601 <\/h5><\/li><li><h5> FAX (812) 906-9575<\/h5><\/li><\/ul><h5>Human Resources: hhunter@bostoninternational.com<\/h5>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "left"
+          }
+        }
+      },
+      "block_order": [
+        "text_F4gKp3",
+        "text_bneh7Y"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "m",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_AyGPM6": {
+      "type": "image-banner",
+      "blocks": {
+        "image_CCaYgt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/artistry-pro-3.png",
+            "image_ratio": "landscape",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "scale"
+          }
+        }
+      },
+      "block_order": [
+        "image_CCaYgt"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "background-1",
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "subheading": "",
+        "heading": "Our philosophy is simple.",
+        "description": "<p>Provide outstanding service to our customers and sales representatives who work hard to sell our beautiful products, and more importantly, create a work environment where individuals are respected, recognized, rewarded, and safe.<\/p>",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_banner_gEHycc",
+    "image_banner_q68ppL",
+    "image_banner_xNnLKD",
+    "rich_text_GpNEEj",
+    "rich_text_NW33ng",
+    "multicolumn_N4FYVm",
+    "rich_text_8Fjp6Q",
+    "image_banner_AyGPM6"
+  ]
+}

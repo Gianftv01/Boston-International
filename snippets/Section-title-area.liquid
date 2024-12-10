@@ -1,0 +1,21 @@
+<div class="title-area">
+    {% if section.settings.subtitle != blank %}
+      <h4 class="subheading">{{ section.settings.subtitle }}</h4>
+    {% endif %}
+    {% if section.settings.title != blank %}
+      <h1 class="heading">{{ section.settings.title }}</h1>
+    {% endif %}
+    {% if section.settings.desc != blank %}
+      {{ section.settings.desc }}
+    {% endif %}
+    {% if section.settings.btn_text != blank or section.settings.btn_text_2 != blank  %}
+    <div class="btn-blk">
+      {% if section.settings.btn_text != blank %}
+        <a href="{{ section.settings.btn_link }}" class="btn">{{ section.settings.btn_text }}</a>
+      {% endif %}
+      {% if section.settings.btn_text_2 != blank %}
+        <a href="{{ section.settings.btn_link_2 }}" class="btn {% if section.settings.button_white != blank %}btn-white{% endif %}">{{ section.settings.btn_text_2 }}</a>
+      {% endif %}
+    </div>
+    {% endif %}
+</div>

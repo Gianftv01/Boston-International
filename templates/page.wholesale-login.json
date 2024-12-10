@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "index_section_catalog_9DNTQY": {
+      "type": "index-section-catalog",
+      "custom_css": [
+        "section {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0874\/7388\/1387\/files\/f4eee9.jpg?v=1728333790); background-size: cover; background-position: center center; margin-bottom: -50px;}"
+      ],
+      "settings": {
+        "subtitle": "welcome to boston international's",
+        "title": "Wholesale program",
+        "desc": "<p>Our wholesale program is designed to make your purchasing decisions seamless and to celebrate homes around the world.<\/p>",
+        "btn_text": "",
+        "btn_link": "https:\/\/account.bostoninternational.com\/",
+        "button_white": false,
+        "btn_text_2": "",
+        "btn_link_2": "shopify:\/\/pages\/wholesale-program",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "bg_color": "#f4eee9",
+        "text_color": "#ffffff"
+      }
+    },
+    "multicolumn_JmXzqf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6pHeeq": {
+          "type": "column",
+          "settings": {
+            "text": "returning customers",
+            "heading": "login here",
+            "desc": "<p>Log in to access your account, track orders, and enjoy a personalized shopping experience. <\/p>",
+            "button_label": "login now",
+            "button_link": "https:\/\/account.bostoninternational.com\/",
+            "button_style": "tertiary"
+          }
+        },
+        "column_CH9rQF": {
+          "type": "column",
+          "settings": {
+            "text": "new here?",
+            "heading": "register for an account",
+            "desc": "<p>Register for an wholesale account to view wholesale pricing, products, and offers exclusive for our approved partners!<\/p>",
+            "button_label": "register now",
+            "button_link": "shopify:\/\/pages\/wholesale-registration",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "column_6pHeeq",
+        "column_CH9rQF"
+      ],
+      "custom_css": [
+        ".button {font-size: 1em;}"
+      ],
+      "settings": {
+        "customer_segment": "all",
+        "multicolumn_to_show": 2,
+        "horizontal_alignment": "center",
+        "object_fit": "cover",
+        "img_size": "small",
+        "swipe_on_mobile": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "m",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "index_section_catalog_9DNTQY",
+    "multicolumn_JmXzqf"
+  ]
+}

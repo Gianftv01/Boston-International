@@ -1,0 +1,50 @@
+{% schema %}
+{
+	"name": "Centered Text",
+	"settings": [
+		{
+			"type": "textarea",
+			"id": "centered_text_content",
+			"label": "Centered Text Content",
+			"default": "Nobody does luxury like Boston International. We specialize in artisanal napkins, tableware, home decor, and gifts that delight customers and drive repeat sales."
+		}
+	],
+	"presets": [
+		{
+			"name": "Centered Text",
+			"category": "Custom Sections"
+		}
+	]
+}
+{% endschema %}
+
+<style type="text/css">
+    .centered-text {
+      background: white;
+    }
+	.centered-text .container {
+		max-width: 1024px;
+	}
+	.centered-text .container .content {
+		padding: 4em;
+		text-align: center;
+		text-wrap: balance;
+	}
+	.centered-text .container .content p {
+		font-size: 1.35em;
+		font-family: "Cormorant", serif;
+	}
+	@media screen and (min-width: 768px) {
+		.centered-text .container .content p {
+			font-size: 1.75em;
+		}
+	}
+</style>
+
+<section class="centered-text">
+	<div class="container">
+		<div class="content">
+			<p>{{ section.settings.centered_text_content }}</p>
+		</div>
+	</div>
+</section>
